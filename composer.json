@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "alrik11es/cowsayphp": "^1.2",
-        "php": "~8.1.0"
+        "php": "~8.1.0",
+        "ext-gd": "*"
     },
     "authors": [
         {
