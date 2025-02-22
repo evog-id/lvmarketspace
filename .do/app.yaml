@@ -1,4 +1,4 @@
-name: sample-php
+name: lvmarketspace
 services:
 - environment_slug: php
   github:
