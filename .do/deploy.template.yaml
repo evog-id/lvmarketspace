@@ -1,5 +1,5 @@
 spec:
-  name: sample-php
+  name: lvmarketspace
   services:
   - environment_slug: php
     git:
