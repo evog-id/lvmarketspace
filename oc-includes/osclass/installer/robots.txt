@@ -1,9 +1,9 @@
 User-agent: *
-Disallow: /oc-admin/
+Allow: /oc-admin/
 Disallow: /oc-content/downloads/
 Disallow: /oc-content/languages/
 Disallow: /oc-content/uploads/HTML/
 Disallow: /oc-content/uploads/minify/
-Disallow: /oc-content/uploads/temp/
-Disallow: /oc-includes/osclass/
-Disallow: /oc-includes/vendor/
+Allow: /oc-content/uploads/temp/
+Allow: /oc-includes/osclass/
+Allow: /oc-includes/vendor/
