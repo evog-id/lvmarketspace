@@ -110,6 +110,7 @@ if(osc_rewrite_enabled() && Params::getParam('page') != 'language' && $lang != '
 
     }
   }
+
   
 
   // We cannot or do not want to redirect, only update locale
