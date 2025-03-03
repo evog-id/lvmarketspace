@@ -54,7 +54,7 @@ define('OSC_MEMORY_LIMIT', '256M');
 
 // Set cookies domain to transfer cookies & session across domain & subdomains. Enter 'yourdomain.com' to transfer cookies to subdomains.
 // After setting COOKIE_DOMAIN, clean cache, cookies and restart browser!
-// define('COOKIE_DOMAIN', 'yoursite.com');
+define('COOKIE_DOMAIN', 'asnocode.com');
 
 
 // Cache options for OSC_CACHE: memcache, memcached, apc, apcu, default
@@ -62,13 +62,13 @@ define('OSC_MEMORY_LIMIT', '256M');
 define('OSC_CACHE_TTL', 60);   // Cache refresh time in seconds
 
 // MemCache caching option (database queries cache). Select only one $_cache_config option, TCP or Unix socket
- define('OSC_CACHE', 'memcache');
-$_cache_config[] = array('default_host' => '127.0.0.1', 'default_port' => 11211, 'default_weight' => 1);  // TCP option
+//define('OSC_CACHE', 'memcache');
+//$_cache_config[] = array('default_host' => '127.0.0.1', 'default_port' => 11211, 'default_weight' => 1);  // TCP option
 // $_cache_config[] = array('default_host' => '/usr/local/var/run/memcache.sock', 'default_port' => 0, 'default_weight' => 1);  // Unix socket option
 
 // MemCached caching option (database queries cache). Select only one $_cache_config option, TCP or Unix socket
-// define('OSC_CACHE', 'memcached');
-// $_cache_config[] = array('default_host' => '127.0.0.1', 'default_port' => 11211, 'default_weight' => 1);  // TCP option
+define('OSC_CACHE', 'memcached');
+$_cache_config[] = array('default_host' => '134.209.136.50', 'default_port' => 11211, 'default_weight' => 1);  // TCP option
 // $_cache_config[] = array('default_host' => '/usr/local/var/run/memcached.sock', 'default_port' => 0, 'default_weight' => 1);  // Unix socket option
 
 // Redis caching option (database queries cache). Only one $_cache_config option supported, TCP or Unix socket
