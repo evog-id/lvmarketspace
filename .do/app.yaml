@@ -1,0 +1,8 @@
+name: lvmarketspace
+services:
+- environment_slug: php
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: evog-id/lvmarketspace
+  name: lvmarketspace

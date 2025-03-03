@@ -1,0 +1,31 @@
+No composer.lock file present. Updating dependencies to latest instead of installing from lock file. See https://getcomposer.org/install for more information.
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 7 installs, 0 updates, 0 removals
+  - Locking alrik11es/cowsayphp (1.2.0)
+  - Locking heroku-sys/apache (2.4.63)
+  - Locking heroku-sys/composer (2.8.5)
+  - Locking heroku-sys/ext-gd (8.1.31)
+  - Locking heroku-sys/nginx (1.26.3)
+  - Locking heroku-sys/php (8.1.31)
+  - Locking heroku/installer-plugin (1.7.2)
+Writing lock file
+Installing dependencies from lock file
+Package operations: 7 installs, 0 updates, 0 removals
+  - Installing heroku/installer-plugin (1.7.2): Mirroring from /tmp/tmp.foXBJ2fJzF/target/support/installer
+  - Downloading heroku-sys/php (8.1.31)
+  - Downloading heroku-sys/apache (2.4.63)
+  - Downloading heroku-sys/composer (2.8.5)
+  - Downloading heroku-sys/nginx (1.26.3)
+ 0/4 [>---------------------------]   0%
+ 1/4 [=======>--------------------]  25%
+ 3/4 [=====================>------]  75%
+ 4/4 [============================] 100%
+  - Installing heroku-sys/php (8.1.31)
+  - Enabling heroku-sys/ext-gd (bundled with php)
+  - Installing alrik11es/cowsayphp (1.2.0)
+  - Installing heroku-sys/apache (2.4.63)
+  - Installing heroku-sys/composer (2.8.5)
+  - Installing heroku-sys/nginx (1.26.3)
+    0 [>---------------------------]    0 [->--------------------------]
+Generating autoload files

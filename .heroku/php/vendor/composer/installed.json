@@ -1,0 +1,257 @@
+{
+    "packages": [
+        {
+            "name": "alrik11es/cowsayphp",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "require": {
+                "heroku-sys/ext-gd": "*",
+                "heroku-sys/php": "~8.1.0"
+            },
+            "type": "metapackage",
+            "install-path": null
+        },
+        {
+            "name": "heroku-sys/apache",
+            "version": "2.4.63",
+            "version_normalized": "2.4.63.0",
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "https://lang-php.s3.us-east-1.amazonaws.com/dist-heroku-22-stable/apache-2.4.63.tar.gz"
+            },
+            "require": {
+                "heroku-sys/heroku": "^22.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2025-02-14T18:41:00+00:00",
+            "type": "heroku-sys-webserver",
+            "extra": {
+                "export": "bin/export.apache2.sh",
+                "profile": "bin/profile.apache2.sh"
+            },
+            "installation-source": "dist",
+            "install-path": "../../"
+        },
+        {
+            "name": "heroku-sys/composer",
+            "version": "2.8.5",
+            "version_normalized": "2.8.5.0",
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "https://lang-php.s3.us-east-1.amazonaws.com/dist-heroku-22-stable/composer-2.8.5.tar.gz"
+            },
+            "require": {
+                "heroku-sys/ext-filter": "*",
+                "heroku-sys/ext-hash": "*",
+                "heroku-sys/ext-iconv": "*",
+                "heroku-sys/ext-json": "*",
+                "heroku-sys/ext-openssl": "*",
+                "heroku-sys/ext-phar": "*",
+                "heroku-sys/ext-zlib": "*",
+                "heroku-sys/heroku": "^22.0.0",
+                "heroku-sys/php": ">=7.2.5",
+                "heroku/installer-plugin": "^1.4.0"
+            },
+            "provide": {
+                "heroku-sys/composer-plugin-api": "2.6.0",
+                "heroku-sys/composer-runtime-api": "2.2.2"
+            },
+            "time": "2025-02-14T18:38:50+00:00",
+            "type": "heroku-sys-program",
+            "extra": {
+                "export": "bin/export.composer.sh",
+                "profile": "bin/profile.composer.sh"
+            },
+            "installation-source": "dist",
+            "install-path": "../../"
+        },
+        {
+            "name": "heroku-sys/ext-gd",
+            "version": "8.1.31",
+            "version_normalized": "8.1.31.0",
+            "dist": {
+                "type": "heroku-sys-php-bundled-extension",
+                "url": "https://lang-php.s3.us-east-1.amazonaws.com/dist-heroku-22-stable/php-8.1.31.tar.gz?extension=heroku-sys/ext-gd"
+            },
+            "require": {
+                "heroku-sys/heroku": "^22.0.0",
+                "heroku-sys/php": "8.1.31",
+                "heroku/installer-plugin": "^1.6.0"
+            },
+            "replace": {
+                "heroku-sys/ext-gd.native": "self.version"
+            },
+            "time": "2024-11-21T16:22:01+00:00",
+            "type": "heroku-sys-php-extension",
+            "installation-source": "dist",
+            "install-path": "../../"
+        },
+        {
+            "name": "heroku-sys/nginx",
+            "version": "1.26.3",
+            "version_normalized": "1.26.3.0",
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "https://lang-php.s3.us-east-1.amazonaws.com/dist-heroku-22-stable/nginx-1.26.3.tar.gz"
+            },
+            "require": {
+                "heroku-sys/heroku": "^22.0.0",
+                "heroku/installer-plugin": "^1.2.0"
+            },
+            "time": "2025-02-14T18:40:02+00:00",
+            "type": "heroku-sys-webserver",
+            "extra": {
+                "export": "bin/export.nginx.sh",
+                "profile": "bin/profile.nginx.sh"
+            },
+            "installation-source": "dist",
+            "install-path": "../../"
+        },
+        {
+            "name": "heroku-sys/php",
+            "version": "8.1.31",
+            "version_normalized": "8.1.31.0",
+            "dist": {
+                "type": "heroku-sys-tar",
+                "url": "https://lang-php.s3.us-east-1.amazonaws.com/dist-heroku-22-stable/php-8.1.31.tar.gz"
+            },
+            "require": {
+                "heroku-sys/heroku": "^22.0.0",
+                "heroku/installer-plugin": "^1.6.0"
+            },
+            "replace": {
+                "heroku-sys/ext-bz2": "self.version",
+                "heroku-sys/ext-bz2.native": "self.version",
+                "heroku-sys/ext-ctype": "self.version",
+                "heroku-sys/ext-ctype.native": "self.version",
+                "heroku-sys/ext-curl": "self.version",
+                "heroku-sys/ext-curl.native": "self.version",
+                "heroku-sys/ext-date": "self.version",
+                "heroku-sys/ext-date.native": "self.version",
+                "heroku-sys/ext-dom": "20031129",
+                "heroku-sys/ext-dom.native": "20031129",
+                "heroku-sys/ext-fileinfo": "self.version",
+                "heroku-sys/ext-fileinfo.native": "self.version",
+                "heroku-sys/ext-filter": "self.version",
+                "heroku-sys/ext-filter.native": "self.version",
+                "heroku-sys/ext-hash": "self.version",
+                "heroku-sys/ext-hash.native": "self.version",
+                "heroku-sys/ext-iconv": "self.version",
+                "heroku-sys/ext-iconv.native": "self.version",
+                "heroku-sys/ext-json": "self.version",
+                "heroku-sys/ext-json.native": "self.version",
+                "heroku-sys/ext-libxml": "self.version",
+                "heroku-sys/ext-libxml.native": "self.version",
+                "heroku-sys/ext-mysqli": "self.version",
+                "heroku-sys/ext-mysqli.native": "self.version",
+                "heroku-sys/ext-mysqlnd": "0",
+                "heroku-sys/ext-mysqlnd.native": "0",
+                "heroku-sys/ext-openssl": "self.version",
+                "heroku-sys/ext-openssl.native": "self.version",
+                "heroku-sys/ext-pcre": "self.version",
+                "heroku-sys/ext-pcre.native": "self.version",
+                "heroku-sys/ext-pdo": "self.version",
+                "heroku-sys/ext-pdo.native": "self.version",
+                "heroku-sys/ext-pdo_mysql": "self.version",
+                "heroku-sys/ext-pdo_mysql.native": "self.version",
+                "heroku-sys/ext-pdo_pgsql": "self.version",
+                "heroku-sys/ext-pdo_pgsql.native": "self.version",
+                "heroku-sys/ext-pgsql": "self.version",
+                "heroku-sys/ext-pgsql.native": "self.version",
+                "heroku-sys/ext-phar": "self.version",
+                "heroku-sys/ext-phar.native": "self.version",
+                "heroku-sys/ext-posix": "self.version",
+                "heroku-sys/ext-posix.native": "self.version",
+                "heroku-sys/ext-readline": "self.version",
+                "heroku-sys/ext-readline.native": "self.version",
+                "heroku-sys/ext-reflection": "self.version",
+                "heroku-sys/ext-reflection.native": "self.version",
+                "heroku-sys/ext-session": "self.version",
+                "heroku-sys/ext-session.native": "self.version",
+                "heroku-sys/ext-simplexml": "self.version",
+                "heroku-sys/ext-simplexml.native": "self.version",
+                "heroku-sys/ext-sockets": "self.version",
+                "heroku-sys/ext-sockets.native": "self.version",
+                "heroku-sys/ext-spl": "self.version",
+                "heroku-sys/ext-spl.native": "self.version",
+                "heroku-sys/ext-tokenizer": "self.version",
+                "heroku-sys/ext-tokenizer.native": "self.version",
+                "heroku-sys/ext-xml": "self.version",
+                "heroku-sys/ext-xml.native": "self.version",
+                "heroku-sys/ext-xmlreader": "self.version",
+                "heroku-sys/ext-xmlreader.native": "self.version",
+                "heroku-sys/ext-xmlwriter": "self.version",
+                "heroku-sys/ext-xmlwriter.native": "self.version",
+                "heroku-sys/ext-zend-opcache": "self.version",
+                "heroku-sys/ext-zend-opcache.native": "self.version",
+                "heroku-sys/ext-zip": "1.19.5",
+                "heroku-sys/ext-zip.native": "1.19.5",
+                "heroku-sys/ext-zlib": "self.version",
+                "heroku-sys/ext-zlib.native": "self.version",
+                "heroku-sys/php-64bit": "self.version",
+                "heroku-sys/php-ipv6": "self.version"
+            },
+            "time": "2024-11-21T16:22:01+00:00",
+            "type": "heroku-sys-php",
+            "extra": {
+                "export": "bin/export.php.sh",
+                "profile": "bin/profile.php.sh",
+                "shared": {
+                    "heroku-sys/ext-bcmath": false,
+                    "heroku-sys/ext-calendar": false,
+                    "heroku-sys/ext-exif": false,
+                    "heroku-sys/ext-ftp": false,
+                    "heroku-sys/ext-gd": false,
+                    "heroku-sys/ext-gettext": false,
+                    "heroku-sys/ext-gmp": false,
+                    "heroku-sys/ext-imap": false,
+                    "heroku-sys/ext-intl": false,
+                    "heroku-sys/ext-ldap": false,
+                    "heroku-sys/ext-mbstring": false,
+                    "heroku-sys/ext-pcntl": false,
+                    "heroku-sys/ext-pdo_sqlite": false,
+                    "heroku-sys/ext-shmop": false,
+                    "heroku-sys/ext-soap": false,
+                    "heroku-sys/ext-sodium": false,
+                    "heroku-sys/ext-sqlite3": false,
+                    "heroku-sys/ext-xsl": false
+                }
+            },
+            "installation-source": "dist",
+            "install-path": "../../"
+        },
+        {
+            "name": "heroku/installer-plugin",
+            "version": "1.7.2",
+            "version_normalized": "1.7.2.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/tmp.foXBJ2fJzF/target/support/installer",
+                "reference": "23fef15cd081d4578d4f602ecb86cd518552a3ff"
+            },
+            "require": {
+                "composer-plugin-api": "^2.3.0",
+                "php": ">=7.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Heroku\\Buildpack\\PHP\\ComposerInstallerPlugin",
+                "plugin-modifies-downloads": true,
+                "plugin-modifies-install-path": true
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Heroku\\Buildpack\\PHP\\": "src/"
+                }
+            },
+            "transport-options": {
+                "symlink": false,
+                "relative": false
+            },
+            "install-path": "../heroku/installer-plugin"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
