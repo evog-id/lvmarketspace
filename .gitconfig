@@ -2,4 +2,4 @@
 	email = evgenijsvog@gmail.com
 	name = evog-id
 [core]
-	excludesfile = /workspace/.gitignore
+	excludesfile = .gitignore
