@@ -6,7 +6,8 @@
         "alrik11es/cowsayphp": "^1.2",
         "php": "~8.1.0",
         "ext-gd": "*",
-        "ext-memcached": "*"
+        "ext-memcached": "*",
+        "ext-mbstring": "*"
     },
        "license": [
            "MIT"
