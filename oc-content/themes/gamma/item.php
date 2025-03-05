@@ -3,7 +3,7 @@
 <head>
   <?php osc_current_web_theme_path('head.php'); ?>
   <link rel="stylesheet" media="print" href="<?php echo osc_current_web_theme_url('css/print.css?v=' . date('YmdHis')); ?>">
-
+  <?php if(function_exists('osp_product_to_cart_link')) { echo osp_product_to_cart_link(); } ?>
   <?php
     $itemviewer = (Params::getParam('itemviewer') == 1 ? 1 : 0);
     $item_extra = gam_item_extra(osc_item_id());
