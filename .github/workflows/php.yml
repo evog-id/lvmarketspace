@@ -43,8 +43,8 @@ jobs:
     - name: Extract Action
       uses: ihiroky/extract-action@v1
       with:
-          file_path: oc-content/plugins/osclass_pay-3.6.0.zip
-          extract_dir: oc-content/plugins/osclass_pay-3.6.0/
+        file_path: oc-content/plugins/osclass_pay-3.6.0.zip
+        extract_dir: '.'
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
