@@ -117,15 +117,17 @@
         <?php } ?>
       </div>
     </div>
+         
+    <?php osc_run_hook('header_bottom'); ?>
 
-     <div class="relative3">
+   <div class="relative3">
      <div class="home-container slider">
       <div class="inner">
         <div id="home-slider">
            <div id="sliders">
               <div class="rslides_container">
                    <ul id="slider" class="rslides">
-                      <li><a href="www.e-tirgus.eu/"> <img src="https://market.asnocode.com/oc-content/themes/delta/images/slide4.jpg" /> </a></li>
+                      <li><a href="www.e-tirgus.eu/"> <img src="https://market.asnocode.com/oc-content/themes/delta/images/slide4.jpg" /></a></li>
                     </ul>
               </div>
           </div>
@@ -134,8 +136,6 @@
      </div> 
    </div>
 
-              
-    <?php osc_run_hook('header_bottom'); ?>
   </div>
 </header>
 
