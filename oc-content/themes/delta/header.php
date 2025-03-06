@@ -66,6 +66,22 @@
             <span><?php _e('Post an ad', 'delta'); ?></span>
           </span>
         </a>
+
+    <div class="relative3">
+     <div class="home-container slider">
+      <div class="inner">
+        <div id="home-slider">
+           <div id="sliders">
+              <div class="rslides_container">
+                   <ul id="slider" class="rslides">
+                      <li><a href="www.e-tirgus.eu/"> <img src="https://market.asnocode.com/oc-content/themes/delta/images/slide4.jpg" /> </a></li>
+                    </ul>
+              </div>
+          </div>
+         </div>
+       </div>
+     </div> 
+   </div>
         
         <?php if(!osc_is_web_user_logged_in()) { ?>
           <a class="register" href="<?php echo osc_register_account_url(); ?>"><?php _e('Register', 'delta'); ?></a>
