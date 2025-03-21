@@ -1,0 +1,4022 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: lv_LV\n"
+"Language-Team: Osclass Core\n"
+"Last-Translator: Administrator <info@copestirgus.lv>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2024-10-19 21:49:18\n"
+"POT-Creation-Date: 2024-06-07 08:37+0200\n"
+"Project-Id-Version: Delta Osclass Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Generator: Osclass Core v8.2.1 & PHP Gettext\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;_e;_m;_n;_mn\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:35
+msgid "OOPS! Page Not Found!"
+msgstr "Lapa nav atrasta!"
+
+#: 404.php:36
+msgid "Either something get wrong or the page doesn't exist anymore."
+msgstr "Vai nu kaut kas nogājis greizi, vai arī lapa vairs nepastāv."
+
+#: 404.php:38
+msgid "Back Home"
+msgstr "Atpakaļ uz sākumlapu"
+
+#: admin/banner.php:6
+#: admin/banner.php:39
+#: admin/functions.php:20
+#: functions.php:4593
+#: functions.php:4603
+#: search.php:696
+#: user-public-profile.php:188
+msgid "Advertisement"
+msgstr "Reklāma"
+
+#: admin/banner.php:23
+#: admin/category.php:73
+#: admin/category.php:80
+#: admin/configure.php:93
+#: admin/logo.php:124
+#: admin/plugins.php:41
+msgid "Settings were successfully saved"
+msgstr "Iestatījumi tika veiksmīgi saglabāti"
+
+#: admin/banner.php:33
+msgid "If you use Banner Ads Plugin, you can use banner or advert directly in theme banner space by defining its ID in bellow form."
+msgstr "Ja izmantojat reklāmkaroga reklāmu spraudni, varat izmantot reklāmkarogu vai reklāmu tieši motīva reklāmkaroga vietā, definējot tā ID tālāk redzamajā formā."
+
+#: admin/banner.php:34
+msgid "Usage examples: {{BANNER-ADS-PLUGIN-HOOK: my_custom_hook}}, {{BANNER-ADS-PLUGIN-BANNER: 123}}, {{BANNER-ADS-PLUGIN-ADVERT: 987}}"
+msgstr "Lietošanas piemēri: {{BANNER-ADS-PLUGIN-HOOK: my_custom_hook}}, {{BANNER-ADS-PLUGIN-BANNER: 123}}, {{BANNER-ADS-PLUGIN-ADVERT: 987}}"
+
+#: admin/banner.php:46
+msgid "Enable Theme Banners"
+msgstr "Iespējot motīvu reklāmkarogus"
+
+#: admin/banner.php:49
+msgid "When enabled, bellow banners will be shown in front page."
+msgstr "Kad tas ir iespējots, sākumlapā tiks parādīti zemāk esošie baneri."
+
+#: admin/banner.php:53
+msgid "Optimize Banners for Adsense"
+msgstr "Reklāmkarogu optimizēšana Adsense"
+
+#: admin/banner.php:56
+msgid "When enabled, default width and height of banners will be removed and will be set to 100%. Fluid/responsive adsense banners should then work better."
+msgstr "Ja iespējots, noklusējuma reklāmkarogu platums un augstums tiks noņemts un tiks iestatīts uz 100%. Šķidrajiem/atsaucīgajiem adsense reklāmkarogiem tad vajadzētu darboties labāk."
+
+#: admin/banner.php:61
+msgid "Banners Visible in Demo Mode"
+msgstr "Reklāmkarogi redzami demonstrācijas režīmā"
+
+#: admin/banner.php:64
+msgid "Enter banner identifiers/locations delimited by comma. No white spaces. Entered banners will be always visible on demo."
+msgstr "Ievadiet reklāmkarogu identifikatorus/atrašanās vietas, kas atdalītas ar komatu. Nav baltu atstarpju. Ievadītie baneri vienmēr būs redzami demonstrācijā."
+
+#: admin/banner.php:71
+msgid "Will be shown"
+msgstr "Tiks parādīts"
+
+#: admin/banner.php:80
+#: admin/category.php:137
+#: admin/configure.php:748
+#: admin/logo.php:213
+#: admin/plugins.php:224
+#: alert-form.php:33
+msgid "Save"
+msgstr "Saglabāt"
+
+#: admin/category.php:6
+#: admin/category.php:91
+#: admin/category.php:121
+#: admin/logo.php:6
+#: functions.php:1971
+#: functions.php:2866
+#: item-post.php:141
+#: item-post.php:156
+#: item-post.php:162
+#: search.php:169
+msgid "Category"
+msgstr "Kategorija"
+
+#: admin/category.php:59
+#, php-format
+msgid "There was error when uploading icon for category #%s: %s"
+msgstr "There was error when uploading icon for category #%s: %s"
+
+#: admin/category.php:59
+msgid "Extension not allowed, only allowed extension is .png"
+msgstr "Paplašinājums nav atļauts, atļauts tikai paplašinājums .png"
+
+#: admin/category.php:63
+#, php-format
+msgid "It was not possible to upload icon file for category #%s"
+msgstr "Nevarēja augšupielādēt ikonas failu kategorijai #%s"
+
+#: admin/category.php:98
+msgid "Font Awesome Category Icons"
+msgstr "Fonts Awesome kategoriju ikonas"
+
+#: admin/category.php:102
+msgid "Check to ON if you want to use Font-Awesome icons instead of Small images for categories."
+msgstr "Atzīmējiet opciju IESLĒGTS, ja kategorijām vēlaties izmantot ikonas Font-Awesome, nevis mazos attēlus."
+
+#: admin/category.php:103
+msgid "Font-Awesome v5 icons"
+msgstr "Font-Awesome v5 ikonas"
+
+#: admin/category.php:108
+msgid "Use Sample Image Icons"
+msgstr "Izmantojiet paraugu attēlu ikonas"
+
+#: admin/category.php:111
+#, php-format
+msgid "When enabled and theme use image icons, sample icon images from theme folder (%s) will be used."
+msgstr "Ja tas ir iespējots un tiek izmantotas motīvu attēlu ikonas, tiks izmantoti ikonu attēlu paraugi no motīvu mapes (%s)."
+
+#: admin/category.php:116
+msgid "Configure categories"
+msgstr "KOnfigurēt kategorijas"
+
+#: admin/category.php:120
+msgid "ID"
+msgstr "ID"
+
+#: admin/category.php:122
+msgid "Icon"
+msgstr "Ikona"
+
+#: admin/category.php:123
+#: admin/functions.php:112
+msgid "Upload icon"
+msgstr "Augšuplādēt ikonu"
+
+#: admin/category.php:124
+msgid "FA icon"
+msgstr "FA ikona"
+
+#: admin/category.php:125
+msgid "Add FA icon"
+msgstr "Pievienot FA ikonu"
+
+#: admin/category.php:126
+msgid "Color"
+msgstr "Krāsa"
+
+#: admin/category.php:127
+#: admin/functions.php:149
+msgid "Add color"
+msgstr "Pievienot krāsu"
+
+#: admin/configure.php:5
+#: admin/configure.php:113
+#: admin/functions.php:19
+#: admin/functions.php:25
+#: functions.php:4592
+#: functions.php:4602
+msgid "Configure"
+msgstr "Konfigurēt"
+
+#: admin/configure.php:121
+msgid "Images Lazy Load"
+msgstr "Attēli Lazy Load"
+
+#: admin/configure.php:124
+msgid "Disabled"
+msgstr "Atspējot"
+
+#: admin/configure.php:125
+msgid "Lazy load based on library"
+msgstr "Lazy Load, pamatojoties uz bibliotēku"
+
+#: admin/configure.php:126
+msgid "Lazy load based on browser support"
+msgstr "Lazy Load, pamatojoties uz pārlūkprogrammas atbalstu"
+
+#: admin/configure.php:130
+msgid "Enable to deffer images loading. Images will be loaded when get into viewable area. This may rapidly improve seo rating of your site."
+msgstr "Iespējot, lai atliktu attēlu ielādi. Attēli tiks ielādēti, kad tie nonāks skatāmajā zonā. Tas var ātri uzlabot jūsu vietnes SEO vērtējumu."
+
+#: admin/configure.php:131
+msgid "Lazy load should not be disabled for any reason"
+msgstr "Lazy Load nekādā gadījumā nevajadzētu atspējot"
+
+#: admin/configure.php:136
+msgid "Default Location Selection"
+msgstr "Noklusējuma atrašanās vietas izvēle"
+
+#: admin/configure.php:139
+msgid "Enable users to select their default location and use it in search & publish."
+msgstr "Ļaujiet lietotājiem atlasīt noklusējuma atrašanās vietu un izmantot to meklēšanai un publicēšanai."
+
+#: admin/configure.php:143
+msgid "Default Item Card Design"
+msgstr "Noklusējuma vienumu kartes dizains"
+
+#: admin/configure.php:146
+#: admin/plugins.php:85
+#: admin/plugins.php:129
+#: admin/plugins.php:199
+msgid "Default"
+msgstr "Noklusējuma"
+
+#: admin/configure.php:153
+#: admin/plugins.php:92
+#: admin/plugins.php:136
+msgid "Specify default image aspect ratio on listings cards (loop) in grid layout."
+msgstr "Norādiet noklusējuma attēla malu attiecību sarakstu kartītēs (cilpa) režģa izkārtojumā."
+
+#: admin/configure.php:157
+msgid "Custom color settings"
+msgstr "Pielāgoti krāsu iestatījumi"
+
+#: admin/configure.php:160
+msgid "Use Custom Color"
+msgstr "Izmantojiet pielāgotu krāsu"
+
+#: admin/configure.php:163
+msgid "Theme will use bellow defined colors."
+msgstr "Motīvā tiks izmantotas zemāk noteiktās krāsas."
+
+#: admin/configure.php:167
+msgid "Theme Color - Primary"
+msgstr "Motīva krāsa - primārā"
+
+#: admin/configure.php:173
+#: admin/configure.php:183
+#: admin/configure.php:193
+#: admin/configure.php:203
+msgid "Enter color in HEX format or select color with picker."
+msgstr "Ievadiet krāsu HEX formātā vai izvēlieties krāsu ar atlasītāju."
+
+#: admin/configure.php:173
+#: admin/configure.php:183
+#: admin/configure.php:193
+#: admin/configure.php:203
+#, php-format
+msgid "Default: %s"
+msgstr "Noklusējums: %s"
+
+#: admin/configure.php:177
+msgid "Theme Color - Primary on Hover"
+msgstr "Motīva krāsa - galvenā, novietojot kursoru"
+
+#: admin/configure.php:187
+msgid "Theme Color - Secondary"
+msgstr "Motīva krāsa - sekundāra"
+
+#: admin/configure.php:197
+msgid "Theme Color - Secondary on Hover"
+msgstr "Motīva krāsa - sekundāra, novietojot kursoru"
+
+#: admin/configure.php:207
+msgid "Enable Dark Mode"
+msgstr "Iespējot tumšo režīmu"
+
+#: admin/configure.php:211
+msgid "Visitors will be able to select preferred theme - dark or light."
+msgstr "Apmeklētāji varēs izvēlēties sev vēlamo tēmu - tumšo vai gaišo."
+
+#: admin/configure.php:216
+msgid "Default Mode"
+msgstr "Noklusējuma režīms"
+
+#: admin/configure.php:218
+msgid "Light mode"
+msgstr "Gaišais režīms"
+
+#: admin/configure.php:219
+msgid "Dark mode"
+msgstr "Tumšais režīms"
+
+#: admin/configure.php:222
+msgid "Select default website mode, when dark mode is enabled."
+msgstr "Atlasiet noklusējuma vietnes režīmu, ja ir iespējots tumšais režīms."
+
+#: admin/configure.php:225
+msgid "Custom font settings"
+msgstr "Pielāgoti fontu iestatījumi"
+
+#: admin/configure.php:228
+msgid "Use Custom Font"
+msgstr "Izmantojiet pielāgoto fontu"
+
+#: admin/configure.php:231
+msgid "Theme will use bellow defined font as default theme font (instead of System-UI font)."
+msgstr "Motīvs izmantos tālāk norādīto fontu kā noklusējuma motīva fontu (nevis System-UI fontu)."
+
+#: admin/configure.php:235
+msgid "Font Family Name"
+msgstr "Font Familu nosaukums"
+
+#: admin/configure.php:238
+msgid "Enter font family name that will be used in CSS to set this font. Examples: Roboto, \"Open Sans\", Tapestry, Montserrat, ..."
+msgstr "Ievadiet fontu saimes nosaukumu, kas tiks izmantots CSS, lai iestatītu šo fontu. Piemēri: Roboto, “Open Sans”, Tapestry, Montserrat, …"
+
+#: admin/configure.php:242
+msgid "Font URL"
+msgstr "Fonta URL"
+
+#: admin/configure.php:245
+msgid "Enter URL to your font. You can place multiple URLs delimited by comma when needed."
+msgstr "Ievadiet sava fonta URL. Ja nepieciešams, varat ievietot vairākus URL, kas atdalīti ar komatu."
+
+#: admin/configure.php:250
+msgid "About your site"
+msgstr "Par jūsu vietni"
+
+#: admin/configure.php:253
+msgid "Site Name"
+msgstr "Vietnes nosaukums"
+
+#: admin/configure.php:254
+msgid "Website Name"
+msgstr "Tīmekļa vietnes nosaukums"
+
+#: admin/configure.php:256
+msgid "Your site name, business name or company name"
+msgstr "Jūsu vietnes nosaukums, uzņēmuma nosaukums vai uzņēmuma nosaukums"
+
+#: admin/configure.php:260
+#: admin/configure.php:261
+msgid "Site Phone Number"
+msgstr "Vietnes tālruņa numurs"
+
+#: admin/configure.php:263
+#: admin/configure.php:270
+msgid "Leave blank to disable, will be shown in footer"
+msgstr "Atstājiet tukšu, lai atspējotu, tiks parādīts kājenē"
+
+#: admin/configure.php:267
+#: admin/configure.php:268
+msgid "Site Support Email"
+msgstr "Vietnes atbalsta e-pasts"
+
+#: admin/configure.php:274
+msgid "Site Address"
+msgstr "Vietnes adrese"
+
+#: admin/configure.php:277
+msgid "Enter contact address that will be used in footer"
+msgstr "Kājenē ievadiet kontaktadresi, kas tiks izmantota"
+
+#: admin/configure.php:282
+msgid "Promotion settings"
+msgstr "Reklamēšanas iestatījumi"
+
+#: admin/configure.php:286
+msgid "Enable Offer of the Day"
+msgstr "Iespējot Dienas piedāvājumu"
+
+#: admin/configure.php:289
+msgid "Enable offer of the day functionality. You can select promoted item in bellow box. If no item is selected, random premium item will be picked via daily cron."
+msgstr "Iespējot dienas piedāvājuma funkcionalitāti. Tālāk esošajā lodziņā varat atlasīt reklamēto vienumu. Ja nav atlasīta neviena prece, izlases veida premium vienība tiks atlasīta, izmantojot ikdienas cron."
+
+#: admin/configure.php:293
+msgid "Offer of the Day Item ID"
+msgstr "Dienas piedāvājuma preces ID"
+
+#: admin/configure.php:296
+msgid "Enter item ID that will be promoted as \"Offer of the day\". Leave blank to use random premium item."
+msgstr "Ievadiet preces ID, kas tiks reklamēts kā “Dienas piedāvājums”. Atstājiet tukšu, lai izmantotu nejaušu premium vienumu."
+
+#: admin/configure.php:301
+msgid "Home page settings"
+msgstr "Mājas lapas iestatījumi"
+
+#: admin/configure.php:304
+msgid "Show Location Block on Home"
+msgstr "Rādīt atrašanās vietas bloku sākumlapā"
+
+#: admin/configure.php:307
+msgid "Show block with listings close to user default location (if defined and enabled)."
+msgstr "Rādīt bloku ar ierakstiem, kas ir tuvu lietotāja noklusējuma atrašanās vietai (ja tas ir definēts un iespējots)."
+
+#: admin/configure.php:312
+msgid "Show Premiums Block on Home"
+msgstr "Rādīt Premium bloku sākumlapā"
+
+#: admin/configure.php:315
+msgid "Show premium listings block on home page."
+msgstr "Rādīt premium sludinājumu bloku sākumlapā."
+
+#: admin/configure.php:319
+msgid "Number of Premiums on Home"
+msgstr "Premium sludinājumu skaits sākumlapā"
+
+#: admin/configure.php:322
+msgid "How many premium listings will be shown on home page."
+msgstr "Cik daudz Premium sludinājumu tiks parādīts sākumlapā."
+
+#: admin/configure.php:327
+msgid "Premium Items Card Design (home)"
+msgstr "Premium vienumu karšu dizains (mājās)"
+
+#: admin/configure.php:329
+#: admin/configure.php:481
+#: admin/configure.php:536
+msgid "Standard"
+msgstr "Standarts"
+
+#: admin/configure.php:336
+#: admin/configure.php:488
+#: admin/configure.php:543
+#: admin/plugins.php:206
+msgid "Specify which card design will be used."
+msgstr "Norādiet, kurš kartes dizains tiks izmantots."
+
+#: admin/configure.php:341
+msgid "Categories with New label"
+msgstr "Kategorijas ar etiķeti Jauns"
+
+#: admin/configure.php:345
+#: admin/configure.php:364
+#: admin/configure.php:589
+msgid "None"
+msgstr "Neviens"
+
+#: admin/configure.php:356
+msgid "Select one or more categories those will have label \"NEW\" on home page."
+msgstr "Atlasiet vienu vai vairākas kategorijas, kurām sākumlapā būs apzīmējums “JAUNS”."
+
+#: admin/configure.php:360
+msgid "Categories with Hot label"
+msgstr "Kategorijas ar Topā etiķeti"
+
+#: admin/configure.php:375
+msgid "Select one or more categories those will have label \"HOT\" on home page."
+msgstr "Izvēlieties vienu vai vairākas kategorijas, kurām sākumlapā būs apzīmējums “HOT”."
+
+#: admin/configure.php:380
+msgid "Home Search Box"
+msgstr "Mājas meklēšanas lodziņš"
+
+#: admin/configure.php:405
+#, php-format
+msgid "Tab #%d:"
+msgstr "Cilne #%d:"
+
+#: admin/configure.php:408
+msgid "Not used"
+msgstr "Nav izmantots"
+
+#: admin/configure.php:409
+#: functions.php:2925
+#: search.php:175
+#: user-alerts.php:192
+msgid "All categories"
+msgstr "Visas kategorijas"
+
+#: admin/configure.php:416
+msgid "Filters delimted by comma"
+msgstr "Filtri atdalīti ar komatu"
+
+#: admin/configure.php:422
+msgid "<u>Supported filters:</u> pattern, seller, category, location, radius, condition, transaction, price_min, price_max"
+msgstr "<u>Atbalstītie filtri:</u> modelis, pārdevējs, kategorija, atrašanās vieta, rādiuss, stāvoklis, darījums, cena_min, cena_maks"
+
+#: admin/configure.php:423
+msgid "Configure layout of your home page search. Order of filters matter! All lowercase. No white spaces. Do not repeat filters."
+msgstr "Konfigurējiet savas mājas lapas meklēšanas izkārtojumu. Filtru secībai ir nozīme! Visi mazie burti. Nav baltu atstarpju. Neatkārtojiet filtrus."
+
+#: admin/configure.php:424
+msgid "Keep all \"not used\" to use default configuration."
+msgstr "Keep all “not used” to use default configuration."
+
+#: admin/configure.php:429
+msgid "Category rows on home page"
+msgstr "Kategoriju rindas sākumlapā"
+
+#: admin/configure.php:433
+#, php-format
+msgid "%d row(s)"
+msgstr "%d rinda(-as)"
+
+#: admin/configure.php:437
+#: admin/configure.php:475
+msgid "Select categories that will be used to feed listings into latest items section on home page."
+msgstr "Atlasiet kategorijas, kuras tiks izmantotas, lai ievadītu sarakstus mājaslapas jaunāko vienumu sadaļā."
+
+#: admin/configure.php:444
+msgid "Latest items settings"
+msgstr "Jaunākie vienumu iestatījumi"
+
+#: admin/configure.php:447
+msgid "Show Latest Items in Random Order"
+msgstr "Rādīt jaunākos vienumus nejaušā secībā"
+
+#: admin/configure.php:450
+msgid "Enable to show latest items in ranodm order each time page is refreshed."
+msgstr "Iespējot, lai ikreiz, kad lapa tiek atsvaidzināta, parādītu jaunākos vienumus nejaušā secībā."
+
+#: admin/configure.php:454
+msgid "Latest Items Picture Only"
+msgstr "Jaunākās preces Tikai attēls"
+
+#: admin/configure.php:457
+msgid "Enable to show in latest section on home page only listings those has at least 1 picture."
+msgstr "Iespējot, lai mājaslapas pēdējā sadaļā tiktu rādīti tikai tie saraksti, kuriem ir vismaz 1 attēls."
+
+#: admin/configure.php:461
+msgid "Latest Premium Items"
+msgstr "Jaunākās Premium preces"
+
+#: admin/configure.php:464
+msgid "Enable to show in latest section on home page only listings those are premium."
+msgstr "Iespējot, lai mājaslapas jaunākajā sadaļā rādītu tikai tos sludinājumus, kas ir augstākās kvalitātes."
+
+#: admin/configure.php:468
+msgid "Category for Latest Items"
+msgstr "Kategorija jaunākajām precēm"
+
+#: admin/configure.php:479
+msgid "Latest items card design"
+msgstr "Jaunāko priekšmetu karšu dizains"
+
+#: admin/configure.php:493
+msgid "Search page settings"
+msgstr "Meklēšanas lapas iestatījumi"
+
+#: admin/configure.php:496
+msgid "Live Search using Ajax"
+msgstr "Reāllaika meklēšana, izmantojot Ajax"
+
+#: admin/configure.php:499
+msgid "Enable live realtime search without reloading of search page."
+msgstr "Iespējojiet reāllaika meklēšanu, atkārtoti neielādējot meklēšanas lapu."
+
+#: admin/configure.php:503
+msgid "Default View on Search Page"
+msgstr "Noklusējuma skats meklēšanas lapā"
+
+#: admin/configure.php:505
+msgid "Gallery view"
+msgstr "Galerijas skats"
+
+#: admin/configure.php:506
+#: search.php:608
+msgid "List view"
+msgstr "Saraksta skats"
+
+#: admin/configure.php:509
+msgid "Select default design of listing cards on search page."
+msgstr "Meklēšanas lapā atlasiet sludinājumu kartīšu noklusējuma dizainu."
+
+#: admin/configure.php:513
+msgid "Show Premiums Block on Search"
+msgstr "Rādīt Premium bloku meklēšanā"
+
+#: admin/configure.php:516
+msgid "Show Premium Listings block on Search Page."
+msgstr "Rādīt Premium sludinājumu bloku meklēšanas lapā."
+
+#: admin/configure.php:520
+msgid "Number of Premiums on Search"
+msgstr "Premium sludinājumu skaits meklēšanā"
+
+#: admin/configure.php:523
+msgid "How many premium listings will be shown on Search page."
+msgstr "Cik daudz Premium sludinājumu tiks parādīts meklēšanas lapā."
+
+#: admin/configure.php:527
+msgid "Premium Placeholder Target URL"
+msgstr "Premium viettura mērķa URL"
+
+#: admin/configure.php:530
+msgid "Define URL where user is redirected when clicked on \"Your listing here\" placeholder on search page (premiums block). If no URL is defined, placeholder is not shown."
+msgstr "Definējiet vietrādi URL, uz kuru lietotājs tiek novirzīts, meklēšanas lapā noklikšķinot uz viettura “Jūsu ieraksts šeit” (piemaksu bloķēšana). Ja URL nav definēts, vietturis netiek rādīts."
+
+#: admin/configure.php:534
+msgid "Premium Items Card Design (search)"
+msgstr "Premium vienumu karšu dizains (meklēšana)"
+
+#: admin/configure.php:547
+msgid "Currency in Search Box"
+msgstr "Valūta meklēšanas lodziņā"
+
+#: admin/configure.php:554
+msgid "Select currency symbol that will be used on search page for min & max price fields."
+msgstr "Izvēlieties valūtas simbolu, kas tiks izmantots meklēšanas lapā minimālās un maksimālās cenas laukiem."
+
+#: admin/configure.php:559
+msgid "Publish listing settings"
+msgstr "Publicēt saraksta iestatījumus"
+
+#: admin/configure.php:562
+msgid "Category selection on Publish page"
+msgstr "Kategorijas atlase lapā Publicēt"
+
+#: admin/configure.php:564
+#: admin/configure.php:577
+#: admin/configure.php:653
+msgid "Auto-complete box"
+msgstr "Automātiski aizpildāms lodziņš"
+
+#: admin/configure.php:565
+msgid "Cascading dropdowns"
+msgstr "Kaskādes nolaižamās izvēlnes"
+
+#: admin/configure.php:566
+msgid "One select box"
+msgstr "Viens atlases lodziņš"
+
+#: admin/configure.php:569
+msgid "Select what type of category selection (box) will be used on publish/edit page."
+msgstr "Atlasiet, kāda veida kategorijas atlase (lodziņš) tiks izmantota publicēšanas/rediģēšanas lapā."
+
+#: admin/configure.php:574
+msgid "Location selection on Publish page"
+msgstr "Vietas izvēle lapā Publicēt"
+
+#: admin/configure.php:576
+#: admin/configure.php:652
+msgid "Cascading dropdowns (Country > Region > City)"
+msgstr "Kaskādes nolaižamās izvēlnes (Valsts > Novads > Pilsēta)"
+
+#: admin/configure.php:580
+#: admin/configure.php:656
+msgid "Auto-complete box can be right choice in case your regions has thousands of cities and it is hard to scroll to proper city."
+msgstr "Automātiskās aizpildīšanas lodziņš var būt pareizā izvēle, ja jūsu novados ir tūkstošiem pilsētu un ir grūti ritināt uz pareizo pilsētu."
+
+#: admin/configure.php:585
+msgid "Required Fields on Publish"
+msgstr "Obligātie lauki publicēšanai"
+
+#: admin/configure.php:590
+#: functions.php:1977
+#: functions.php:3253
+#: item-post.php:251
+#: user-profile.php:133
+msgid "Country"
+msgstr "Valsts"
+
+#: admin/configure.php:591
+#: functions.php:1980
+#: functions.php:3312
+#: item-post.php:256
+#: item-post.php:273
+#: user-profile.php:138
+msgid "Region"
+msgstr "Novads"
+
+#: admin/configure.php:592
+#: functions.php:1983
+#: functions.php:3366
+#: item-post.php:286
+#: user-profile.php:143
+msgid "City"
+msgstr "Pilsēta"
+
+#: admin/configure.php:593
+#: item-post.php:336
+msgid "Contact Name"
+msgstr "Vārds"
+
+#: admin/configure.php:594
+#: footer.php:43
+#: functions.php:2757
+#: item-send-friend.php:286
+msgid "Phone"
+msgstr "Tālrunis"
+
+#: admin/configure.php:597
+msgid "If you select Location as required, it means that one of following fields must be filled: Country, Region or City"
+msgstr "Ja izvēlaties Atrašanās vieta, kā nepieciešams, tas nozīmē, ka ir jāaizpilda viens no šiem laukiem: Valsts, reģions vai pilsēta"
+
+#: admin/configure.php:601
+msgid "Extra Fields exclude Categories"
+msgstr "Papildu laukos nav iekļautas kategorijas"
+
+#: admin/configure.php:608
+msgid "Select categories where you do not want to show Transaction and Condition on listing publish/edit page"
+msgstr "Atlasiet kategorijas, kurās sludinājumu publicēšanas/rediģēšanas lapā nevēlaties rādīt darījumu un stāvokli"
+
+#: admin/configure.php:613
+msgid "Other settings"
+msgstr "Citi iestatījumi"
+
+#: admin/configure.php:616
+msgid "Image Gallery Aspect Ratio"
+msgstr "Attēlu galerijas malu attiecība"
+
+#: admin/configure.php:618
+msgid "Calculated based on Image Normal Size"
+msgstr "Aprēķināts, pamatojoties uz attēla parasto izmēru"
+
+#: admin/configure.php:619
+msgid "Square (1:1)"
+msgstr "Kvadrāts (1:1)"
+
+#: admin/configure.php:620
+msgid "Normal (4:3)"
+msgstr "Parasts (4:3)"
+
+#: admin/configure.php:621
+msgid "Wide (16:9)"
+msgstr "Plats (16:9)"
+
+#: admin/configure.php:622
+msgid "Very wide (2:1)"
+msgstr "Ļoti plats (2:1)"
+
+#: admin/configure.php:625
+msgid "Select image gallery aspect ratio shown on listing page."
+msgstr "Izvēlieties sludinājumu lapā redzamo attēlu galerijas malu attiecību."
+
+#: admin/configure.php:629
+msgid "Footer Link"
+msgstr "Kājenes saite"
+
+#: admin/configure.php:632
+msgid "Link to osclass will be shown in footer to support our project."
+msgstr "Saite uz osclass tiks parādīta kājenē, lai atbalstītu mūsu projektu."
+
+#: admin/configure.php:636
+msgid "Number of Items on Public Profile"
+msgstr "Publiskā profila vienumu skaits"
+
+#: admin/configure.php:639
+msgid "How many listings will be shown on user public profile. Keep in mind that pagination is not available on public profile."
+msgstr "Cik sludinājumu tiks parādīti lietotāja publiskajā profilā. Ņemiet vērā, ka lapām nav pieejama publiskajā profilā."
+
+#: admin/configure.php:643
+msgid "Number of Items in Alerts section"
+msgstr "Vienumu skaits sadaļā Paziņojumi"
+
+#: admin/configure.php:646
+msgid "How many listings will be shown under each alert in alerts section of user account. Keep in mind that pagination is not available in alerts section."
+msgstr "Cik ierakstu tiks parādīti zem katra paziņojuma lietotāja konta paziņojuma sadaļā. Ņemiet vērā, ka paziņojumi sadaļā nav pieejama lapošana."
+
+#: admin/configure.php:650
+msgid "Location selection on Profile page"
+msgstr "Atrašanās vietas izvēle profila lapā"
+
+#: admin/configure.php:660
+msgid "Generate Favicons"
+msgstr "Izveidojiet Favicons"
+
+#: admin/configure.php:664
+msgid "When enabled, favicons are generated in head of website. In some cases you may want to disable this, i.e. if you have it generated by plugin or manually."
+msgstr "Kad tas ir iespējots, vietnes galvā tiek ģenerēti faviconi. Dažos gadījumos, iespējams, vēlēsities to atspējot, t.i., ja esat to ģenerējis ar spraudni vai manuāli."
+
+#: admin/configure.php:665
+#, php-format
+msgid "You can upload your favicons into folder %s. Sample data can be found in /sample. Keep naming convention."
+msgstr "Jūs varat augšupielādēt savus izlases ikonas mapē %s. Parauga datus var atrast mapē /sample. Turpiniet nosaukšanas konvenciju."
+
+#: admin/configure.php:670
+msgid "Use Sample Favicons"
+msgstr "Izmantojiet Favicons paraugus"
+
+#: admin/configure.php:673
+#, php-format
+msgid "When enabled, sample favicons from theme folder (%s) will be used."
+msgstr "Kad tas ir iespējots, tiks izmantoti izlases ikonu paraugi no motīvu mapes (%s)."
+
+#: admin/configure.php:677
+msgid "Shorten Item Description"
+msgstr "Saīsināt preces aprakstu"
+
+#: admin/configure.php:680
+msgid "When enabled, on listing page only first 720 characters of description will be shown. If description is longer, it will be truncated and \"Read more\" button added."
+msgstr "Ja tas ir iespējots, sludinājumu lapā tiks rādītas tikai pirmās 720 apraksta rakstzīmes. Ja apraksts ir garāks, tas tiks saīsināts un pievienota poga “Lasīt vairāk”."
+
+#: admin/configure.php:684
+msgid "Assets Versioning"
+msgstr "Aktīvu versiju noteikšana"
+
+#: admin/configure.php:687
+msgid "When enabled, version based on current timestamp will be added to each style & script link in order to remove caching. No effect on plugins/osclass scripts & styles."
+msgstr "Kad tas ir iespējots, katrai stila un skripta saitei tiks pievienota versija, kuras pamatā ir pašreizējais laikspiedols, lai noņemtu kešatmiņu. Nav ietekmes uz spraudņiem/osklases skriptiem un stiliem."
+
+#: admin/configure.php:693
+msgid "Social Network Links"
+msgstr "Sociālo tīklu saites"
+
+#: admin/configure.php:696
+msgid "Define Social Links"
+msgstr "Definējiet sociālās saites"
+
+#: admin/configure.php:699
+msgid "When enabled, social links (in footer) will point to URLs defined here. If empty, link to that network will be hidden. Otherwise link is auto-generated (share link)."
+msgstr "Kad tas ir iespējots, sociālās saites (kājenē) norādīs uz šeit definētajiem URL. Ja tas ir tukšs, saite uz šo tīklu tiks paslēpta. Pretējā gadījumā saite tiek automātiski ģenerēta (kopīgot saiti)."
+
+#: admin/configure.php:703
+#: footer.php:71
+msgid "Whatsapp"
+msgstr "WhatsApp"
+
+#: admin/configure.php:706
+#: admin/configure.php:713
+#: admin/configure.php:720
+#: admin/configure.php:727
+#: admin/configure.php:734
+#: admin/configure.php:741
+msgid "Define URL that points to your company URL on network. Keep blank to hide network link."
+msgstr "Definējiet URL, kas norāda uz jūsu uzņēmuma URL tīklā. Lai paslēptu tīkla saiti, atstājiet lauku tukšu."
+
+#: admin/configure.php:710
+#: footer.php:75
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/configure.php:717
+#: footer.php:79
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: admin/configure.php:724
+#: footer.php:83
+msgid "Instagram"
+msgstr "Instagram"
+
+#: admin/configure.php:731
+msgid "X (Twitter)"
+msgstr "X (Twitter)"
+
+#: admin/configure.php:738
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: admin/functions.php:21
+#: functions.php:4594
+#: functions.php:4604
+msgid "Category Icons"
+msgstr "Kategoriju ikonas"
+
+#: admin/functions.php:22
+msgid "Header Logo"
+msgstr "Galvenes logotips"
+
+#: admin/functions.php:23
+#: admin/plugins.php:6
+#: functions.php:4596
+#: functions.php:4606
+msgid "Plugins"
+msgstr "Spraudņi"
+
+#: admin/functions.php:55
+msgid "Report Bug"
+msgstr "Ziņot par kļūdu"
+
+#: admin/functions.php:58
+msgid "Support Forums"
+msgstr "Atbalsta forumi"
+
+#: admin/functions.php:59
+msgid "Contact Us"
+msgstr "Sazinies ar mums"
+
+#: admin/functions.php:135
+msgid "Add icon"
+msgstr "Pievienot ikonu"
+
+#: admin/logo.php:39
+#, php-format
+msgid "Image extension is not allowed. Allowed extensions are: %s"
+msgstr "Attēla paplašinājums nav atļauts. Atļautie paplašinājumi ir: %s"
+
+#: admin/logo.php:52
+msgid "The logo image has been uploaded correctly"
+msgstr "Logotipa attēls ir augšupielādēts pareizi"
+
+#: admin/logo.php:54
+#: admin/logo.php:58
+msgid "An error has occurred, please try again"
+msgstr "Radās kļūda. Lūdzu, mēģiniet vēlreiz"
+
+#: admin/logo.php:74
+#: admin/logo.php:88
+#: admin/logo.php:102
+#: admin/logo.php:116
+msgid "The logo image has been removed"
+msgstr "Logotipa attēls ir noņemts"
+
+#: admin/logo.php:134
+msgid "Logo preview"
+msgstr "Logotipa priekšskatījums"
+
+#: admin/logo.php:141
+msgid "Use Default Logo"
+msgstr "Izmantot noklusējuma logotipu"
+
+#: admin/logo.php:144
+msgid "If you did not upload any logo yet, osclass default logo will be used."
+msgstr "Ja vēl neesat augšupielādējis nevienu logotipu, tiks izmantots osclass noklusējuma logotips."
+
+#: admin/logo.php:148
+msgid "Current standard logo"
+msgstr "Pašreizējais standarta logotips"
+
+#: admin/logo.php:154
+msgid "No standard logo found, default logo will be used instead."
+msgstr "Standarta logotips netika atrasts, tā vietā tiks izmantots noklusējuma logotips."
+
+#: admin/logo.php:160
+msgid "Current standard logo for dark mode"
+msgstr "Pašreizējais standarta logotips tumšajam režīmam"
+
+#: admin/logo.php:166
+msgid "No dark standard logo found, default logo will be used instead."
+msgstr "Netika atrasts tumšs standarta logotips, tā vietā tiks izmantots noklusējuma logotips."
+
+#: admin/logo.php:172
+msgid "Current square logo"
+msgstr "Pašreizējais kvadrātveida logotips"
+
+#: admin/logo.php:178
+msgid "No square logo found, default logo will be used instead."
+msgstr "Kvadrātveida logotips netika atrasts, tā vietā tiks izmantots noklusējuma logotips."
+
+#: admin/logo.php:184
+msgid "Current square logo for dark mode"
+msgstr "Pašreizējais kvadrātveida logotips tumšajam režīmam"
+
+#: admin/logo.php:190
+msgid "No dark square logo found, default logo will be used instead."
+msgstr "Netika atrasts tumšs kvadrātveida logotips, tā vietā tiks izmantots noklusējuma logotips."
+
+#: admin/logo.php:198
+msgid "Remove standard logo"
+msgstr "Noņemiet standarta logotipu"
+
+#: admin/logo.php:202
+msgid "Remove square logo"
+msgstr "Noņemiet kvadrātveida logotipu"
+
+#: admin/logo.php:206
+msgid "Remove standard dark logo"
+msgstr "Noņemiet standarta tumšo logotipu"
+
+#: admin/logo.php:210
+msgid "Remove square dark logo"
+msgstr "Noņemiet kvadrātveida tumšo logotipu"
+
+#: admin/logo.php:223
+msgid "Logo upload"
+msgstr "Logotipa augšupielāde"
+
+#: admin/logo.php:231
+msgid "When new logo is uploaded, do not forget to clean your browser cache (CTRL + R or CTRL + F5)"
+msgstr "Kad tiek augšupielādēts jauns logotips, neaizmirstiet iztīrīt pārlūkprogrammas kešatmiņu (CTRL + R vai CTRL + F5)"
+
+#: admin/logo.php:232
+msgid "The preferred size of the logo is 240x64px."
+msgstr "Vēlamais logotipa izmērs ir 240x64 pikseļi."
+
+#: admin/logo.php:233
+msgid "The preferred size of the square logo is 64x64px."
+msgstr "Vēlamais kvadrātveida logotipa izmērs ir 64 x 64 pikseļi."
+
+#: admin/logo.php:234
+#, php-format
+msgid "Following formats are allowed: %s"
+msgstr "Ir atļauti šādi formāti: %s"
+
+#: admin/logo.php:237
+msgid "Uploading another logo will overwrite the current logo."
+msgstr "Augšupielādējot citu logotipu, pašreizējais logotips tiks pārrakstīts."
+
+#: admin/logo.php:243
+msgid "Standard logo"
+msgstr "Standarta logotips"
+
+#: admin/logo.php:244
+msgid "Standard logo - for dark mode"
+msgstr "Standarta logotips - tumšajam režīmam"
+
+#: admin/logo.php:245
+msgid "Square logo"
+msgstr "Kvadrātveida logotips"
+
+#: admin/logo.php:246
+msgid "Square logo - for dark mode"
+msgstr "Kvadrātveida logotips - tumšajam režīmam"
+
+#: admin/logo.php:258
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "Attēlu mape <strong>%s</strong> nav ierakstāma jūsu serverī"
+
+#: admin/logo.php:259
+msgid "OSClass can't upload the logo image from the administration panel."
+msgstr "OSClass nevar augšupielādēt logotipa attēlu no administrācijas paneļa."
+
+#: admin/logo.php:260
+msgid "Please make the aforementioned image folder writable."
+msgstr "Lūdzu, izveidojiet iepriekš minēto attēlu mapi rakstāmu."
+
+#: admin/logo.php:266
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr "Lai direktoriju padarītu rakstāmu UNIX, izpildiet šo komandu no čaulas:"
+
+#: admin/logo.php:277
+msgid "Upload"
+msgstr "Augšupielādēt"
+
+#: admin/plugins.php:52
+msgid "Plugin settings"
+msgstr "Spraudņa iestatījumi"
+
+#: admin/plugins.php:59
+msgid "Enable Scroll to Top"
+msgstr "Iespējot ritināšanu uz augšu"
+
+#: admin/plugins.php:62
+msgid "When enabled, button that enables scroll to top will be added."
+msgstr "Kad tas ir iespējots, tiks pievienota poga, kas ļauj ritināt uz augšu."
+
+#: admin/plugins.php:66
+msgid "Related Listings"
+msgstr "Saistītie sludinājumi"
+
+#: admin/plugins.php:69
+msgid "Enable Related Listings"
+msgstr "Iespējot saistītos sludinājumus"
+
+#: admin/plugins.php:72
+msgid "When enabled, related listings will be shown at listing page."
+msgstr "Ja iespējots, saistītie sludinājumi tiks parādīti saraksta lapā."
+
+#: admin/plugins.php:76
+msgid "Number of Related Items"
+msgstr "Saistīto vienumu skaits"
+
+#: admin/plugins.php:79
+msgid "Enter how many related listings will be shown on item page."
+msgstr "Ievadiet, cik saistītie sludinājumi tiks parādīti preces lapā."
+
+#: admin/plugins.php:83
+msgid "Related Items Card Design"
+msgstr "Saistītu priekšmetu karšu dizains"
+
+#: admin/plugins.php:96
+msgid "Recent Listings"
+msgstr "Jaunākie sludinājumi"
+
+#: admin/plugins.php:99
+msgid "Enable Recent Listings on Home Page"
+msgstr "Iespējot jaunākos sludinājumus sākumlapā"
+
+#: admin/plugins.php:102
+msgid "When enabled, recent listings will be shown at home page."
+msgstr "Kad tas ir iespējots, jaunākie sludinājumi tiks rādīti sākumlapā."
+
+#: admin/plugins.php:106
+msgid "Enable Recent Listings on Item Page"
+msgstr "Iespējot jaunākos sludinājumus vienuma lapā"
+
+#: admin/plugins.php:109
+msgid "When enabled, recent listings will be shown at listing page."
+msgstr "Kad tas ir iespējots, jaunākie sludinājumi tiks parādīti saraksta lapā."
+
+#: admin/plugins.php:113
+msgid "Enable Recent Listings on Search Page"
+msgstr "Iespējot jaunākos sludinājumus meklēšanas lapā"
+
+#: admin/plugins.php:116
+msgid "When enabled, recent listings will be shown at search page."
+msgstr "Ja tas ir iespējots, meklēšanas lapā tiks rādīti jaunākie sludinājumi."
+
+#: admin/plugins.php:120
+msgid "Number of Recent Items"
+msgstr "Jaunāko vienumu skaits"
+
+#: admin/plugins.php:123
+msgid "Enter how many recent listings will be shown in recent items block."
+msgstr "Ievadiet, cik neseno sludinājumu tiks parādīti pēdējo vienumu blokā."
+
+#: admin/plugins.php:127
+msgid "Recent Items Card Design"
+msgstr "Jaunāko priekšmetu karšu dizains"
+
+#: admin/plugins.php:140
+msgid "Blog plugin"
+msgstr "Bloga spraudnis"
+
+#: admin/plugins.php:143
+msgid "Show Blog Box on Home"
+msgstr "Rādīt bloga lodziņu sākumlapā"
+
+#: admin/plugins.php:147
+msgid "Show blog articles box on home page. Osclass Blog plugin must be installed."
+msgstr "Rādīt bloga rakstu lodziņu mājaslapā. Jāinstalē Osclass Blog spraudnis."
+
+#: admin/plugins.php:148
+#: admin/plugins.php:168
+msgid "View plugin"
+msgstr "Skatīt spraudni"
+
+#: admin/plugins.php:153
+msgid "Number of Blog Articles on Home"
+msgstr "Bloda ierakstu skaits sākumlapā"
+
+#: admin/plugins.php:156
+msgid "How many blog articles will be shown on home page."
+msgstr "Cik daudz bloga rakstu tiks parādīts mājaslapā."
+
+#: admin/plugins.php:160
+msgid "Business profile plugin"
+msgstr "Uzņēmuma profila spraudnis"
+
+#: admin/plugins.php:163
+msgid "Show Companies Box on Home"
+msgstr "Rādīt uzņēmumu lodziņu sākumlapā"
+
+#: admin/plugins.php:167
+msgid "Show companies box on home page. Business profile plugin must be installed"
+msgstr "Rādīt uzņēmumu lodziņu mājaslapā. Jāinstalē uzņēmuma profila spraudnis"
+
+#: admin/plugins.php:173
+msgid "Number of Companies on Home"
+msgstr "Uzņēmumu skaits mājās"
+
+#: admin/plugins.php:176
+msgid "How many companies will be shown on home page."
+msgstr "Cik uzņēmumu tiks parādīti mājaslapā."
+
+#: admin/plugins.php:180
+msgid "Favorite items plugin"
+msgstr "Iecienīto vienumu spraudnis"
+
+#: admin/plugins.php:183
+msgid "Show Favorite Items on Home"
+msgstr "Rādīt iecienītākos vienumus sākumlapā"
+
+#: admin/plugins.php:186
+msgid "Show users most favorited listings block on home page. Favorite items plugin must be installed."
+msgstr "Rādīt lietotājiem iecienītāko sludinājumu bloku sākumlapā. Jāinstalē iecienīto vienumu spraudnis."
+
+#: admin/plugins.php:190
+msgid "Number of Favorite items on Home"
+msgstr "Iecienīto vienumu skaits lapā Sākums"
+
+#: admin/plugins.php:193
+msgid "Most favorited listings count shown on home page. Favorite items plugin must be installed."
+msgstr "Mājas lapā tiek rādīti visiecienītākie sludinājumi. Jāinstalē iecienīto vienumu spraudnis."
+
+#: admin/plugins.php:197
+msgid "Favorite Items Card Design"
+msgstr "Iecienītāko preču karšu dizains"
+
+#: admin/plugins.php:210
+msgid "Other plugins"
+msgstr "Citi spraudņi"
+
+#: admin/plugins.php:213
+msgid "Replace Send Message Button"
+msgstr "Aizstāt pogu Sūtīt ziņojumu"
+
+#: admin/plugins.php:216
+msgid "When enabled and Instant messenger plugin is installed, \"Send message\" button on listing page will be replaced with button to create message."
+msgstr "Kad iespējots un tūlītējās ziņojumapmaiņas spraudnis ir instalēts, saraksta lapā poga “Sūtīt ziņojumu” tiks aizstāta ar poga, lai izveidotu ziņojumu."
+
+#: ajax.php:74
+#: functions.php:771
+msgid "Your recent search"
+msgstr "Jūsu pēdējā meklēšana"
+
+#: ajax.php:90
+#: search.php:354
+msgid "Categories"
+msgstr "Kategorijas"
+
+#: ajax.php:106
+#: functions.php:803
+#: search.php:671
+msgid "Other people searched"
+msgstr "Citi cilvēki meklēja"
+
+#: ajax.php:137
+msgid "Countries"
+msgstr "Valstis"
+
+#: ajax.php:153
+msgid "Regions"
+msgstr "Novadi"
+
+#: ajax.php:169
+msgid "Cities"
+msgstr "Pilsētas"
+
+#: ajax.php:181
+msgid "No location match your search criteria"
+msgstr "Neviena atrašanās vieta neatbilst jūsu meklēšanas kritērijiem"
+
+#: ajax.php:200
+#, php-format
+msgid "Located in %s, %s, situated %dkm from your position"
+msgstr "Atrodas %s, %s, atrodas %dkm no jūsu atrašanās vietas"
+
+#: ajax.php:223
+msgid "No close city has been found"
+msgstr "Pilsēta tuvumā nav atrasta"
+
+#: ajax.php:230
+msgid "Invalid latitude or longitude"
+msgstr "Nederīgs platums vai garums"
+
+#: ajax.php:285
+#: functions.php:3324
+#: functions.php:3335
+msgid "All regions"
+msgstr "Visi novadi"
+
+#: alert-form.php:8
+msgid "You have already saved this search"
+msgstr "Jūs jau esat saglabājis šo meklēšanu"
+
+#: alert-form.php:8
+msgid "You will receive email notification once new listing matching search criteria is published"
+msgstr "Tiklīdz tiks publicēts jauns meklēšanas kritērijiem atbilstošs sludinājums, jūs saņemsit e-pasta paziņojumu"
+
+#: alert-form.php:12
+msgid "Search is saved"
+msgstr "Meklēšana ir saglabāta"
+
+#: alert-form.php:15
+#: alert-form.php:20
+msgid "Save this search"
+msgstr "Saglabāt šo meklēšanu"
+
+#: alert-form.php:28
+msgid "Save search to receive email notification when new listing matching search criteria is published."
+msgstr "Saglabājiet meklēšanu, lai saņemtu e-pasta paziņojumu, kad tiek publicēts jauns sludinājums, kas atbilst meklēšanas kritērijiem."
+
+#: alert-form.php:32
+msgid "Enter your email..."
+msgstr "Ievadi savu e-pastu…"
+
+#: alert-form.php:36
+#, php-format
+msgid "You have successfully saved this search! You will receive %s notifications to email %s."
+msgstr "Jūs esat veiksmīgi saglabājis šo meklēšanu! Jūs saņemsiet %s paziņojumus uz e-pastu %s."
+
+#: alert-form.php:36
+#: functions.php:2619
+msgid "daily"
+msgstr "katru dienu"
+
+#: alert-form.php:37
+#, php-format
+msgid "You already had saved this search for email %s."
+msgstr "Jūs jau esat saglabājis šo meklēšanu e-pastam %s."
+
+#: alert-form.php:38
+msgid "Error: Invalid signature - server signature does not match to alert signature."
+msgstr "Kļūda: nederīgs paraksts — servera paraksts neatbilst paziņojuma parakstam."
+
+#: alert-form.php:39
+msgid "Error: Search was not saved, please try it again later."
+msgstr "Kļūda: meklēšana netika saglabāta. Lūdzu, vēlāk mēģiniet vēlreiz."
+
+#: alert-form.php:42
+msgid "Manage saved searches"
+msgstr "Pārvaldiet saglabātos meklējumus"
+
+#: contact.php:16
+#: footer.php:132
+#: footer.php:176
+#: footer.php:434
+#: page.php:20
+#: user-dashboard.php:179
+msgid "Contact us"
+msgstr "Sazinies ar mums"
+
+#: contact.php:25
+#: item-send-friend.php:64
+#: user-profile.php:65
+msgid "Your name"
+msgstr "Tavs vārds"
+
+#: contact.php:32
+#: footer.php:44
+#: item.php:914
+msgid "Email"
+msgstr "E-pasts"
+
+#: contact.php:40
+msgid "Subject"
+msgstr "Tēma"
+
+#: contact.php:45
+#: item-send-friend.php:81
+#: item-send-friend.php:197
+#: item-send-friend.php:291
+#: item-send-friend.php:376
+msgid "Message"
+msgstr "Ziņa"
+
+#: contact.php:51
+#: item-send-friend.php:297
+msgid "Attachment"
+msgstr "Pielikums"
+
+#: contact.php:60
+#: item-send-friend.php:88
+#: item-send-friend.php:308
+#: item-send-friend.php:383
+#: item.php:788
+#: item.php:792
+#: item.php:925
+#: item.php:929
+#: user-public-profile.php:139
+msgid "Send message"
+msgstr "Nosūtīt ziņu"
+
+#: contact.php:72
+#: user-register.php:98
+msgid "First name, Last name"
+msgstr "Vārds, uzvārds"
+
+#: contact.php:73
+#: user-login.php:91
+#: user-recover.php:42
+#: user-register.php:99
+msgid "your.email@dot.com"
+msgstr "Tavs e-pasts"
+
+#: contact.php:74
+msgid "Summarize your question"
+msgstr "Apkopojiet savu jautājumu"
+
+#: contact.php:75
+msgid "Your question with all relevant details ..."
+msgstr "Jūsu jautājums ar visu nepieciešamo informāciju…"
+
+#: footer.php:15
+msgid "Are you a professional seller?"
+msgstr "Vai esat makšķerlietu ražotājs?"
+
+#: footer.php:16
+msgid "Create an account"
+msgstr "Izveidot kontu"
+
+#: footer.php:38
+msgid "About us"
+msgstr "Par mums"
+
+#: footer.php:47
+msgid "Widely known as Worlds no. 1 online classifieds platform, our is all about you. Our aim is to empower every person in the country to independently connect with buyers and sellers online."
+msgstr "Latvijā lielākais sludinājumu portāls makšķerniekiem un makšķerēšanas entuziastiem."
+
+#: footer.php:50
+#: footer.php:55
+#: footer.php:441
+#: footer.php:446
+msgid "Switch to light mode"
+msgstr "Ieslēgt gaišo režīmu"
+
+#: footer.php:50
+#: footer.php:57
+#: footer.php:441
+#: footer.php:448
+msgid "Switch to dark mode"
+msgstr "Ieslēgt tumšo režīmu"
+
+#: footer.php:66
+msgid "Social media"
+msgstr "Sociālie tīkli"
+
+#: footer.php:75
+msgid "Share us on Facebook"
+msgstr "Kopīgo mūs Facebook"
+
+#: footer.php:79
+msgid "Share us on Pinterest"
+msgstr "Kopīgo mūs Pinterest"
+
+#: footer.php:83
+msgid "Share us on Instagram"
+msgstr "Kopīgo mūs Instagram"
+
+#: footer.php:87
+msgid "Tweet us"
+msgstr "Tvīto mums"
+
+#: footer.php:89
+msgid "Twitter"
+msgstr "X"
+
+#: footer.php:94
+msgid "Share us on LinkedIn"
+msgstr "Kopīgo mūs LinkedIn"
+
+#: footer.php:94
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:100
+msgid "Language"
+msgstr "Valods"
+
+#: footer.php:105
+#: footer.php:570
+msgid "Country flag"
+msgstr "Valsts karogs"
+
+#: footer.php:113
+msgid "Information"
+msgstr "Informācija"
+
+#: footer.php:141
+msgid "Copyright"
+msgstr "Copyright"
+
+#: footer.php:141
+msgid "All rights reserved"
+msgstr "Visas tiesības aizsargātas"
+
+#: footer.php:152
+#: header.php:251
+#: header.php:252
+#: item.php:117
+#: item.php:118
+msgid "Home"
+msgstr "Sākumlapa"
+
+#: footer.php:164
+#: functions.php:3452
+#: header.php:61
+#: header.php:63
+#: item-post.php:296
+#: search.php:156
+#: user-profile.php:153
+msgid "Location"
+msgstr "Atrašanās vieta"
+
+#: footer.php:188
+#: header.php:88
+#: user-dashboard.php:146
+msgid "Messages"
+msgstr "Ziņas"
+
+#: footer.php:193
+#: footer.php:292
+#: header.php:241
+#: main.php:159
+#: search.php:299
+msgid "Search"
+msgstr "Meklēt"
+
+#: footer.php:200
+#: footer.php:287
+msgid "Post an ad"
+msgstr "Ievieto sludinājumu"
+
+#: footer.php:212
+#: header.php:99
+msgid "Favorite"
+msgstr "Mīļākais"
+
+#: footer.php:218
+msgid "My Account"
+msgstr "Mans konts"
+
+#: footer.php:218
+msgid "Sign in"
+msgstr "Ienākt"
+
+#: footer.php:230
+msgid "Searches"
+msgstr "Meklējumi"
+
+#: footer.php:236
+#: footer.php:300
+#: user-login.php:79
+msgid "Log in"
+msgstr "Ieiet"
+
+#: footer.php:243
+msgid "Filter"
+msgstr "Filtrs"
+
+#: footer.php:248
+msgid "Post ad"
+msgstr "Publicēt sludinājumu"
+
+#: footer.php:279
+#: item-post.php:332
+msgid "Non-logged user"
+msgstr "Nepierakstījies lietotājs"
+
+#: footer.php:280
+#, php-format
+msgid "Hi %s!"
+msgstr "Sveicināts, %s!"
+
+#: footer.php:280
+msgid "Welcome!"
+msgstr "Laipni lūgti!"
+
+#: footer.php:305
+msgid "Register account"
+msgstr "Reģistrēt kontu"
+
+#: footer.php:311
+msgid "My public profile"
+msgstr "Mans pubpliskais profils"
+
+#: footer.php:316
+msgid "My dashboard"
+msgstr "Mans vadības panelis"
+
+#: footer.php:321
+msgid "My active listings"
+msgstr "Mani aktīvie sludinājumi"
+
+#: footer.php:327
+msgid "My saved searches"
+msgstr "Mani saglabātie meklējumi"
+
+#: footer.php:333
+#: header.php:124
+#: user-dashboard.php:118
+msgid "My profile"
+msgstr "Mans profils"
+
+#: footer.php:339
+msgid "My business profile"
+msgstr "Mans uzņēmuma profils"
+
+#: footer.php:346
+msgid "My messages"
+msgstr "Manas ziņas"
+
+#: footer.php:357
+msgid "My favorite listings"
+msgstr "Mani izlase"
+
+#: footer.php:368
+msgid "My promotions"
+msgstr "Manas reklāmas"
+
+#: footer.php:382
+msgid "Companies"
+msgstr "Uzņēmumi"
+
+#: footer.php:389
+msgid "Forums"
+msgstr "Forums"
+
+#: footer.php:396
+msgid "Blog"
+msgstr "Blogs"
+
+#: footer.php:403
+#: main.php:253
+msgid "FAQ"
+msgstr "BUJ"
+
+#: footer.php:412
+#: footer.php:562
+msgid "Select language"
+msgstr "Atlasīt valodu"
+
+#: footer.php:420
+#: footer.php:485
+#: main.php:389
+msgid "Change location"
+msgstr "Mainīt atrašanās vietu"
+
+#: footer.php:427
+msgid "Help"
+msgstr "Palīdzība"
+
+#: footer.php:460
+msgid "Log out"
+msgstr "Iziet"
+
+#: footer.php:469
+msgid "Support pages"
+msgstr "Atbalsta lapas"
+
+#: footer.php:489
+msgid "Default location"
+msgstr "Noklusējuma atrašanās vieta"
+
+#: footer.php:491
+msgid "Select your preferred location to search and sell faster."
+msgstr "Izvēlieties vēlamo atrašanās vietu, lai ātrāk meklētu un pārdotu."
+
+#: footer.php:495
+msgid "Your location"
+msgstr "Tava atrašanās vieta"
+
+#: footer.php:502
+msgid "Search location..."
+msgstr "Meklēt atrašanās vietu…"
+
+#: footer.php:511
+msgid "Click to refresh"
+msgstr "Noklikšķini, lai atsvaidzinātu"
+
+#: footer.php:511
+#: user-profile.php:117
+msgid "Use current location"
+msgstr "Izmantot pašreizējo atrašanās vietu"
+
+#: footer.php:513
+#: user-profile.php:119
+msgid "Click to find closest city to your location"
+msgstr "Noklikšķi, lai atrastu savai atrašanās vietai tuvāko pilsētu"
+
+#: footer.php:514
+#: user-profile.php:120
+msgid "Geolocation is not supported by your browser"
+msgstr "Jūsu pārlūkprogramma neatbalsta ģeogrāfisko atrašanās vietu"
+
+#: footer.php:515
+#: user-profile.php:121
+msgid "Unable to retrieve your location, it may be blocked"
+msgstr "Nevar izgūt jūsu atrašanās vietu, iespējams, tā ir bloķēta"
+
+#: footer.php:516
+#: user-profile.php:122
+msgid "Unable to retrieve your location, no close city found"
+msgstr "Nevar izgūt jūsu atrašanās vietu, tuvu pilsēta nav atrasta"
+
+#: footer.php:517
+#: user-profile.php:123
+msgid "Locating..."
+msgstr "Notiek atrašanās vietas noteikšana…"
+
+#: footer.php:519
+#: user-profile.php:125
+msgid "Refresh page to take effect"
+msgstr "Lai stātos spēkā, atsvaidziniet lapu"
+
+#: footer.php:528
+#: functions.php:829
+msgid "Recent locations"
+msgstr "Pēdējās atrašanās vietas"
+
+#: footer.php:541
+#: functions.php:851
+msgid "Popular cities"
+msgstr "Populāras pilsētas"
+
+#: footer.php:545
+#: functions.php:854
+msgid "item"
+msgstr "vienums"
+
+#: footer.php:545
+#: functions.php:854
+msgid "items"
+msgstr "vienumi"
+
+#: footer.php:551
+msgid "Clean default location"
+msgstr "Notīriet noklusējuma atrašanās vietu"
+
+#: footer.php:581
+msgid "Filter results"
+msgstr "Filtrējiet rezultātus"
+
+#: footer.php:591
+msgid "CONFIG"
+msgstr "CONFIG"
+
+#: footer.php:596
+msgid "Backoffice"
+msgstr "Backoffice"
+
+#: footer.php:597
+msgid "Hide Banners"
+msgstr "Slēpt reklāmkarogus"
+
+#: footer.php:597
+msgid "Show All Banners"
+msgstr "Rādīt visus reklāmkarogus"
+
+#: footer.php:600
+msgid "Primary color"
+msgstr "Primārā krāsa"
+
+#: footer.php:611
+msgid "Secondary color"
+msgstr "Sekundārā krāsa"
+
+#: footer.php:625
+msgid "You have enabled DEBUG MODE, autocomplete may not work! Disable debug mode in config.php."
+msgstr "Jūs esat iespējojis ATKĻŪDOŠANAS REŽĪMU, automātiskā pabeigšana var nedarboties! Atspējojiet atkļūdošanas režīmu vietnē config.php."
+
+#: functions.php:512
+#: functions.php:585
+msgid "Click to see phone number"
+msgstr "Noklikšķiniet, lai redzētu tālruņa numuru"
+
+#: functions.php:525
+#: functions.php:536
+#: functions.php:598
+msgid "No phone number"
+msgstr "Nav tālruņa numura"
+
+#: functions.php:530
+#: functions.php:592
+msgid "Login to see phone number. Click to login."
+msgstr "Pieslēdzieties, lai redzētu tālruņa numuru. Noklikšķiniet, lai ienāktu."
+
+#: functions.php:559
+msgid "Click to see email"
+msgstr "Noklikšķiniet, lai redzētu e-pastu"
+
+#: functions.php:680
+#, php-format
+msgid "Searching only in %s (your default location)"
+msgstr "Notiek meklēšana tikai šeit: %s (jūsu noklusējuma atrašanās vieta)"
+
+#: functions.php:700
+msgid "Near me"
+msgstr "Blakus man"
+
+#: functions.php:702
+msgid "Listings near me"
+msgstr "Sludinājumi manā tuvumā"
+
+#: functions.php:715
+#: functions.php:722
+#: functions.php:729
+msgid "Your profile"
+msgstr "Tavs profils"
+
+#: functions.php:736
+msgid "All locations"
+msgstr "Visas atrašanās vietas"
+
+#: functions.php:763
+#: functions.php:820
+#, php-format
+msgid "Enter %s more character to search..."
+msgstr "Ievadiet vēl %s rakstzīmi, lai meklētu…"
+
+#: functions.php:787
+msgid "Popular categories"
+msgstr "Populāras kategorijas"
+
+#: functions.php:868
+msgid "Default location has been cleaned"
+msgstr "Noklusējuma atrašanās vieta ir notīrīta"
+
+#: functions.php:886
+#, php-format
+msgid "Located in %s"
+msgstr "Atrodas %s"
+
+#: functions.php:901
+msgid "Default location has been saved"
+msgstr "Noklusējuma atrašanās vieta ir saglabāta"
+
+#: functions.php:1061
+msgid "Remove from favorites"
+msgstr "Noņemt no izlases"
+
+#: functions.php:1062
+msgid "Save to favorite"
+msgstr "Saglabāt izlasē"
+
+#: functions.php:1071
+#, php-format
+msgid "%d like"
+msgstr "%d patīk"
+
+#: functions.php:1071
+#, php-format
+msgid "%d likes"
+msgstr "%d patīk"
+
+#: functions.php:1265
+#: item.php:755
+#: loop-single.php:23
+msgid "User is online"
+msgstr "Lietotājs ir tiešsaistē"
+
+#: functions.php:1269
+#: item.php:757
+msgid "User is offline"
+msgstr "Lietotājs ir bezsaistē"
+
+#: functions.php:1279
+#: functions.php:1283
+#: functions.php:1286
+msgid "Chat unavailable"
+msgstr "Tērzēšana nav pieejama"
+
+#: functions.php:1280
+msgid "User is not registered"
+msgstr "Lietotājs nav reģistrēts"
+
+#: functions.php:1284
+msgid "It's your ad"
+msgstr "Tas ir tavs sludinājums"
+
+#: functions.php:1287
+msgid "User has blocked you"
+msgstr "Lietotājis tevi ir bloķējis"
+
+#: functions.php:1290
+msgid "Start chat"
+msgstr "Sākt tērzēt"
+
+#: functions.php:1591
+msgid "Related items"
+msgstr "Saistītie vienumi"
+
+#: functions.php:1594
+msgid "Other items from this seller"
+msgstr "Citas preces no šī pārdevēja"
+
+#: functions.php:1604
+#: item.php:257
+#: loop-single.php:39
+#: loop-single.php:67
+#: user-items.php:64
+msgid "Premium"
+msgstr "Premium"
+
+#: functions.php:1690
+msgid "Recently viewed"
+msgstr "Nesen skatītie"
+
+#: functions.php:1693
+msgid "Clear all"
+msgstr "Notīrīt visu"
+
+#: functions.php:1834
+msgid "Rate"
+msgstr "Novērtēt"
+
+#: functions.php:1930
+#: search.php:271
+msgid "With picture only"
+msgstr "Tikai ar attēlu"
+
+#: functions.php:1930
+msgid "Without picture only"
+msgstr "Tikai bez attēla"
+
+#: functions.php:1932
+#: functions.php:1939
+#: functions.php:1946
+msgid "Yes"
+msgstr "Jā"
+
+#: functions.php:1932
+#: functions.php:1939
+#: functions.php:1946
+msgid "No"
+msgstr "Nē"
+
+#: functions.php:1937
+#: functions.php:1989
+msgid "Only premium"
+msgstr "Tikai Premium"
+
+#: functions.php:1937
+msgid "Only non-premium"
+msgstr "Tikai ne Premium"
+
+#: functions.php:1944
+msgid "Only with phone"
+msgstr "Tikai ar tālruņa numuru"
+
+#: functions.php:1944
+msgid "Only without phone"
+msgstr "Tikai bez tālruņa numura"
+
+#: functions.php:1956
+#: functions.php:2746
+#: functions.php:3089
+#: functions.php:3698
+#: item-post.php:213
+#: search.php:205
+msgid "Transaction"
+msgstr "Darījums"
+
+#: functions.php:1959
+#: functions.php:2751
+#: functions.php:3148
+#: functions.php:3736
+#: item-post.php:218
+#: search.php:191
+msgid "Condition"
+msgstr "Stāvoklis"
+
+#: functions.php:1962
+#: functions.php:2977
+#: functions.php:3780
+#: search.php:257
+msgid "Seller type"
+msgstr "Pārdevējs"
+
+#: functions.php:1965
+msgid "From user"
+msgstr "No lietotāja"
+
+#: functions.php:1968
+msgid "Not from user"
+msgstr "Ne no lietotāja"
+
+#: functions.php:1974
+msgid "Item age"
+msgstr "Sludinājuma vecums"
+
+#: functions.php:1986
+msgid "With picture"
+msgstr "Ar bildi"
+
+#: functions.php:1992
+msgid "With phone"
+msgstr "Ar tālruņa numuru"
+
+#: functions.php:1995
+msgid "Min price"
+msgstr "Min cena"
+
+#: functions.php:1998
+msgid "Max price"
+msgstr "Max cena"
+
+#: functions.php:2001
+#: functions.php:3501
+#: search.php:145
+msgid "Keyword"
+msgstr "Atslēgvārds"
+
+#: functions.php:2004
+#: search.php:163
+msgid "Radius"
+msgstr "Rādiuss"
+
+#: functions.php:2017
+#: functions.php:2025
+#: functions.php:2035
+#: functions.php:2045
+#: functions.php:2874
+#: search.php:360
+msgid "All"
+msgstr "Viss"
+
+#: functions.php:2017
+msgid "Select a condition..."
+msgstr "Atlasīt stāvokli…"
+
+#: functions.php:2018
+msgid "Any condition"
+msgstr "Jebkurš stāvoklis"
+
+#: functions.php:2021
+#: main.php:65
+#: main.php:342
+msgid "New"
+msgstr "Jauna prece"
+
+#: functions.php:2022
+msgid "Used"
+msgstr "Lietota prece"
+
+#: functions.php:2025
+msgid "Select a transaction..."
+msgstr "Atlasīt darījuma veidu…"
+
+#: functions.php:2026
+msgid "Any transaction"
+msgstr "Jebkurš darījums"
+
+#: functions.php:2029
+#: header.php:53
+msgid "Sell"
+msgstr "Pārdot"
+
+#: functions.php:2030
+msgid "Buy"
+msgstr "Pirkt"
+
+#: functions.php:2031
+msgid "Rent"
+msgstr "Noma"
+
+#: functions.php:2032
+msgid "Exchange"
+msgstr "Maiņa"
+
+#: functions.php:2035
+msgid "Any period"
+msgstr "Jebkurš periods"
+
+#: functions.php:2038
+#: functions.php:2354
+msgid "Yesterday"
+msgstr "Vakar"
+
+#: functions.php:2039
+msgid "Last week"
+msgstr "Pēdējā nedēļa"
+
+#: functions.php:2040
+msgid "Last 2 weeks"
+msgstr "Pēdējās 2 nedēļas"
+
+#: functions.php:2041
+msgid "Last month"
+msgstr "Pēdējais mēnesis"
+
+#: functions.php:2042
+msgid "Last year"
+msgstr "Pēdējais gads"
+
+#: functions.php:2045
+msgid "Any seller"
+msgstr "Jebkurš pārdevējs"
+
+#: functions.php:2048
+#: functions.php:2989
+#: functions.php:2997
+#: user-profile.php:97
+msgid "Personal"
+msgstr "Privātpersona"
+
+#: functions.php:2049
+#: functions.php:2990
+#: functions.php:2998
+#: item.php:538
+#: user-profile.php:97
+#: user-public-profile.php:104
+msgid "Company"
+msgstr "Uzņēmums"
+
+#: functions.php:2052
+#: functions.php:3198
+msgid "km"
+msgstr "km"
+
+#: functions.php:2155
+msgid "You must be logged in to contact publisher"
+msgstr "Lai sazinātos ar izdevēju, jums ir jāpieslēdzās"
+
+#: functions.php:2157
+msgid "You must be logged in to add a comment"
+msgstr "Lai pievienotu komentāru, jums ir jāpieslēdzās"
+
+#: functions.php:2303
+msgid "minute ago"
+msgstr "minūti atpakaļ"
+
+#: functions.php:2305
+#, php-format
+msgid "%d minutes ago"
+msgstr "pirms %d min."
+
+#: functions.php:2307
+#, php-format
+msgid "%d hour ago"
+msgstr "pirms %d stundas"
+
+#: functions.php:2309
+#, php-format
+msgid "%d hours ago"
+msgstr "pirms %d stundām"
+
+#: functions.php:2311
+#, php-format
+msgid "%d day ago"
+msgstr "pirms %d dienas"
+
+#: functions.php:2313
+#, php-format
+msgid "%d days ago"
+msgstr "pirms %d dienām"
+
+#: functions.php:2315
+#, php-format
+msgid "%d week ago"
+msgstr "pirms %d nedēļas"
+
+#: functions.php:2317
+#, php-format
+msgid "%d weeks ago"
+msgstr "pirms %d nedēļām"
+
+#: functions.php:2319
+#, php-format
+msgid "%d month ago"
+msgstr "pirms %d mēneša"
+
+#: functions.php:2321
+#, php-format
+msgid "%d months ago"
+msgstr "pirms %d mēnešiem"
+
+#: functions.php:2323
+#, php-format
+msgid "%d year ago"
+msgstr "pirms %d gada"
+
+#: functions.php:2325
+#, php-format
+msgid "%d years ago"
+msgstr "pirms %d gadiem"
+
+#: functions.php:2347
+msgid "Today"
+msgstr "Šodien"
+
+#: functions.php:2368
+#, php-format
+msgid "%d days"
+msgstr "%d dienas"
+
+#: functions.php:2370
+#, php-format
+msgid "%d week"
+msgstr "%d nedēļa"
+
+#: functions.php:2372
+#, php-format
+msgid "%d weeks"
+msgstr "%d nedēļas"
+
+#: functions.php:2374
+#, php-format
+msgid "%d month"
+msgstr "%d mēnesis"
+
+#: functions.php:2376
+#, php-format
+msgid "%d months"
+msgstr "%d mēneši"
+
+#: functions.php:2378
+#, php-format
+msgid "%d year"
+msgstr "%d gads"
+
+#: functions.php:2380
+#, php-format
+msgid "%d years"
+msgstr "%d gadi"
+
+#: functions.php:2394
+msgid "Monday"
+msgstr "Pirmdiena"
+
+#: functions.php:2395
+msgid "Tuesday"
+msgstr "Otrdiena"
+
+#: functions.php:2396
+msgid "Wednesday"
+msgstr "Trešdiena"
+
+#: functions.php:2397
+msgid "Thursday"
+msgstr "Ceturtdiena"
+
+#: functions.php:2398
+msgid "Friday"
+msgstr "Piektdiena"
+
+#: functions.php:2399
+msgid "Saturday"
+msgstr "Sestdiena"
+
+#: functions.php:2400
+msgid "Sunday"
+msgstr "Svētdiena"
+
+#: functions.php:2469
+msgid "Select category"
+msgstr "Atlasīt kategoriju"
+
+#: functions.php:2469
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: functions.php:2554
+msgid "Very wide"
+msgstr "Ļoti plašs"
+
+#: functions.php:2555
+msgid "Wide"
+msgstr "Plašs"
+
+#: functions.php:2556
+msgid "Normal"
+msgstr "Normāls"
+
+#: functions.php:2557
+msgid "Square"
+msgstr "Kvadrāts"
+
+#: functions.php:2558
+msgid "Tall"
+msgstr "Garš"
+
+#: functions.php:2559
+msgid "Very tall"
+msgstr "Ļoti garš"
+
+#: functions.php:2560
+msgid "Extra tall"
+msgstr "Ekstra garš"
+
+#: functions.php:2561
+msgid "Mega tall"
+msgstr "Mega garš"
+
+#: functions.php:2621
+msgid "weekly"
+msgstr "katru nedēļu"
+
+#: functions.php:2623
+msgid "monthly"
+msgstr "katru mēnesi"
+
+#: functions.php:2625
+msgid "instant"
+msgstr "acumirklī"
+
+#: functions.php:2643
+#: header.php:125
+#: user-dashboard.php:53
+msgid "Public profile"
+msgstr "Publiskais profils"
+
+#: functions.php:2645
+#: header.php:122
+msgid "Dashboard"
+msgstr "Vadības panelis"
+
+#: functions.php:2647
+#: user-dashboard.php:64
+#: user-items.php:18
+msgid "Active listings"
+msgstr "Aktīvi sludinājumi"
+
+#: functions.php:2653
+msgid "Pending listings"
+msgstr "Neapstiprinātie sludinājumi"
+
+#: functions.php:2660
+#: user-dashboard.php:86
+#: user-items.php:26
+msgid "Expired listings"
+msgstr "Sludinājumi, kuriem beidzies publicēšanas termiņš"
+
+#: functions.php:2666
+#: user-alerts.php:207
+#: user-dashboard.php:97
+msgid "Saved searches"
+msgstr "Saglabātie meklējumi"
+
+#: functions.php:2670
+#: user-profile.php:38
+msgid "My Profile"
+msgstr "Mans profils"
+
+#: functions.php:2679
+#: header.php:126
+#: user-dashboard.php:188
+msgid "Logout"
+msgstr "Iziet"
+
+#: functions.php:2763
+msgid "Status"
+msgstr "Statuss"
+
+#: functions.php:2766
+msgid "Select a status..."
+msgstr "Atlasīt statusu…"
+
+#: functions.php:2767
+#: item.php:260
+#: loop-single.php:42
+#: loop-single.php:77
+#: loop-single.php:137
+msgid "Reserved"
+msgstr "Rezervēts"
+
+#: functions.php:2768
+#: item.php:259
+#: loop-single.php:10
+#: loop-single.php:45
+#: loop-single.php:75
+#: loop-single.php:135
+msgid "Sold"
+msgstr "Pārdots"
+
+#: functions.php:2871
+msgid "Filter by category"
+msgstr "Filtrēt pēc kategorijas"
+
+#: functions.php:2987
+msgid "Filter by seller type"
+msgstr "Filtrēt pēc pārdevēja veida"
+
+#: functions.php:2988
+msgid "All sellers"
+msgstr "Visi pārdevēji"
+
+#: functions.php:3017
+#: functions.php:3480
+msgid "Country, region or city"
+msgstr "Novads vai pilsēta"
+
+#: functions.php:3032
+#: functions.php:3519
+#: header.php:44
+#: header.php:162
+msgid "Search for anything"
+msgstr "Meklējiet jebko"
+
+#: functions.php:3041
+#, php-format
+msgid "Search for anything in %s"
+msgstr "Meklējiet jebko šeit: %s"
+
+#: functions.php:3102
+msgid "Filter by transaction"
+msgstr "Filtrēt pēc darījuma"
+
+#: functions.php:3105
+msgid "All transactions"
+msgstr "Visi darījumi"
+
+#: functions.php:3161
+msgid "Filter by condition"
+msgstr "Filtrēt pēc preces stāvokļa"
+
+#: functions.php:3164
+msgid "All conditions"
+msgstr "Visi stāvokļi"
+
+#: functions.php:3202
+msgid "Area"
+msgstr "Rādiuss"
+
+#: functions.php:3213
+msgid "Search area"
+msgstr "Meklēšanas apgabals"
+
+#: functions.php:3263
+msgid "Filter by country"
+msgstr "Filtrēt pēc valsts"
+
+#: functions.php:3265
+#: functions.php:3276
+msgid "All countries"
+msgstr "Visas valstis"
+
+#: functions.php:3322
+msgid "Filter by region"
+msgstr "Filtrēt pēc novada"
+
+#: functions.php:3376
+msgid "Filter by city"
+msgstr "Filtrēt pēc pilsētas"
+
+#: functions.php:3378
+#: functions.php:3389
+msgid "All cities"
+msgstr "Visas pilsētas"
+
+#: functions.php:3411
+#: item-post.php:192
+#: item-post.php:459
+msgid "Price"
+msgstr "Cena"
+
+#: functions.php:3414
+#, php-format
+msgid "Price > %s"
+msgstr "Cena > %s"
+
+#: functions.php:3417
+#, php-format
+msgid "Price < %s"
+msgstr "Cena <%s"
+
+#: functions.php:3420
+#, php-format
+msgid "Price: %s to %s"
+msgstr "Cena: %s līdz %s"
+
+#: functions.php:3429
+msgid "Filter by price"
+msgstr "Filtrēt pēc cenas"
+
+#: functions.php:3431
+msgid "Define minimum and maximum price:"
+msgstr "Nosakiet minimālo un maksimālo cenu:"
+
+#: functions.php:3434
+#, php-format
+msgid "Min %s"
+msgstr "Min %s"
+
+#: functions.php:3436
+#, php-format
+msgid "Max %s"
+msgstr "Max %s"
+
+#: functions.php:3473
+msgid "Filter by location"
+msgstr "Filttrēt pēc lokācijas"
+
+#: functions.php:3513
+msgid "Filter by keyword"
+msgstr "Filtrēt pēc atslēgvārda"
+
+#: functions.php:3515
+msgid "Enter one or more keywords to filter results:"
+msgstr "Ievadiet vienu vai vairākus atslēgvārdus, lai filtrētu rezultātus:"
+
+#: functions.php:3572
+#: functions.php:3584
+#: functions.php:3593
+msgid "Enter price"
+msgstr "Ievadīt cenu"
+
+#: functions.php:3575
+#: functions.php:3594
+#: functions.php:4571
+#: functions.php:4586
+#: search.php:237
+msgid "Free"
+msgstr "Bezmaksas"
+
+#: functions.php:3578
+#: functions.php:3595
+#: functions.php:4570
+#: functions.php:4585
+#: item-post.php:205
+#: search.php:230
+msgid "Check with seller"
+msgstr "Vienoties ar pārdēvēju"
+
+#: functions.php:3591
+msgid "Choose price type"
+msgstr "Izvēlieties cenas veidu"
+
+#: functions.php:3614
+#: functions.php:3660
+msgid "Age"
+msgstr "Vecums"
+
+#: functions.php:3627
+msgid "Filter by item age"
+msgstr "Filtrēt pēc preces vecuma"
+
+#: functions.php:3630
+msgid "Include all"
+msgstr "Iekļaut visu"
+
+#: functions.php:3907
+msgid "Your listing here"
+msgstr "Jūsu sludinājums šeit"
+
+#: functions.php:3908
+msgid "Promote your item"
+msgstr "Reklamējiet savu preci"
+
+#: functions.php:4224
+#: functions.php:4230
+#: functions.php:4238
+msgid "in"
+msgstr "in"
+
+#: functions.php:4246
+msgid "Location not entered"
+msgstr "Atrašanās vieta nav ievadīta"
+
+#: functions.php:4591
+msgid "Theme Setting"
+msgstr "Motīva iestatījumi"
+
+#: functions.php:4595
+#: functions.php:4605
+msgid "Logo"
+msgstr "Logotips"
+
+#: functions.php:4600
+msgid "Delta Theme Settings"
+msgstr "Delta motīva iestatījumi"
+
+#: functions.php:5223
+msgid "You can define your own banner code from theme settings"
+msgstr "Motīva iestatījumos varat definēt savu reklāmkaroga kodu"
+
+#: functions.php:5260
+msgid "Banner space"
+msgstr "Reklāmkaroga telpa"
+
+#: functions.php:5278
+msgid "Top of home page"
+msgstr "Sākumlapas augšdaļa"
+
+#: functions.php:5279
+msgid "Middle of home page"
+msgstr "Mājas lapas vidū"
+
+#: functions.php:5280
+msgid "Bottom of home page"
+msgstr "Mājas lapas apakšdaļa"
+
+#: functions.php:5281
+msgid "Search side"
+msgstr "Meklēšanas puse"
+
+#: functions.php:5282
+msgid "Top of search page"
+msgstr "Meklēšanas lapas augšdaļa"
+
+#: functions.php:5283
+msgid "Bottom of search page"
+msgstr "Meklēšanas lapas apakšdaļa"
+
+#: functions.php:5284
+msgid "Between listings"
+msgstr "Starp sludinājumiem"
+
+#: functions.php:5285
+msgid "Top of item page"
+msgstr "Vienuma lapas augšdaļa"
+
+#: functions.php:5286
+msgid "Bottom of item page"
+msgstr "Vienuma lapas apakšdaļa"
+
+#: functions.php:5287
+msgid "Middle of item sidebar"
+msgstr "Vienuma sānjoslas vidusdaļa"
+
+#: functions.php:5288
+msgid "Bottom of item sidebar"
+msgstr "Vienuma sānjoslas apakšdaļa"
+
+#: functions.php:5289
+msgid "Under item description"
+msgstr "Zem preces apraksta"
+
+#: functions.php:5290
+msgid "Public profile sidebar"
+msgstr "Publiskā profila sānjosla"
+
+#: functions.php:5291
+msgid "Public profile above header"
+msgstr "Publisks profils virs galvenes"
+
+#: functions.php:5292
+msgid "Public profile between items"
+msgstr "Publisks profils starp vienumiem"
+
+#: functions.php:5293
+msgid "Public profile under items"
+msgstr "Publisks profils zem vienumiem"
+
+#: functions.php:5294
+msgid "Top of static page"
+msgstr "Statiskās lapas augšdaļa"
+
+#: functions.php:5295
+msgid "Bottom of static page"
+msgstr "Statiskās lapas apakšdaļa"
+
+#: functions.php:5296
+msgid "Top of user account pages"
+msgstr "Lietotāja konta lapu augšdaļa"
+
+#: functions.php:5297
+msgid "All pages on left from body"
+msgstr "Visas lapas no pamatteksta kreisajā pusē"
+
+#: functions.php:5298
+msgid "All pages on right from body"
+msgstr "Visas lapas labajā pusē no pamatteksta"
+
+#: functions.php:5437
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: functions.php:5438
+#, php-format
+msgid "Select \"%s\""
+msgstr "Atlasīt “%s”"
+
+#: functions.php:5438
+msgid "Select \"All categories\""
+msgstr "Atlasīt “Visas kategorijas”"
+
+#: functions.php:5455
+msgid "Back to all categories"
+msgstr "Atgriezties pie kategorijām"
+
+#: functions.php:5539
+#: functions.php:5572
+#: functions.php:5579
+#: functions.php:5581
+msgid "Select a region..."
+msgstr "Atlasīt novadu…"
+
+#: functions.php:5563
+#: functions.php:5575
+#: functions.php:5585
+#: functions.php:5587
+#: functions.php:5615
+msgid "Select a city..."
+msgstr "Atlasīt pilsētu…"
+
+#: functions.php:5630
+msgid "No results"
+msgstr "Nav rezultātu"
+
+#: head.php:74
+msgid "No file selected"
+msgstr "Nav atlasīts neviens fails"
+
+#: head.php:75
+msgid "Choose File"
+msgstr "Izvēlēties failu"
+
+#: head.php:90
+msgid "Parent category cannot be selected"
+msgstr "Galveno kategoriju nevar atlasīt"
+
+#: header.php:76
+msgid "Alerts"
+msgstr "Paziņojumi"
+
+#: header.php:111
+msgid "Register"
+msgstr "Reģistrēties"
+
+#: header.php:112
+msgid "Login"
+msgstr "Ieiet"
+
+#: header.php:118
+#, php-format
+msgid "Hi, <b>%s</b>!"
+msgstr "Sveicināti, <b>%s</b>!"
+
+#: header.php:123
+msgid "My items"
+msgstr "Manas preces"
+
+#: header.php:202
+#, php-format
+msgid "Id #%s"
+msgstr "Id #%s"
+
+#: header.php:203
+#, php-format
+msgid "Posted %s"
+msgstr "Izlikts %s"
+
+#: header.php:214
+#: search.php:331
+#, php-format
+msgid "%s results found"
+msgstr "%s atrasti rezultāti"
+
+#: header.php:272
+#: header.php:282
+#: search.php:659
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+#: header.php:273
+#: header.php:283
+msgid "Next"
+msgstr "Nākamais"
+
+#: item-post.php:97
+msgid "Add a new listing"
+msgstr "Pievienot jaunu sludinājumu"
+
+#: item-post.php:97
+#, php-format
+msgid "Edit listing \"%s\""
+msgstr "Labot sludinājumu “%s”"
+
+#: item-post.php:112
+msgid "Photos"
+msgstr "Fotogrāfijas"
+
+#: item-post.php:116
+#, php-format
+msgid "You can upload up to %d pictures per listing. First photo is selected as cover."
+msgstr "Katrā sludinājumā vari augšupielādēt līdz %d attēliem. Pirmais fotoattēls ir izvēlēts kā galvenais."
+
+#: item-post.php:125
+#, php-format
+msgid "or drag photos here (Up to %d photos)"
+msgstr "vai velciet fotoattēlus šeit (līdz %d fotoattēliem)"
+
+#: item-post.php:134
+msgid "About the item"
+msgstr "Par preci"
+
+#: item-post.php:144
+msgid "Start typing category..."
+msgstr "Sāciet rakstīt kategoriju…"
+
+#: item-post.php:157
+#: item-post.php:163
+msgid "Select a category"
+msgstr "Atlasīt kategoriju"
+
+#: item-post.php:171
+msgid "Listing title"
+msgstr "Sludinājuma virsraksts"
+
+#: item-post.php:178
+#: item.php:483
+msgid "Description"
+msgstr "Apraksts"
+
+#: item-post.php:188
+msgid "Pricing options & status"
+msgstr "Cenas opcijas un statusi"
+
+#: item-post.php:200
+msgid "or"
+msgstr "vai"
+
+#: item-post.php:204
+msgid "Item is offered for free"
+msgstr "Prece tiek piedāvāta bez maksas"
+
+#: item-post.php:204
+msgid "Item for free"
+msgstr "Prece bez maksas"
+
+#: item-post.php:205
+msgid "Based on agreement with seller"
+msgstr "Balstoties uz vienošanos ar pārdevēju"
+
+#: item-post.php:228
+msgid "Details & attributes"
+msgstr "Informācija un atribūti"
+
+#: item-post.php:236
+msgid "Listing location"
+msgstr "Sludinājuma atrašanās vieta"
+
+#: item-post.php:299
+#: user-profile.php:156
+msgid "Start typing region, city..."
+msgstr "Sāciet rakstīt novadu, pilsētu…"
+
+#: item-post.php:307
+#: user-profile.php:169
+msgid "Address"
+msgstr "Adrese"
+
+#: item-post.php:312
+#: user-profile.php:174
+msgid "ZIP"
+msgstr "Pasta indekss"
+
+#: item-post.php:317
+msgid "Are you in different city? Update your location"
+msgstr "Vai jūs atrodaties citā pilsētā? Atjauniniet savu atrašanās vietu"
+
+#: item-post.php:317
+msgid "Want to sell faster? Set your preferred location"
+msgstr "Vai vēlaties pārdot ātrāk? Iestatiet vēlamo atrašanās vietu"
+
+#: item-post.php:326
+msgid "Seller's details"
+msgstr "Informācija par pārdevēju"
+
+#: item-post.php:331
+#: user-dashboard.php:24
+msgid "Upload profile picture"
+msgstr "Augšupielādē profila attēlu"
+
+#: item-post.php:341
+msgid "Phone Number"
+msgstr "Tālruņa numurs"
+
+#: item-post.php:354
+msgid "Phone visible on ad"
+msgstr "Tālrunis redzams sludinājumā"
+
+#: item-post.php:361
+#: item-send-friend.php:162
+#: item-send-friend.php:279
+#: item-send-friend.php:365
+#: user-login.php:51
+#: user-profile.php:76
+#: user-recover.php:24
+#: user-register.php:58
+msgid "E-mail"
+msgstr "E-pasts"
+
+#: item-post.php:367
+msgid "Email visible on ad"
+msgstr "E-pasts redzams sludinājumā"
+
+#: item-post.php:375
+msgid "Update your profile here"
+msgstr "Atjaunini savu profilu šeit"
+
+#: item-post.php:377
+msgid "Not registered yet? Create an account"
+msgstr "Vēl neesi reģistrējies? Izveidot kontu"
+
+#: item-post.php:389
+#: user-forgot_password.php:37
+#: user-profile.php:211
+#: user-profile.php:213
+#: user-profile.php:251
+#: user-profile.php:253
+msgid "Submit"
+msgstr "Iesniegt"
+
+#: item-post.php:421
+msgid "Summarize your offer"
+msgstr "Apkopojiet savu piedāvājumu"
+
+#: item-post.php:422
+msgid "Detail description of your offer"
+msgstr "Detalizēts jūsu piedāvājuma apraksts"
+
+#: item-post.php:567
+msgid "Please enter a value with a valid extension."
+msgstr "Lūdzu, ievadiet vērtību ar derīgu paplašinājumu."
+
+#: item-post.php:691
+msgid "Title: this field is required."
+msgstr "Virsraksts: šis lauks ir obligāts."
+
+#: item-post.php:692
+msgid "Title: enter at least 5 characters."
+msgstr "Virsraksts: ievadiet vismaz 5 rakstzīmes."
+
+#: item-post.php:696
+msgid "Description: this field is required."
+msgstr "Apraksts: šis lauks ir obligāts."
+
+#: item-post.php:697
+msgid "Description: enter at least 10 characters."
+msgstr "Apraksts: ievadiet vismaz 10 rakstzīmes."
+
+#: item-post.php:702
+msgid "Location: select country, region or city from location select box."
+msgstr "Atrašanās vieta: atlasiet valsti, novadu vai pilsētu atrašanās vietas izvēles lodziņā."
+
+#: item-post.php:708
+msgid "Location: select country from location field."
+msgstr "Atrašanās vieta: atrašanās vietas laukā atlasiet valsti."
+
+#: item-post.php:714
+msgid "Location: select region from location field."
+msgstr "Atrašanās vieta: atrašanās vietas laukā atlasiet reģionu."
+
+#: item-post.php:720
+msgid "Location: select city from location field."
+msgstr "Atrašanās vieta: atrašanās vietas laukā atlasiet pilsētu."
+
+#: item-post.php:726
+msgid "Pictures: you need to upload pictures."
+msgstr "Attēli: jums ir nepieciešams augšupielādēt attēlus."
+
+#: item-post.php:727
+#, php-format
+msgid "Pictures: upload at least %d picture(s)"
+msgstr "Attēli: augšupielādējiet vismaz %d attēlu(s)"
+
+#: item-post.php:731
+#: item-post.php:734
+msgid "Category: this field is required."
+msgstr "Kategorija: šis lauks ir obligāts."
+
+#: item-post.php:738
+msgid "Photo: must be png,gif,jpg,jpeg."
+msgstr "Fotoattēls: jābūt png, gif, jpg, jpeg."
+
+#: item-post.php:743
+msgid "Phone: this field is required."
+msgstr "Tālrunis: šis lauks ir obligāts."
+
+#: item-post.php:744
+msgid "Phone: enter at least 6 characters."
+msgstr "Tālrunis: ievadiet vismaz 6 rakstzīmes."
+
+#: item-post.php:750
+msgid "Your Name: this field is required."
+msgstr "Tavs vārds: šis lauks ir obligāts."
+
+#: item-post.php:751
+msgid "Your Name: enter at least 3 characters."
+msgstr "Tavs vārds: ievadiet vismaz 3 rakstzīmes."
+
+#: item-post.php:756
+msgid "Email: this field is required."
+msgstr "E-pasts: šis lauks ir obligāts."
+
+#: item-post.php:757
+msgid "Email: invalid format of email address."
+msgstr "E-pasts: nederīgs e-pasta adreses formāts."
+
+#: item-send-friend.php:25
+#: item.php:732
+#: item.php:939
+msgid "Send to friend"
+msgstr "Sūtīt draugam"
+
+#: item-send-friend.php:27
+msgid "Listing details will be mailed to your friend"
+msgstr "Sludinājuma detaļas tiks nosūtītas tavam draugam"
+
+#: item-send-friend.php:67
+msgid "Your e-mail address"
+msgstr "Tavs e-pasts"
+
+#: item-send-friend.php:73
+msgid "Your friend's name"
+msgstr "Tava drauga vārds"
+
+#: item-send-friend.php:76
+msgid "Your friend's e-mail address"
+msgstr "Tava drauga e-pasta adrese"
+
+#: item-send-friend.php:107
+msgid "Reply to comment"
+msgstr "Atbildēt uz komentāru"
+
+#: item-send-friend.php:109
+#, php-format
+msgid "Original comment: \"%s\""
+msgstr "Sākotnējais komentārs: “%s”"
+
+#: item-send-friend.php:110
+#: item-send-friend.php:118
+msgid "Comments are pending moderation"
+msgstr "Komentāri gaida moderāciju"
+
+#: item-send-friend.php:113
+msgid "Invalid comment"
+msgstr "Nederīgs komentārs"
+
+#: item-send-friend.php:117
+msgid "Add a new comment"
+msgstr "Pievienot jaunu komentāru"
+
+#: item-send-friend.php:157
+#: item-send-friend.php:274
+#: item-send-friend.php:360
+#: user-register.php:53
+msgid "Name"
+msgstr "Vārds"
+
+#: item-send-friend.php:170
+msgid "Rating"
+msgstr "Reitings"
+
+#: item-send-friend.php:190
+msgid "Title"
+msgstr "Virsraksts"
+
+#: item-send-friend.php:204
+msgid "Submit comment"
+msgstr "Iesniegt komentāru"
+
+#: item-send-friend.php:221
+#: item-send-friend.php:333
+msgid "Contact seller"
+msgstr "Sazināties ar pārdevēju"
+
+#: item-send-friend.php:223
+msgid "Send message to owner of listing"
+msgstr "Nosūtiet ziņojumu sludinājuma īpašniekam"
+
+#: item-send-friend.php:257
+msgid "This listing expired, you cannot contact seller."
+msgstr "Šim sludinājumam ir beidzies publicēšanas termiņš, jūs nevarat sazināties ar pārdevēju."
+
+#: item-send-friend.php:261
+msgid "It is your own listing, you cannot contact yourself."
+msgstr "Tas ir jūsu sludinājums, jūs nevarat sazināties ar sevi."
+
+#: item-send-friend.php:265
+msgid "You must log in or register a new account in order to contact the advertiser."
+msgstr "Lai sazinātos ar reklāmdevēju, jums ir jāpiesakās vai jāreģistrē jauns konts."
+
+#: item-send-friend.php:335
+msgid "Send message to seller"
+msgstr "Nosūtiet ziņu pārdevējam"
+
+#: item-send-friend.php:346
+#: item.php:50
+#: user-public-profile.php:28
+#, php-format
+msgid "Last online %s"
+msgstr "Manīts tiešsaistē %s"
+
+#: item-send-friend.php:356
+msgid "This is your own profile!"
+msgstr "Šis ir jūsu profils!"
+
+#: item-send-friend.php:371
+msgid "Phone number"
+msgstr "Tālruņa numurs"
+
+#: item.php:32
+#: item.php:590
+#: item.php:640
+#: user-public-profile.php:32
+msgid "Anonymous"
+msgstr "Anonīms"
+
+#: item.php:42
+#: user-public-profile.php:20
+#, php-format
+msgid "Registered for %s"
+msgstr "Reģistrēts %s"
+
+#: item.php:44
+#: user-public-profile.php:22
+msgid "Registered user"
+msgstr "Reģistrēts lietotājs"
+
+#: item.php:46
+#: user-public-profile.php:24
+msgid "Unregistered user"
+msgstr "Nereģistrēts lietotājs"
+
+#: item.php:159
+msgid "Report"
+msgstr "Ziņot"
+
+#: item.php:163
+msgid "Report listing"
+msgstr "Ziņot par sludinājumu"
+
+#: item.php:165
+msgid "If you find this listing as inappropriate, offensive or spammy, please let us know about it."
+msgstr "Ja uzskatāt, ka šis sludinājums ir nepiemērots, aizskarošs vai satur nevēlamu saturu, lūdzu, informējiet mūs par to."
+
+#: item.php:166
+msgid "Select one of following reasons:"
+msgstr "Izvēlieties vienu no šiem iemesliem:"
+
+#: item.php:169
+msgid "Spam"
+msgstr "Spams"
+
+#: item.php:170
+msgid "Misclassified"
+msgstr "Nepareizi klasificēts"
+
+#: item.php:171
+msgid "Duplicated"
+msgstr "Dublikāts"
+
+#: item.php:172
+#: item.php:258
+msgid "Expired"
+msgstr "Beidzies publicēšanas termiņš"
+
+#: item.php:173
+msgid "Offensive"
+msgstr "Aizskarošs"
+
+#: item.php:176
+msgid "Thanks for helping us!"
+msgstr "Paldies, ka palīdzat mums!"
+
+#: item.php:185
+#: item.php:920
+msgid "Share"
+msgstr "Dalīties"
+
+#: item.php:192
+#, php-format
+msgid "%d images"
+msgstr "%d attēli"
+
+#: item.php:251
+msgid "This listing has been sold"
+msgstr "Sludinājums ir pārdots"
+
+#: item.php:273
+#: item.php:368
+msgid "Make price offer"
+msgstr "Izsaki cenas piedāvājumu"
+
+#: item.php:323
+#: item.php:403
+msgid "Get directions"
+msgstr "Saņemt norādes"
+
+#: item.php:344
+#, php-format
+msgid "%d view"
+msgstr "%d skatījums"
+
+#: item.php:344
+#, php-format
+msgid "%d views"
+msgstr "%d skatījumi"
+
+#: item.php:349
+#, php-format
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: item.php:357
+#, php-format
+msgid "Published %s by %s"
+msgstr "%s publicēja %s"
+
+#: item.php:376
+#, php-format
+msgid "In %s category"
+msgstr "Kategorijā %s"
+
+#: item.php:411
+#, php-format
+msgid "%d item view"
+msgstr "%d preces skatījums"
+
+#: item.php:411
+#, php-format
+msgid "%d item views"
+msgstr "%d preces skatījumi"
+
+#: item.php:420
+#: item.php:490
+msgid "Scan QR"
+msgstr "Skenēt QR"
+
+#: item.php:429
+msgid "Read more"
+msgstr "Lasīt vairāk"
+
+#: item.php:439
+#, php-format
+msgid "Published on %s"
+msgstr "Publicēts %s"
+
+#: item.php:440
+#, php-format
+msgid "Modified on %s"
+msgstr "Labots %s"
+
+#: item.php:450
+msgid "Attributes"
+msgstr "Atribūti"
+
+#: item.php:510
+msgid "Meet the seller"
+msgstr "Iepazīsti pārdevēju"
+
+#: item.php:535
+#: item.php:779
+#: user-public-profile.php:101
+#, php-format
+msgid "%d active listings"
+msgstr "%d aktīvi sludinājumi"
+
+#: item.php:540
+#: user-public-profile.php:106
+msgid "Peronal seller"
+msgstr "Privātpersona"
+
+#: item.php:565
+msgid "Seller's profile"
+msgstr "Pārdevēja profils"
+
+#: item.php:566
+#: user-public-profile.php:142
+msgid "All seller items"
+msgstr "Visas pārdevēja preces"
+
+#: item.php:584
+msgid "Comments"
+msgstr "Komentāri"
+
+#: item.php:614
+#: item.php:663
+#, php-format
+msgid "%d of 5"
+msgstr "%d no 5"
+
+#: item.php:627
+#: item.php:676
+msgid "Delete your comment"
+msgstr "Dzēst komentāru"
+
+#: item.php:628
+#: item.php:677
+#: user-alerts.php:225
+#: user-items.php:144
+msgid "Delete"
+msgstr "Dzēst"
+
+#: item.php:703
+#, php-format
+msgid "Reply to \"%s\""
+msgstr "Atbildēt “%s”"
+
+#: item.php:705
+msgid "Reply"
+msgstr "Atbildēt"
+
+#: item.php:716
+msgid "No comments has been added yet"
+msgstr "Vēl neviens komentārs nav pievienots"
+
+#: item.php:721
+msgid "Add comment"
+msgstr "Pievienot komentāru"
+
+#: item.php:731
+msgid "Print"
+msgstr "Drukāt"
+
+#: item.php:736
+#: item.php:936
+#: user-public-profile.php:82
+msgid "Share on Facebook"
+msgstr "Dalīties Facebook"
+
+#: item.php:737
+#: item.php:937
+msgid "Share on Twitter"
+msgstr "Dalīties X"
+
+#: item.php:738
+#: item.php:938
+#: user-public-profile.php:84
+msgid "Share on Pinterest"
+msgstr "Dalīties Pinterest"
+
+#: item.php:801
+msgid "Show number"
+msgstr "Rādīt numuru"
+
+#: item.php:811
+msgid "Show email"
+msgstr "Rādīt e-pastu"
+
+#: item.php:864
+#: user-items.php:123
+msgid "Validate"
+msgstr "Apstiprināt"
+
+#: item.php:868
+#: user-items.php:136
+#: user-profile.php:76
+msgid "Edit"
+msgstr "Labot"
+
+#: item.php:869
+#: user-items.php:144
+msgid "Are you sure you want to delete this listing? This action cannot be undone."
+msgstr "Vai tiešām vēlaties dzēst šo sludinājumu? Šo darbību nevar atsaukt."
+
+#: item.php:869
+msgid "Remove"
+msgstr "Noņemt"
+
+#: item.php:898
+msgid "Call"
+msgstr "Zvanīt"
+
+#: item.php:903
+msgid "Sms"
+msgstr "Sms"
+
+#: item.php:935
+msgid "Share on Whatsapp"
+msgstr "Dalīties WhatsApp"
+
+#: loop-single.php:19
+#: loop-single.php:86
+msgid "Professional seller"
+msgstr "Profesionāls pārdevējs"
+
+#: loop-single.php:19
+#: loop-single.php:86
+msgid "Pro"
+msgstr "Pro"
+
+#: loop-single.php:36
+#: loop-single.php:71
+msgid "Offer of the day"
+msgstr "Pro"
+
+#: loop-single.php:148
+msgid "1 view"
+msgstr "1 skatījums"
+
+#: loop-single.php:148
+#, php-format
+msgid "%s views"
+msgstr "%s skatījumi"
+
+#: main.php:31
+msgid "What would you like to search?"
+msgstr "Ko jūs vēlaties atrast?"
+
+#: main.php:39
+#: main.php:81
+#: main.php:369
+msgid "Search in all categories"
+msgstr "Meklēt visās kategorijās"
+
+#: main.php:63
+#: main.php:344
+msgid "Hot"
+msgstr "Topā"
+
+#: main.php:139
+#: search.php:222
+msgid "Min"
+msgstr "Min"
+
+#: main.php:148
+#: search.php:224
+msgid "Max"
+msgstr "Max"
+
+#: main.php:180
+msgid "Trending"
+msgstr "Populārs"
+
+#: main.php:202
+#, php-format
+msgid "Hello, %s!"
+msgstr "Sveiks, %s!"
+
+#: main.php:204
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Laipni lūgts Copes tirgū!"
+
+#: main.php:208
+msgid "Thank you for using our classifieds website."
+msgstr "Paldies, ka izmantojat mūsu sludinājumu portālu."
+
+#: main.php:209
+msgid "What service would you like to use today?"
+msgstr "Ko jūs vēlaties darīt šodien?"
+
+#: main.php:216
+msgid "Add a new item"
+msgstr "Pievienot jaunu preci"
+
+#: main.php:221
+msgid "Browse listings"
+msgstr "Meklēt preces"
+
+#: main.php:226
+msgid "Manage account"
+msgstr "Pārvaldīt kontu"
+
+#: main.php:232
+msgid "Business users"
+msgstr "Uzņēmumu profili"
+
+#: main.php:239
+msgid "Explore forums"
+msgstr "Pārlūkot forumus"
+
+#: main.php:246
+msgid "Read blog"
+msgstr "Lasīt blogu"
+
+#: main.php:284
+#: search.php:528
+msgid "Premium listings"
+msgstr "Premium sludinājumi"
+
+#: main.php:285
+msgid "Hand-picked exclusive selection of offers"
+msgstr "Premium sludinājumu izlase"
+
+#: main.php:324
+msgid "Browse categories"
+msgstr "Pārlūkot kategorijas"
+
+#: main.php:325
+msgid "Select a category you are interested in"
+msgstr "Izvēlieties kategoriju, kas jūs interesē"
+
+#: main.php:386
+#, php-format
+msgid "Listings near <u>%s</u>"
+msgstr "Sludinājumi netālu no <u>%s</u>"
+
+#: main.php:413
+msgid "No listings found close to your location"
+msgstr "Jūsu atrašanās vietas tuvumā nav atrasts neviens sludinājums"
+
+#: main.php:434
+msgid "News on blog"
+msgstr "Bloga jaunumi"
+
+#: main.php:445
+msgid "Read article"
+msgstr "Lasīt rakstu"
+
+#: main.php:455
+msgid "Read more articles"
+msgstr "Lasīt vairāk rakstu"
+
+#: main.php:480
+msgid "Most favorited listings"
+msgstr "Iecienītākie saraksti"
+
+#: main.php:484
+msgid "Manage favorites"
+msgstr "Pārvaldīt izlasi"
+
+#: main.php:515
+msgid "Recommended companies"
+msgstr "Ieteicamie uzņēmumi"
+
+#: main.php:519
+msgid "Explore companies"
+msgstr "Pārlūkot uzņēmumus"
+
+#: main.php:540
+#: user-public-profile.php:157
+msgid "Latest listings"
+msgstr "Jaunākie sludinājumi"
+
+#: main.php:555
+msgid "More latest items"
+msgstr "Vairāk jaunāko sludinājumu"
+
+#: main.php:577
+msgid "Recently viewed listings"
+msgstr "Nesen skatītie sludinājumi"
+
+#: maintenance.php:19
+msgid "Maintenance"
+msgstr "Apkope"
+
+#: maintenance.php:20
+msgid "OOOPS! We are sorry, page is undergoing maintenance."
+msgstr "Ups Atvainojiet, lapai tiek veikta apkope."
+
+#: maintenance.php:21
+msgid "Please come back later. Thank you!"
+msgstr "Lūdzu, atgriezieties vēlāk. Paldies!"
+
+#: page.php:20
+msgid "Do you have more questions?"
+msgstr "Vai ir vēl papildus jautājumi?"
+
+#: search.php:121
+msgid "Refine search"
+msgstr "Precizējiet meklēšanu"
+
+#: search.php:149
+msgid "Keyword..."
+msgstr "Atslēgtvārds…"
+
+#: search.php:219
+msgid "Price range"
+msgstr "Cenas diapazons"
+
+#: search.php:246
+msgid "Period"
+msgstr "Periods"
+
+#: search.php:279
+msgid "Premium items only"
+msgstr "Tikai Premium sludinājumi"
+
+#: search.php:287
+msgid "With phone number"
+msgstr "Ar telefona numuru"
+
+#: search.php:298
+#, php-format
+msgid "Reset (%d)"
+msgstr "Atiestatīt (%d)"
+
+#: search.php:323
+#, php-format
+msgid "No listings found in %s"
+msgstr "Sludinājumi nav atrasti kategorijā %s"
+
+#: search.php:325
+#: user-items.php:154
+msgid "No listings found"
+msgstr "Sludinājumi nav atrasti"
+
+#: search.php:329
+#, php-format
+msgid "%s results found in %s"
+msgstr "%s rezultāti atrasti %s"
+
+#: search.php:342
+#, php-format
+msgid "Buy new or used items, we have %d listings available for you."
+msgstr "Atrodiet to, ko sirds kāro! Mūsu portālā ir jau %d sludinājumi."
+
+#: search.php:345
+msgid "There are no listings matching your search criteria."
+msgstr "Nav neviena sludinājuma, kas atbilstu jūsu meklēšanas kritērijiem."
+
+#: search.php:446
+msgid "Show more"
+msgstr "Rādīt vairāk"
+
+#: search.php:458
+msgid "All filters"
+msgstr "Visi filtri"
+
+#: search.php:499
+#, php-format
+msgid "Clear filters (%d)"
+msgstr "Notīrīt filtrus (%d)"
+
+#: search.php:562
+msgid "There was problem loading your listings, please try to refresh this page"
+msgstr "Ielādējot jūsu sludinājumus, radās problēma. Lūdzu, mēģiniet atsvaidzināt šo lapu"
+
+#: search.php:563
+msgid "Refresh"
+msgstr "Atjaunot"
+
+#: search.php:579
+msgid "Sort:"
+msgstr "Šķirot:"
+
+#: search.php:603
+msgid "Grid view"
+msgstr "Režģa skats"
+
+#: search.php:605
+msgid "Grid"
+msgstr "Režģis"
+
+#: search.php:610
+msgid "List"
+msgstr "Saraksts"
+
+#: search.php:620
+msgid "We could not find any results for your search..."
+msgstr "Mēs nevarējām atrast jūsu meklēšanas rezultātus…"
+
+#: search.php:623
+msgid "Following tips might help you to get better results"
+msgstr "Sekojošie padomi var palīdzēt sasniegt labākus rezultātus"
+
+#: search.php:624
+msgid "Use more general keywords"
+msgstr "Izmantojiet vispārīgākus atslēgvārdus"
+
+#: search.php:625
+msgid "Check spelling of position"
+msgstr "Pārbaudiet pozīcijas pareizrakstību"
+
+#: search.php:626
+msgid "Reduce filters, use less of them"
+msgstr "Samaziniet filtru skaitu, izmantojiet tos mazāk"
+
+#: search.php:627
+msgid "Reset filter"
+msgstr "Atiestatīt filtru"
+
+#: search.php:660
+msgid "Next page"
+msgstr "Nākamā lapa"
+
+#: subdomain-navigation.php:17
+msgid "Join our community to buy and sell from each other everyday around the world."
+msgstr "Pievienojieties Makšķernieks.lv kopienai, lai nepieciešamības gadījumā atrastu un uzzinātu to, ko tu meklē."
+
+#: subdomain-navigation.php:18
+msgid "Please select preferred site:"
+msgstr "Lūdzu, atlasiet vēlamo vietni:"
+
+#: user-alerts.php:192
+#, php-format
+msgid "%s items in %s"
+msgstr "%s vienumi šeit: %s"
+
+#: user-alerts.php:192
+msgid "all locations"
+msgstr "visas atrašanās vietas"
+
+#: user-alerts.php:208
+msgid "Receive email notification when new item, that match your search criteria, is published."
+msgstr "Saņemiet e-pasta paziņojumu, kad tiek publicēta jauna prece, kas atbilst jūsu meklēšanas kritērijiem."
+
+#: user-alerts.php:220
+#, php-format
+msgid "%s listings match subscription conditions, %s notifications, created on %s, id: #%s. Your listings are excluded."
+msgstr "%s sludinājumi atbilst abonēšanas nosacījumiem, %s paziņojumi, izveidoti %s, id: #%s. Jūsu sludinājumi ir izslēgti."
+
+#: user-alerts.php:221
+#: user-alerts.php:228
+msgid "Technical details"
+msgstr "Tehniskas detaļas"
+
+#: user-alerts.php:225
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Šo darbību nevar atsaukt. Vai tiešām vēlaties turpināt?"
+
+#: user-alerts.php:231
+msgid "View all matching items"
+msgstr "Skatīt visus atbilstošos sludinājumus"
+
+#: user-alerts.php:234
+msgid "No items match alert conditions. You will receive email notification once there is new listing published matching alert conditions."
+msgstr "Neviens sludinājums neatbilst paziņojuma nosacījumiem. Jūs saņemsit e-pasta paziņojumu, tiklīdz būs publicēts jauns sludinājums, kas atbilst paziņojuma nosacījumiem."
+
+#: user-alerts.php:258
+msgid "No alerts has been created yet."
+msgstr "Vēl nav izveidots neviens paziņojums."
+
+#: user-dashboard.php:30
+#, php-format
+msgid "Hi %s"
+msgstr "Sveicināti %s"
+
+#: user-dashboard.php:32
+msgid "Manage your listings, saved searches or profile"
+msgstr "Pārvaldiet savus sludinājumus, saglabātos meklējumus vai profilu"
+
+#: user-dashboard.php:44
+#: user-dashboard.php:134
+msgid "Business profile"
+msgstr "Uzņēmumu profili"
+
+#: user-dashboard.php:45
+#: user-dashboard.php:54
+msgid "Your business profile visible to customers"
+msgstr "Jūsu uzņēmuma profils ir redzams klientiem"
+
+#: user-dashboard.php:65
+msgid "Your listings visible in search"
+msgstr "Jūsu sludinājumi būs redzami meklēšanā"
+
+#: user-dashboard.php:75
+#: user-items.php:68
+msgid "Pending validation"
+msgstr "Gaida validāciju"
+
+#: user-dashboard.php:76
+msgid "Listings waiting for admin validation"
+msgstr "Sludinājumi gaida administratora apstiprinājumu"
+
+#: user-dashboard.php:87
+msgid "Expired listings are not visible in search"
+msgstr "Sludinājumi, kuriem beidzies derīguma termiņš, nav redzami meklēšanā"
+
+#: user-dashboard.php:98
+msgid "Receive notifications of new listings matching criteria"
+msgstr "Saņemiet paziņojumus par jauniem sludinājumiem, kas atbilst kritērijiem"
+
+#: user-dashboard.php:121
+msgid "Edit your profile details"
+msgstr "Rediģējiet sava profila informāciju"
+
+#: user-dashboard.php:123
+#, php-format
+msgid "Your profile is not complete! (%s issues)"
+msgstr "Jūsu profils nav pilnīgs! (%s)"
+
+#: user-dashboard.php:135
+msgid "Profile details, payment methods, opening hours, gallery"
+msgstr "Profila informācija, maksājumu veidi, darba laiks, galerija"
+
+#: user-dashboard.php:147
+msgid "Instant messages you have recieved & sent"
+msgstr "Tērzēšanas ziņas, kuras esat saņēmis un nosūtījis"
+
+#: user-dashboard.php:158
+msgid "Favorite listings"
+msgstr "Iecienītākie saraksti"
+
+#: user-dashboard.php:159
+msgid "Listings you've marked as your favorite"
+msgstr "Ieraksti, kurus esat atzīmējis kā savus iecienītākos"
+
+#: user-dashboard.php:169
+msgid "Promotions"
+msgstr "Sludinājumu izcelšana"
+
+#: user-dashboard.php:170
+msgid "Highlight listings, buy credits or membership"
+msgstr "Izceliet sludinājumus, iegādājieties kredītus vai dalību"
+
+#: user-dashboard.php:180
+msgid "Feel free to send us a message"
+msgstr "Droši sūtiet mums ziņu"
+
+#: user-dashboard.php:189
+msgid "Sign-out from your account"
+msgstr "Iziet no sava konta"
+
+#: user-forgot_password.php:16
+msgid "Change password"
+msgstr "Mainīt paroli"
+
+#: user-forgot_password.php:17
+msgid "Please enter a new secure password for your account"
+msgstr "Lūdzu, ievadiet savam kontam jaunu drošu paroli"
+
+#: user-forgot_password.php:26
+#: user-profile.php:234
+msgid "New password"
+msgstr "Jauna parole"
+
+#: user-forgot_password.php:31
+msgid "Repeat password"
+msgstr "Atkārtot paroli"
+
+#: user-forgot_password.php:40
+#: user-recover.php:34
+msgid "Login to your account"
+msgstr "Pieslēgties savam kontam"
+
+#: user-items.php:19
+msgid "Listings visible to customers on site."
+msgstr "Sludinājumi ir redzami klientiem portālā."
+
+#: user-items.php:22
+msgid "Validation pending listings"
+msgstr "Apstiprinātie sludinājumi"
+
+#: user-items.php:23
+msgid "Listings pending approval. Unapproved listings are not visible on site."
+msgstr "Sludinājumi gaida apstiprinājumu. Neapstiprinātie sludinājum portālā nav redzami."
+
+#: user-items.php:27
+msgid "Listings those has expired and are now not visible in site."
+msgstr "Sludinājumi, kuriem ir beidzies publicēšanas termiņš nav redzami portālā."
+
+#: user-items.php:30
+msgid "All listings"
+msgstr "Visi sludinājumi"
+
+#: user-items.php:31
+msgid "Active, pending validation and expired items."
+msgstr "Aktīvi, gaida apstiprinājumu un sludinājumi, kuriem beidzies publicēšanas termiņš."
+
+#: user-items.php:70
+msgid "Expired listing"
+msgstr "Sludinājums ar publicēšanas termiņa beigām"
+
+#: user-items.php:75
+msgid "Sold!"
+msgstr "Pārdots!"
+
+#: user-items.php:77
+msgid "Reserved!"
+msgstr "Rezervēts!"
+
+#: user-items.php:93
+msgid "Location not set"
+msgstr "Atrašanās vieta nav iestatīta"
+
+#: user-items.php:112
+msgid "Renew"
+msgstr "Atjaunot"
+
+#: user-items.php:117
+msgid "Deactivate"
+msgstr "Deaktivizēt"
+
+#: user-items.php:128
+msgid "Unmark sold"
+msgstr "Noņemt atzīmi kā pārdots"
+
+#: user-items.php:128
+msgid "Mark as sold"
+msgstr "Atzīmēt kā pārdots"
+
+#: user-items.php:131
+msgid "Unmark reserved"
+msgstr "Noņemt atzīmi kā rezervēts"
+
+#: user-items.php:131
+msgid "Mark as reserved"
+msgstr "Atzīmēt kā rezervēts"
+
+#: user-items.php:140
+msgid "Republish"
+msgstr "Pārpublicēt"
+
+#: user-login.php:16
+msgid "Sign-in to your account"
+msgstr "Ieiet jūsu kontā"
+
+#: user-login.php:17
+msgid "Welcome back, please enter your login credentials"
+msgstr "Laipni lūdzam atpakaļ, lūdzu, ievadiet savus pieteikšanās akreditācijas datus"
+
+#: user-login.php:22
+#: user-login.php:24
+msgid "Login with Facebook"
+msgstr "Ieiet ar Facebook"
+
+#: user-login.php:29
+#: user-login.php:31
+msgid "Sign in with Google"
+msgstr "Ieiet ar Google"
+
+#: user-login.php:36
+#: user-register.php:22
+#: user-register.php:36
+msgid "Connect with Facebook"
+msgstr "Savienot ar Facebook"
+
+#: user-login.php:38
+#: user-register.php:24
+#: user-register.php:38
+msgid "Continue with Facebook"
+msgstr "Turpināt ar Facebook"
+
+#: user-login.php:56
+#: user-register.php:68
+msgid "Password"
+msgstr "Parole"
+
+#: user-login.php:59
+#: user-profile.php:237
+#: user-profile.php:245
+#: user-register.php:71
+#: user-register.php:79
+msgid "Show/hide password"
+msgstr "Rādīt/paslēpt paroli"
+
+#: user-login.php:66
+msgid "Remember me"
+msgstr "Atcerēties mani"
+
+#: user-login.php:69
+msgid "Forgot password"
+msgstr "Aizmirsu paroli"
+
+#: user-login.php:82
+msgid "No account yet? Register a new account"
+msgstr "Vēl nav konta? Reģistrē jaunu kontu"
+
+#: user-login.php:92
+#: user-register.php:101
+#: user-register.php:102
+msgid "YourPass123!"
+msgstr "Tava parole"
+
+#: user-profile.php:49
+msgid "Profile picture (avatar)"
+msgstr "Profila attēls (avatārs)"
+
+#: user-profile.php:69
+msgid "Update avatar"
+msgstr "Atjaunināt avatāru"
+
+#: user-profile.php:81
+msgid "Mobile phone"
+msgstr "Mobilais numurs"
+
+#: user-profile.php:86
+msgid "Land Phone"
+msgstr "Fiksētais numurs"
+
+#: user-profile.php:91
+msgid "Website"
+msgstr "Tīmekļa vietne"
+
+#: user-profile.php:96
+msgid "User type"
+msgstr "Lietotāja veids"
+
+#: user-profile.php:103
+msgid "About you"
+msgstr "Par tevi"
+
+#: user-profile.php:111
+msgid "Location information"
+msgstr "Atrašanās vietas informācija"
+
+#: user-profile.php:164
+msgid "City Area"
+msgstr "Pilsētas guļamrajons"
+
+#: user-profile.php:181
+msgid "Update"
+msgstr "Atjaunināt"
+
+#: user-profile.php:184
+msgid "Are you sure you want to delete your account? This action cannot be undone"
+msgstr "Vai tiešām vēlaties dzēst savu kontu? Šo darbību nevar atsaukt"
+
+#: user-profile.php:184
+msgid "Delete account"
+msgstr "Dzēst kontu"
+
+#: user-profile.php:191
+msgid "Change your email"
+msgstr "Nomainīt e-pastu"
+
+#: user-profile.php:200
+msgid "Current e-mail"
+msgstr "Pašreizējais e-pasts"
+
+#: user-profile.php:205
+msgid "New e-mail"
+msgstr "Jauns e-pasts"
+
+#: user-profile.php:211
+#: user-profile.php:251
+msgid "You cannot do this on demo site"
+msgstr "Jūs to nevarat izdarīt demo režīmā"
+
+#: user-profile.php:220
+msgid "Change your password"
+msgstr "Nomainīt paroli"
+
+#: user-profile.php:229
+msgid "Current password"
+msgstr "Pašreizējā parole"
+
+#: user-profile.php:242
+msgid "Repeat new password"
+msgstr "Atkārtot jauno paroli"
+
+#: user-public-profile.php:61
+#: user-public-profile.php:68
+#, php-format
+msgid "%s's profile"
+msgstr "%s profils"
+
+#: user-public-profile.php:83
+msgid "Share on X (Twitter)"
+msgstr "Dalīties X (Twitter)"
+
+#: user-public-profile.php:115
+msgid "About seller"
+msgstr "Par pārdevēju"
+
+#: user-public-profile.php:178
+msgid "User has no active listings"
+msgstr "Lietotājam nav aktīvu sludinājumu"
+
+#: user-recover.php:16
+msgid "Reset password"
+msgstr "Atjaunot paroli"
+
+#: user-recover.php:17
+msgid "New randomly generated password will be sent to your email"
+msgstr "Jauna nejauši ģenerēta parole tiks nosūtīta uz jūsu e-pastu"
+
+#: user-recover.php:31
+msgid "Send a new password"
+msgstr "Nosūtīt jaunu paroli"
+
+#: user-register.php:16
+msgid "Register a new account"
+msgstr "Reģistrēt jaunu kontu"
+
+#: user-register.php:17
+msgid "Create a new account and get access to benefits of registered users!"
+msgstr "Reģistrē jaunu kontu un iegūti reģistrētu lietotāju priekšrocības!"
+
+#: user-register.php:29
+msgid "Connect with Google"
+msgstr "Savienot ar Google"
+
+#: user-register.php:31
+msgid "Continue with Google"
+msgstr "Turpināt ar Google"
+
+#: user-register.php:63
+msgid "Mobile Phone"
+msgstr "Mobilais tālrunis"
+
+#: user-register.php:76
+msgid "Re-type password"
+msgstr "Akārtot paroli"
+
+#: user-register.php:87
+msgid "Create account"
+msgstr "Izveidot kontu"
+
+#: user-register.php:90
+msgid "Already have account? Login"
+msgstr "Jau ir konts? Ienākt"
+
+#: user-register.php:100
+msgid "+XXX XXX XXX"
+msgstr "+371XXXXXXXX"

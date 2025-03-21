@@ -1,0 +1,4009 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sr_SR\n"
+"Language-Team: Osclass Core\n"
+"Last-Translator: Administrator <info@osclasspoint.com>\n"
+"PO-Revision-Date: 2024-06-02 13:36:55\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Domain: zeta\n"
+"X-Generator: Osclass Core v8.2.1 & PHP Gettext\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;_e;_m;_n;_mn\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../oc-content/themes/zeta/404.php:35
+msgid "OOPS! Page Not Found!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/404.php:36
+msgid "Either something get wrong or the page doesn't exist anymore."
+msgstr ""
+
+#: ../oc-content/themes/zeta/404.php:38
+msgid "Back Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:74
+#: ../oc-content/themes/zeta/functions.php:771
+msgid "Your recent search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:90
+#: ../oc-content/themes/zeta/search.php:354
+msgid "Categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:106
+#: ../oc-content/themes/zeta/functions.php:803
+#: ../oc-content/themes/zeta/search.php:671
+msgid "Other people searched"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:137
+msgid "Countries"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:153
+msgid "Regions"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:169
+msgid "Cities"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:181
+msgid "No location match your search criteria"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:200
+#, php-format
+msgid "Located in %s, %s, situated %dkm from your position"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:223
+msgid "No close city has been found"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:230
+msgid "Invalid latitude or longitude"
+msgstr ""
+
+#: ../oc-content/themes/zeta/ajax.php:285
+#: ../oc-content/themes/zeta/functions.php:3324
+#: ../oc-content/themes/zeta/functions.php:3335
+msgid "All regions"
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:8
+msgid "You have already saved this search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:8
+msgid "You will receive email notification once new listing matching search criteria is published"
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:12
+msgid "Search is saved"
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:15
+#: ../oc-content/themes/zeta/alert-form.php:20
+msgid "Save this search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:28
+msgid "Save search to receive email notification when new listing matching search criteria is published."
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:32
+msgid "Enter your email..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:33
+#: ../oc-content/themes/zeta/admin/banner.php:80
+#: ../oc-content/themes/zeta/admin/category.php:137
+#: ../oc-content/themes/zeta/admin/configure.php:733
+#: ../oc-content/themes/zeta/admin/logo.php:213
+#: ../oc-content/themes/zeta/admin/plugins.php:224
+msgid "Save"
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:36
+#, php-format
+msgid "You have successfully saved this search! You will receive %s notifications to email %s."
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:36
+#: ../oc-content/themes/zeta/functions.php:2619
+msgid "daily"
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:37
+#, php-format
+msgid "You already had saved this search for email %s."
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:38
+msgid "Error: Invalid signature - server signature does not match to alert signature."
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:39
+msgid "Error: Search was not saved, please try it again later."
+msgstr ""
+
+#: ../oc-content/themes/zeta/alert-form.php:42
+msgid "Manage saved searches"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:16
+#: ../oc-content/themes/zeta/footer.php:132
+#: ../oc-content/themes/zeta/footer.php:176
+#: ../oc-content/themes/zeta/footer.php:434
+#: ../oc-content/themes/zeta/page.php:20
+#: ../oc-content/themes/zeta/user-dashboard.php:179
+msgid "Contact us"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:25
+#: ../oc-content/themes/zeta/item-send-friend.php:64
+#: ../oc-content/themes/zeta/user-profile.php:65
+msgid "Your name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:32
+#: ../oc-content/themes/zeta/footer.php:44
+#: ../oc-content/themes/zeta/item.php:914
+msgid "Email"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:40
+msgid "Subject"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:45
+#: ../oc-content/themes/zeta/item-send-friend.php:81
+#: ../oc-content/themes/zeta/item-send-friend.php:197
+#: ../oc-content/themes/zeta/item-send-friend.php:291
+#: ../oc-content/themes/zeta/item-send-friend.php:376
+msgid "Message"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:51
+#: ../oc-content/themes/zeta/item-send-friend.php:297
+msgid "Attachment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:60
+#: ../oc-content/themes/zeta/item-send-friend.php:88
+#: ../oc-content/themes/zeta/item-send-friend.php:308
+#: ../oc-content/themes/zeta/item-send-friend.php:383
+#: ../oc-content/themes/zeta/item.php:788
+#: ../oc-content/themes/zeta/item.php:792
+#: ../oc-content/themes/zeta/item.php:925
+#: ../oc-content/themes/zeta/item.php:929
+#: ../oc-content/themes/zeta/user-public-profile.php:139
+msgid "Send message"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:72
+#: ../oc-content/themes/zeta/user-register.php:98
+msgid "First name, Last name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:73
+#: ../oc-content/themes/zeta/user-login.php:91
+#: ../oc-content/themes/zeta/user-recover.php:42
+#: ../oc-content/themes/zeta/user-register.php:99
+msgid "your.email@dot.com"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:74
+msgid "Summarize your question"
+msgstr ""
+
+#: ../oc-content/themes/zeta/contact.php:75
+msgid "Your question with all relevant details ..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:15
+msgid "Are you a professional seller?"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:16
+msgid "Create an account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:38
+msgid "About us"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:43
+#: ../oc-content/themes/zeta/functions.php:2757
+#: ../oc-content/themes/zeta/item-send-friend.php:286
+#: ../oc-content/themes/zeta/admin/configure.php:579
+msgid "Phone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:47
+msgid "Widely known as Worlds no. 1 online classifieds platform, our is all about you. Our aim is to empower every person in the country to independently connect with buyers and sellers online."
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:50
+#: ../oc-content/themes/zeta/footer.php:55
+#: ../oc-content/themes/zeta/footer.php:441
+#: ../oc-content/themes/zeta/footer.php:446
+msgid "Switch to light mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:50
+#: ../oc-content/themes/zeta/footer.php:57
+#: ../oc-content/themes/zeta/footer.php:441
+#: ../oc-content/themes/zeta/footer.php:448
+msgid "Switch to dark mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:66
+msgid "Social media"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:71
+#: ../oc-content/themes/zeta/admin/configure.php:688
+msgid "Whatsapp"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:75
+msgid "Share us on Facebook"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:75
+#: ../oc-content/themes/zeta/admin/configure.php:695
+msgid "Facebook"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:79
+msgid "Share us on Pinterest"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:79
+#: ../oc-content/themes/zeta/admin/configure.php:702
+msgid "Pinterest"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:83
+msgid "Share us on Instagram"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:83
+#: ../oc-content/themes/zeta/admin/configure.php:709
+msgid "Instagram"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:87
+msgid "Tweet us"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:89
+msgid "Twitter"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:94
+msgid "Share us on LinkedIn"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:94
+msgid "LinkedIn"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:100
+msgid "Language"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:105
+#: ../oc-content/themes/zeta/footer.php:570
+msgid "Country flag"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:113
+msgid "Information"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:141
+msgid "Copyright"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:141
+msgid "All rights reserved"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:152
+#: ../oc-content/themes/zeta/header.php:251
+#: ../oc-content/themes/zeta/header.php:252
+#: ../oc-content/themes/zeta/item.php:117
+#: ../oc-content/themes/zeta/item.php:118
+msgid "Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:164
+#: ../oc-content/themes/zeta/functions.php:3452
+#: ../oc-content/themes/zeta/header.php:61
+#: ../oc-content/themes/zeta/header.php:63
+#: ../oc-content/themes/zeta/item-post.php:296
+#: ../oc-content/themes/zeta/search.php:156
+#: ../oc-content/themes/zeta/user-profile.php:153
+msgid "Location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:188
+#: ../oc-content/themes/zeta/header.php:88
+#: ../oc-content/themes/zeta/user-dashboard.php:146
+msgid "Messages"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:193
+#: ../oc-content/themes/zeta/footer.php:292
+#: ../oc-content/themes/zeta/header.php:241
+#: ../oc-content/themes/zeta/main.php:159
+#: ../oc-content/themes/zeta/search.php:299
+msgid "Search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:200
+#: ../oc-content/themes/zeta/footer.php:287
+msgid "Post an ad"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:212
+#: ../oc-content/themes/zeta/header.php:99
+msgid "Favorite"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:218
+msgid "My Account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:218
+msgid "Sign in"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:230
+msgid "Searches"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:236
+#: ../oc-content/themes/zeta/footer.php:300
+#: ../oc-content/themes/zeta/user-login.php:79
+msgid "Log in"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:243
+msgid "Filter"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:248
+msgid "Post ad"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:279
+#: ../oc-content/themes/zeta/item-post.php:332
+msgid "Non-logged user"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:280
+#, php-format
+msgid "Hi %s!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:280
+msgid "Welcome!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:305
+msgid "Register account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:311
+msgid "My public profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:316
+msgid "My dashboard"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:321
+msgid "My active listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:327
+msgid "My saved searches"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:333
+#: ../oc-content/themes/zeta/header.php:124
+#: ../oc-content/themes/zeta/user-dashboard.php:118
+msgid "My profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:339
+msgid "My business profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:346
+msgid "My messages"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:357
+msgid "My favorite listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:368
+msgid "My promotions"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:382
+msgid "Companies"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:389
+msgid "Forums"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:396
+msgid "Blog"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:403
+#: ../oc-content/themes/zeta/main.php:253
+msgid "FAQ"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:412
+#: ../oc-content/themes/zeta/footer.php:562
+msgid "Select language"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:420
+#: ../oc-content/themes/zeta/footer.php:485
+#: ../oc-content/themes/zeta/main.php:389
+msgid "Change location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:427
+msgid "Help"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:460
+msgid "Log out"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:469
+msgid "Support pages"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:489
+msgid "Default location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:491
+msgid "Select your preferred location to search and sell faster."
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:495
+msgid "Your location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:502
+msgid "Search location..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:511
+msgid "Click to refresh"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:511
+#: ../oc-content/themes/zeta/user-profile.php:117
+msgid "Use current location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:513
+#: ../oc-content/themes/zeta/user-profile.php:119
+msgid "Click to find closest city to your location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:514
+#: ../oc-content/themes/zeta/user-profile.php:120
+msgid "Geolocation is not supported by your browser"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:515
+#: ../oc-content/themes/zeta/user-profile.php:121
+msgid "Unable to retrieve your location, it may be blocked"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:516
+#: ../oc-content/themes/zeta/user-profile.php:122
+msgid "Unable to retrieve your location, no close city found"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:517
+#: ../oc-content/themes/zeta/user-profile.php:123
+msgid "Locating..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:519
+#: ../oc-content/themes/zeta/user-profile.php:125
+msgid "Refresh page to take effect"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:528
+#: ../oc-content/themes/zeta/functions.php:829
+msgid "Recent locations"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:541
+#: ../oc-content/themes/zeta/functions.php:851
+msgid "Popular cities"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:545
+#: ../oc-content/themes/zeta/functions.php:854
+msgid "item"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:545
+#: ../oc-content/themes/zeta/functions.php:854
+msgid "items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:551
+msgid "Clean default location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:581
+msgid "Filter results"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:591
+msgid "CONFIG"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:596
+msgid "Backoffice"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:597
+msgid "Hide Banners"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:597
+msgid "Show All Banners"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:600
+msgid "Primary color"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:611
+msgid "Secondary color"
+msgstr ""
+
+#: ../oc-content/themes/zeta/footer.php:625
+msgid "You have enabled DEBUG MODE, autocomplete may not work! Disable debug mode in config.php."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:512
+#: ../oc-content/themes/zeta/functions.php:585
+msgid "Click to see phone number"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:525
+#: ../oc-content/themes/zeta/functions.php:536
+#: ../oc-content/themes/zeta/functions.php:598
+msgid "No phone number"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:530
+#: ../oc-content/themes/zeta/functions.php:592
+msgid "Login to see phone number. Click to login."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:559
+msgid "Click to see email"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:680
+#, php-format
+msgid "Searching only in %s (your default location)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:700
+msgid "Near me"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:702
+msgid "Listings near me"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:715
+#: ../oc-content/themes/zeta/functions.php:722
+#: ../oc-content/themes/zeta/functions.php:729
+msgid "Your profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:736
+msgid "All locations"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:763
+#: ../oc-content/themes/zeta/functions.php:820
+#, php-format
+msgid "Enter %s more character to search..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:787
+msgid "Popular categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:868
+msgid "Default location has been cleaned"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:886
+#, php-format
+msgid "Located in %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:901
+msgid "Default location has been saved"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1061
+msgid "Remove from favorites"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1062
+msgid "Save to favorite"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1071
+#, php-format
+msgid "%d like"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1071
+#, php-format
+msgid "%d likes"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1265
+#: ../oc-content/themes/zeta/item.php:755
+#: ../oc-content/themes/zeta/loop-single.php:23
+msgid "User is online"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1269
+#: ../oc-content/themes/zeta/item.php:757
+msgid "User is offline"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1279
+#: ../oc-content/themes/zeta/functions.php:1283
+#: ../oc-content/themes/zeta/functions.php:1286
+msgid "Chat unavailable"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1280
+msgid "User is not registered"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1284
+msgid "It's your ad"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1287
+msgid "User has blocked you"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1290
+msgid "Start chat"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1591
+msgid "Related items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1594
+msgid "Other items from this seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1604
+#: ../oc-content/themes/zeta/item.php:257
+#: ../oc-content/themes/zeta/loop-single.php:38
+#: ../oc-content/themes/zeta/loop-single.php:66
+#: ../oc-content/themes/zeta/user-items.php:64
+msgid "Premium"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1690
+msgid "Recently viewed"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1693
+msgid "Clear all"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1834
+msgid "Rate"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1930
+#: ../oc-content/themes/zeta/search.php:271
+msgid "With picture only"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1930
+msgid "Without picture only"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1932
+#: ../oc-content/themes/zeta/functions.php:1939
+#: ../oc-content/themes/zeta/functions.php:1946
+msgid "Yes"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1932
+#: ../oc-content/themes/zeta/functions.php:1939
+#: ../oc-content/themes/zeta/functions.php:1946
+msgid "No"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1937
+#: ../oc-content/themes/zeta/functions.php:1989
+msgid "Only premium"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1937
+msgid "Only non-premium"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1944
+msgid "Only with phone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1944
+msgid "Only without phone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1956
+#: ../oc-content/themes/zeta/functions.php:2746
+#: ../oc-content/themes/zeta/functions.php:3089
+#: ../oc-content/themes/zeta/functions.php:3698
+#: ../oc-content/themes/zeta/item-post.php:213
+#: ../oc-content/themes/zeta/search.php:205
+msgid "Transaction"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1959
+#: ../oc-content/themes/zeta/functions.php:2751
+#: ../oc-content/themes/zeta/functions.php:3148
+#: ../oc-content/themes/zeta/functions.php:3736
+#: ../oc-content/themes/zeta/item-post.php:218
+#: ../oc-content/themes/zeta/search.php:191
+msgid "Condition"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1962
+#: ../oc-content/themes/zeta/functions.php:2977
+#: ../oc-content/themes/zeta/functions.php:3780
+#: ../oc-content/themes/zeta/search.php:257
+msgid "Seller type"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1965
+msgid "From user"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1968
+msgid "Not from user"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1971
+#: ../oc-content/themes/zeta/functions.php:2866
+#: ../oc-content/themes/zeta/item-post.php:141
+#: ../oc-content/themes/zeta/item-post.php:156
+#: ../oc-content/themes/zeta/item-post.php:162
+#: ../oc-content/themes/zeta/search.php:169
+#: ../oc-content/themes/zeta/admin/category.php:6
+#: ../oc-content/themes/zeta/admin/category.php:91
+#: ../oc-content/themes/zeta/admin/category.php:121
+#: ../oc-content/themes/zeta/admin/logo.php:6
+msgid "Category"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1974
+msgid "Item age"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1977
+#: ../oc-content/themes/zeta/functions.php:3253
+#: ../oc-content/themes/zeta/item-post.php:251
+#: ../oc-content/themes/zeta/user-profile.php:133
+#: ../oc-content/themes/zeta/admin/configure.php:575
+msgid "Country"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1980
+#: ../oc-content/themes/zeta/functions.php:3312
+#: ../oc-content/themes/zeta/item-post.php:256
+#: ../oc-content/themes/zeta/item-post.php:273
+#: ../oc-content/themes/zeta/user-profile.php:138
+#: ../oc-content/themes/zeta/admin/configure.php:576
+msgid "Region"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1983
+#: ../oc-content/themes/zeta/functions.php:3366
+#: ../oc-content/themes/zeta/item-post.php:286
+#: ../oc-content/themes/zeta/user-profile.php:143
+#: ../oc-content/themes/zeta/admin/configure.php:577
+msgid "City"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1986
+msgid "With picture"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1992
+msgid "With phone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1995
+msgid "Min price"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:1998
+msgid "Max price"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2001
+#: ../oc-content/themes/zeta/functions.php:3501
+#: ../oc-content/themes/zeta/search.php:145
+msgid "Keyword"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2004
+#: ../oc-content/themes/zeta/search.php:163
+msgid "Radius"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2017
+#: ../oc-content/themes/zeta/functions.php:2025
+#: ../oc-content/themes/zeta/functions.php:2035
+#: ../oc-content/themes/zeta/functions.php:2045
+#: ../oc-content/themes/zeta/functions.php:2874
+#: ../oc-content/themes/zeta/search.php:360
+msgid "All"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2017
+msgid "Select a condition..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2018
+msgid "Any condition"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2021
+#: ../oc-content/themes/zeta/main.php:65
+#: ../oc-content/themes/zeta/main.php:342
+msgid "New"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2022
+msgid "Used"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2025
+msgid "Select a transaction..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2026
+msgid "Any transaction"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2029
+#: ../oc-content/themes/zeta/header.php:53
+msgid "Sell"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2030
+msgid "Buy"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2031
+msgid "Rent"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2032
+msgid "Exchange"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2035
+msgid "Any period"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2038
+#: ../oc-content/themes/zeta/functions.php:2354
+msgid "Yesterday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2039
+msgid "Last week"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2040
+msgid "Last 2 weeks"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2041
+msgid "Last month"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2042
+msgid "Last year"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2045
+msgid "Any seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2048
+#: ../oc-content/themes/zeta/functions.php:2989
+#: ../oc-content/themes/zeta/functions.php:2997
+#: ../oc-content/themes/zeta/user-profile.php:97
+msgid "Personal"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2049
+#: ../oc-content/themes/zeta/functions.php:2990
+#: ../oc-content/themes/zeta/functions.php:2998
+#: ../oc-content/themes/zeta/item.php:538
+#: ../oc-content/themes/zeta/user-profile.php:97
+#: ../oc-content/themes/zeta/user-public-profile.php:104
+msgid "Company"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2052
+#: ../oc-content/themes/zeta/functions.php:3198
+msgid "km"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2155
+msgid "You must be logged in to contact publisher"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2157
+msgid "You must be logged in to add a comment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2303
+msgid "minute ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2305
+#, php-format
+msgid "%d minutes ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2307
+#, php-format
+msgid "%d hour ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2309
+#, php-format
+msgid "%d hours ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2311
+#, php-format
+msgid "%d day ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2313
+#, php-format
+msgid "%d days ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2315
+#, php-format
+msgid "%d week ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2317
+#, php-format
+msgid "%d weeks ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2319
+#, php-format
+msgid "%d month ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2321
+#, php-format
+msgid "%d months ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2323
+#, php-format
+msgid "%d year ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2325
+#, php-format
+msgid "%d years ago"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2347
+msgid "Today"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2368
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2370
+#, php-format
+msgid "%d week"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2372
+#, php-format
+msgid "%d weeks"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2374
+#, php-format
+msgid "%d month"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2376
+#, php-format
+msgid "%d months"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2378
+#, php-format
+msgid "%d year"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2380
+#, php-format
+msgid "%d years"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2394
+msgid "Monday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2395
+msgid "Tuesday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2396
+msgid "Wednesday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2397
+msgid "Thursday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2398
+msgid "Friday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2399
+msgid "Saturday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2400
+msgid "Sunday"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2469
+msgid "Select category"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2469
+msgid "Back"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2554
+msgid "Very wide"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2555
+msgid "Wide"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2556
+msgid "Normal"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2557
+msgid "Square"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2558
+msgid "Tall"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2559
+msgid "Very tall"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2560
+msgid "Extra tall"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2561
+msgid "Mega tall"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2621
+msgid "weekly"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2623
+msgid "monthly"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2625
+msgid "instant"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2643
+#: ../oc-content/themes/zeta/header.php:125
+#: ../oc-content/themes/zeta/user-dashboard.php:53
+msgid "Public profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2645
+#: ../oc-content/themes/zeta/header.php:122
+msgid "Dashboard"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2647
+#: ../oc-content/themes/zeta/user-dashboard.php:64
+#: ../oc-content/themes/zeta/user-items.php:18
+msgid "Active listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2653
+msgid "Pending listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2660
+#: ../oc-content/themes/zeta/user-dashboard.php:86
+#: ../oc-content/themes/zeta/user-items.php:26
+msgid "Expired listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2666
+#: ../oc-content/themes/zeta/user-alerts.php:207
+#: ../oc-content/themes/zeta/user-dashboard.php:97
+msgid "Saved searches"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2670
+#: ../oc-content/themes/zeta/user-profile.php:38
+msgid "My Profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2679
+#: ../oc-content/themes/zeta/header.php:126
+#: ../oc-content/themes/zeta/user-dashboard.php:188
+msgid "Logout"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2763
+msgid "Status"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2766
+msgid "Select a status..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2767
+#: ../oc-content/themes/zeta/item.php:260
+#: ../oc-content/themes/zeta/loop-single.php:41
+#: ../oc-content/themes/zeta/loop-single.php:76
+#: ../oc-content/themes/zeta/loop-single.php:136
+msgid "Reserved"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2768
+#: ../oc-content/themes/zeta/item.php:259
+#: ../oc-content/themes/zeta/loop-single.php:10
+#: ../oc-content/themes/zeta/loop-single.php:44
+#: ../oc-content/themes/zeta/loop-single.php:74
+#: ../oc-content/themes/zeta/loop-single.php:134
+msgid "Sold"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2871
+msgid "Filter by category"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2925
+#: ../oc-content/themes/zeta/search.php:175
+#: ../oc-content/themes/zeta/user-alerts.php:192
+#: ../oc-content/themes/zeta/admin/configure.php:408
+msgid "All categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2987
+msgid "Filter by seller type"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:2988
+msgid "All sellers"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3017
+#: ../oc-content/themes/zeta/functions.php:3480
+msgid "Country, region or city"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3032
+#: ../oc-content/themes/zeta/functions.php:3519
+#: ../oc-content/themes/zeta/header.php:44
+#: ../oc-content/themes/zeta/header.php:162
+msgid "Search for anything"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3041
+#, php-format
+msgid "Search for anything in %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3102
+msgid "Filter by transaction"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3105
+msgid "All transactions"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3161
+msgid "Filter by condition"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3164
+msgid "All conditions"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3202
+msgid "Area"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3213
+msgid "Search area"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3263
+msgid "Filter by country"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3265
+#: ../oc-content/themes/zeta/functions.php:3276
+msgid "All countries"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3322
+msgid "Filter by region"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3376
+msgid "Filter by city"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3378
+#: ../oc-content/themes/zeta/functions.php:3389
+msgid "All cities"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3411
+#: ../oc-content/themes/zeta/item-post.php:192
+#: ../oc-content/themes/zeta/item-post.php:459
+msgid "Price"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3414
+#, php-format
+msgid "Price > %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3417
+#, php-format
+msgid "Price < %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3420
+#, php-format
+msgid "Price: %s to %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3429
+msgid "Filter by price"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3431
+msgid "Define minimum and maximum price:"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3434
+#, php-format
+msgid "Min %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3436
+#, php-format
+msgid "Max %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3473
+msgid "Filter by location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3513
+msgid "Filter by keyword"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3515
+msgid "Enter one or more keywords to filter results:"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3572
+#: ../oc-content/themes/zeta/functions.php:3584
+#: ../oc-content/themes/zeta/functions.php:3593
+msgid "Enter price"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3575
+#: ../oc-content/themes/zeta/functions.php:3594
+#: ../oc-content/themes/zeta/functions.php:4571
+#: ../oc-content/themes/zeta/functions.php:4586
+#: ../oc-content/themes/zeta/search.php:237
+msgid "Free"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3578
+#: ../oc-content/themes/zeta/functions.php:3595
+#: ../oc-content/themes/zeta/functions.php:4570
+#: ../oc-content/themes/zeta/functions.php:4585
+#: ../oc-content/themes/zeta/item-post.php:205
+#: ../oc-content/themes/zeta/search.php:230
+msgid "Check with seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3591
+msgid "Choose price type"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3614
+#: ../oc-content/themes/zeta/functions.php:3660
+msgid "Age"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3627
+msgid "Filter by item age"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3630
+msgid "Include all"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3907
+msgid "Your listing here"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:3908
+msgid "Promote your item"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4224
+#: ../oc-content/themes/zeta/functions.php:4230
+#: ../oc-content/themes/zeta/functions.php:4238
+msgid "in"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4246
+msgid "Location not entered"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4591
+msgid "Theme Setting"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4592
+#: ../oc-content/themes/zeta/functions.php:4602
+#: ../oc-content/themes/zeta/admin/configure.php:5
+#: ../oc-content/themes/zeta/admin/configure.php:112
+#: ../oc-content/themes/zeta/admin/functions.php:19
+#: ../oc-content/themes/zeta/admin/functions.php:25
+msgid "Configure"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4593
+#: ../oc-content/themes/zeta/functions.php:4603
+#: ../oc-content/themes/zeta/search.php:696
+#: ../oc-content/themes/zeta/user-public-profile.php:188
+#: ../oc-content/themes/zeta/admin/banner.php:6
+#: ../oc-content/themes/zeta/admin/banner.php:39
+#: ../oc-content/themes/zeta/admin/functions.php:20
+msgid "Advertisement"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4594
+#: ../oc-content/themes/zeta/functions.php:4604
+#: ../oc-content/themes/zeta/admin/functions.php:21
+msgid "Category Icons"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4595
+#: ../oc-content/themes/zeta/functions.php:4605
+msgid "Logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4596
+#: ../oc-content/themes/zeta/functions.php:4606
+#: ../oc-content/themes/zeta/admin/functions.php:23
+#: ../oc-content/themes/zeta/admin/plugins.php:6
+msgid "Plugins"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:4600
+msgid "Zeta Theme Settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5222
+msgid "You can define your own banner code from theme settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5259
+msgid "Banner space"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5277
+msgid "Top of home page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5278
+msgid "Middle of home page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5279
+msgid "Bottom of home page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5280
+msgid "Search side"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5281
+msgid "Top of search page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5282
+msgid "Bottom of search page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5283
+msgid "Between listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5284
+msgid "Top of item page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5285
+msgid "Bottom of item page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5286
+msgid "Middle of item sidebar"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5287
+msgid "Bottom of item sidebar"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5288
+msgid "Under item description"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5289
+msgid "Public profile sidebar"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5290
+msgid "Public profile above header"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5291
+msgid "Public profile between items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5292
+msgid "Public profile under items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5293
+msgid "Top of static page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5294
+msgid "Bottom of static page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5295
+msgid "Top of user account pages"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5296
+msgid "All pages on left from body"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5297
+msgid "All pages on right from body"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5436
+msgid "Cancel"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5437
+#, php-format
+msgid "Select \"%s\""
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5437
+msgid "Select \"All categories\""
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5454
+msgid "Back to all categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5538
+#: ../oc-content/themes/zeta/functions.php:5571
+#: ../oc-content/themes/zeta/functions.php:5578
+#: ../oc-content/themes/zeta/functions.php:5580
+msgid "Select a region..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5562
+#: ../oc-content/themes/zeta/functions.php:5574
+#: ../oc-content/themes/zeta/functions.php:5584
+#: ../oc-content/themes/zeta/functions.php:5586
+#: ../oc-content/themes/zeta/functions.php:5614
+msgid "Select a city..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/functions.php:5629
+msgid "No results"
+msgstr ""
+
+#: ../oc-content/themes/zeta/head.php:64
+msgid "No file selected"
+msgstr ""
+
+#: ../oc-content/themes/zeta/head.php:65
+msgid "Choose File"
+msgstr ""
+
+#: ../oc-content/themes/zeta/head.php:80
+msgid "Parent category cannot be selected"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:76
+msgid "Alerts"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:111
+msgid "Register"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:112
+msgid "Login"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:118
+#, php-format
+msgid "Hi, <b>%s</b>!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:123
+msgid "My items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:202
+#, php-format
+msgid "Id #%s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:203
+#, php-format
+msgid "Posted %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:214
+#: ../oc-content/themes/zeta/search.php:331
+#, php-format
+msgid "%s results found"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:272
+#: ../oc-content/themes/zeta/header.php:282
+#: ../oc-content/themes/zeta/search.php:659
+msgid "Previous"
+msgstr ""
+
+#: ../oc-content/themes/zeta/header.php:273
+#: ../oc-content/themes/zeta/header.php:283
+msgid "Next"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:97
+msgid "Add a new listing"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:97
+#, php-format
+msgid "Edit listing \"%s\""
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:112
+msgid "Photos"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:116
+#, php-format
+msgid "You can upload up to %d pictures per listing. First photo is selected as cover."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:125
+#, php-format
+msgid "or drag photos here (Up to %d photos)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:134
+msgid "About the item"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:144
+msgid "Start typing category..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:157
+#: ../oc-content/themes/zeta/item-post.php:163
+msgid "Select a category"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:171
+msgid "Listing title"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:178
+#: ../oc-content/themes/zeta/item.php:483
+msgid "Description"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:188
+msgid "Pricing options & status"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:200
+msgid "or"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:204
+msgid "Item is offered for free"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:204
+msgid "Item for free"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:205
+msgid "Based on agreement with seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:228
+msgid "Details & attributes"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:236
+msgid "Listing location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:299
+#: ../oc-content/themes/zeta/user-profile.php:156
+msgid "Start typing region, city..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:307
+#: ../oc-content/themes/zeta/user-profile.php:169
+msgid "Address"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:312
+#: ../oc-content/themes/zeta/user-profile.php:174
+msgid "ZIP"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:317
+msgid "Are you in different city? Update your location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:317
+msgid "Want to sell faster? Set your preferred location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:326
+msgid "Seller's details"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:331
+#: ../oc-content/themes/zeta/user-dashboard.php:24
+msgid "Upload profile picture"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:336
+#: ../oc-content/themes/zeta/admin/configure.php:578
+msgid "Contact Name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:341
+msgid "Phone Number"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:354
+msgid "Phone visible on ad"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:361
+#: ../oc-content/themes/zeta/item-send-friend.php:162
+#: ../oc-content/themes/zeta/item-send-friend.php:279
+#: ../oc-content/themes/zeta/item-send-friend.php:365
+#: ../oc-content/themes/zeta/user-login.php:51
+#: ../oc-content/themes/zeta/user-profile.php:76
+#: ../oc-content/themes/zeta/user-recover.php:24
+#: ../oc-content/themes/zeta/user-register.php:58
+msgid "E-mail"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:367
+msgid "Email visible on ad"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:375
+msgid "Update your profile here"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:377
+msgid "Not registered yet? Create an account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:389
+#: ../oc-content/themes/zeta/user-forgot_password.php:37
+#: ../oc-content/themes/zeta/user-profile.php:211
+#: ../oc-content/themes/zeta/user-profile.php:213
+#: ../oc-content/themes/zeta/user-profile.php:251
+#: ../oc-content/themes/zeta/user-profile.php:253
+msgid "Submit"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:421
+msgid "Summarize your offer"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:422
+msgid "Detail description of your offer"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:567
+msgid "Please enter a value with a valid extension."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:691
+msgid "Title: this field is required."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:692
+msgid "Title: enter at least 5 characters."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:696
+msgid "Description: this field is required."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:697
+msgid "Description: enter at least 10 characters."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:702
+msgid "Location: select country, region or city from location select box."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:708
+msgid "Location: select country from location field."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:714
+msgid "Location: select region from location field."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:720
+msgid "Location: select city from location field."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:726
+msgid "Pictures: you need to upload pictures."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:727
+#, php-format
+msgid "Pictures: upload at least %d picture(s)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:731
+#: ../oc-content/themes/zeta/item-post.php:734
+msgid "Category: this field is required."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:738
+msgid "Photo: must be png,gif,jpg,jpeg."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:743
+msgid "Phone: this field is required."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:744
+msgid "Phone: enter at least 6 characters."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:750
+msgid "Your Name: this field is required."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:751
+msgid "Your Name: enter at least 3 characters."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:756
+msgid "Email: this field is required."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-post.php:757
+msgid "Email: invalid format of email address."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:25
+#: ../oc-content/themes/zeta/item.php:732
+#: ../oc-content/themes/zeta/item.php:939
+msgid "Send to friend"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:27
+msgid "Listing details will be mailed to your friend"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:67
+msgid "Your e-mail address"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:73
+msgid "Your friend's name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:76
+msgid "Your friend's e-mail address"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:107
+msgid "Reply to comment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:109
+#, php-format
+msgid "Original comment: \"%s\""
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:110
+#: ../oc-content/themes/zeta/item-send-friend.php:118
+msgid "Comments are pending moderation"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:113
+msgid "Invalid comment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:117
+msgid "Add a new comment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:157
+#: ../oc-content/themes/zeta/item-send-friend.php:274
+#: ../oc-content/themes/zeta/item-send-friend.php:360
+#: ../oc-content/themes/zeta/user-register.php:53
+msgid "Name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:170
+msgid "Rating"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:190
+msgid "Title"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:204
+msgid "Submit comment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:221
+#: ../oc-content/themes/zeta/item-send-friend.php:333
+msgid "Contact seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:223
+msgid "Send message to owner of listing"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:257
+msgid "This listing expired, you cannot contact seller."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:261
+msgid "It is your own listing, you cannot contact yourself."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:265
+msgid "You must log in or register a new account in order to contact the advertiser."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:335
+msgid "Send message to seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:346
+#: ../oc-content/themes/zeta/item.php:50
+#: ../oc-content/themes/zeta/user-public-profile.php:28
+#, php-format
+msgid "Last online %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:356
+msgid "This is your own profile!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item-send-friend.php:371
+msgid "Phone number"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:32
+#: ../oc-content/themes/zeta/item.php:590
+#: ../oc-content/themes/zeta/item.php:640
+#: ../oc-content/themes/zeta/user-public-profile.php:32
+msgid "Anonymous"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:42
+#: ../oc-content/themes/zeta/user-public-profile.php:20
+#, php-format
+msgid "Registered for %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:44
+#: ../oc-content/themes/zeta/user-public-profile.php:22
+msgid "Registered user"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:46
+#: ../oc-content/themes/zeta/user-public-profile.php:24
+msgid "Unregistered user"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:159
+msgid "Report"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:163
+msgid "Report listing"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:165
+msgid "If you find this listing as inappropriate, offensive or spammy, please let us know about it."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:166
+msgid "Select one of following reasons:"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:169
+msgid "Spam"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:170
+msgid "Misclassified"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:171
+msgid "Duplicated"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:172
+#: ../oc-content/themes/zeta/item.php:258
+msgid "Expired"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:173
+msgid "Offensive"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:176
+msgid "Thanks for helping us!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:185
+#: ../oc-content/themes/zeta/item.php:920
+msgid "Share"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:192
+#, php-format
+msgid "%d images"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:251
+msgid "This listing has been sold"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:273
+#: ../oc-content/themes/zeta/item.php:368
+msgid "Make price offer"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:323
+#: ../oc-content/themes/zeta/item.php:403
+msgid "Get directions"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:344
+#, php-format
+msgid "%d view"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:344
+#, php-format
+msgid "%d views"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:349
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:357
+#, php-format
+msgid "Published %s by %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:376
+#, php-format
+msgid "In %s category"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:411
+#, php-format
+msgid "%d item view"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:411
+#, php-format
+msgid "%d item views"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:420
+#: ../oc-content/themes/zeta/item.php:490
+msgid "Scan QR"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:429
+msgid "Read more"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:439
+#, php-format
+msgid "Published on %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:440
+#, php-format
+msgid "Modified on %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:450
+msgid "Attributes"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:510
+msgid "Meet the seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:535
+#: ../oc-content/themes/zeta/item.php:779
+#: ../oc-content/themes/zeta/user-public-profile.php:101
+#, php-format
+msgid "%d active listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:540
+#: ../oc-content/themes/zeta/user-public-profile.php:106
+msgid "Peronal seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:565
+msgid "Seller's profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:566
+#: ../oc-content/themes/zeta/user-public-profile.php:142
+msgid "All seller items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:584
+msgid "Comments"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:614
+#: ../oc-content/themes/zeta/item.php:663
+#, php-format
+msgid "%d of 5"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:627
+#: ../oc-content/themes/zeta/item.php:676
+msgid "Delete your comment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:628
+#: ../oc-content/themes/zeta/item.php:677
+#: ../oc-content/themes/zeta/user-alerts.php:225
+#: ../oc-content/themes/zeta/user-items.php:144
+msgid "Delete"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:703
+#, php-format
+msgid "Reply to \"%s\""
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:705
+msgid "Reply"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:716
+msgid "No comments has been added yet"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:721
+msgid "Add comment"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:731
+msgid "Print"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:736
+#: ../oc-content/themes/zeta/item.php:936
+#: ../oc-content/themes/zeta/user-public-profile.php:82
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:737
+#: ../oc-content/themes/zeta/item.php:937
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:738
+#: ../oc-content/themes/zeta/item.php:938
+#: ../oc-content/themes/zeta/user-public-profile.php:84
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:801
+msgid "Show number"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:811
+msgid "Show email"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:864
+#: ../oc-content/themes/zeta/user-items.php:123
+msgid "Validate"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:868
+#: ../oc-content/themes/zeta/user-items.php:136
+#: ../oc-content/themes/zeta/user-profile.php:76
+msgid "Edit"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:869
+#: ../oc-content/themes/zeta/user-items.php:144
+msgid "Are you sure you want to delete this listing? This action cannot be undone."
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:869
+msgid "Remove"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:898
+msgid "Call"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:903
+msgid "Sms"
+msgstr ""
+
+#: ../oc-content/themes/zeta/item.php:935
+msgid "Share on Whatsapp"
+msgstr ""
+
+#: ../oc-content/themes/zeta/loop-single.php:19
+#: ../oc-content/themes/zeta/loop-single.php:85
+msgid "Professional seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/loop-single.php:19
+#: ../oc-content/themes/zeta/loop-single.php:85
+msgid "Pro"
+msgstr ""
+
+#: ../oc-content/themes/zeta/loop-single.php:35
+#: ../oc-content/themes/zeta/loop-single.php:70
+msgid "Offer of the day"
+msgstr ""
+
+#: ../oc-content/themes/zeta/loop-single.php:147
+msgid "1 view"
+msgstr ""
+
+#: ../oc-content/themes/zeta/loop-single.php:147
+#, php-format
+msgid "%s views"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:31
+msgid "What would you like to search?"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:39
+#: ../oc-content/themes/zeta/main.php:81
+#: ../oc-content/themes/zeta/main.php:369
+msgid "Search in all categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:63
+#: ../oc-content/themes/zeta/main.php:344
+msgid "Hot"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:139
+#: ../oc-content/themes/zeta/search.php:222
+msgid "Min"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:148
+#: ../oc-content/themes/zeta/search.php:224
+msgid "Max"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:180
+msgid "Trending"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:202
+#, php-format
+msgid "Hello, %s!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:204
+#, php-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:208
+msgid "Thank you for using our classifieds website."
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:209
+msgid "What service would you like to use today?"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:216
+msgid "Add a new item"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:221
+msgid "Browse listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:226
+msgid "Manage account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:232
+msgid "Business users"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:239
+msgid "Explore forums"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:246
+msgid "Read blog"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:284
+#: ../oc-content/themes/zeta/search.php:528
+msgid "Premium listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:285
+msgid "Hand-picked exclusive selection of offers"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:324
+msgid "Browse categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:325
+msgid "Select a category you are interested in"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:386
+#, php-format
+msgid "Listings near <u>%s</u>"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:413
+msgid "No listings found close to your location"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:434
+msgid "News on blog"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:445
+msgid "Read article"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:455
+msgid "Read more articles"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:480
+msgid "Most favorited listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:484
+msgid "Manage favorites"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:515
+msgid "Recommended companies"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:519
+msgid "Explore companies"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:540
+#: ../oc-content/themes/zeta/user-public-profile.php:157
+msgid "Latest listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:555
+msgid "More latest items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/main.php:577
+msgid "Recently viewed listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/maintenance.php:19
+msgid "Maintenance"
+msgstr ""
+
+#: ../oc-content/themes/zeta/maintenance.php:20
+msgid "OOOPS! We are sorry, page is undergoing maintenance."
+msgstr ""
+
+#: ../oc-content/themes/zeta/maintenance.php:21
+msgid "Please come back later. Thank you!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/page.php:20
+msgid "Do you have more questions?"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:121
+msgid "Refine search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:149
+msgid "Keyword..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:219
+msgid "Price range"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:246
+msgid "Period"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:279
+msgid "Premium items only"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:287
+msgid "With phone number"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:298
+#, php-format
+msgid "Reset (%d)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:323
+#, php-format
+msgid "No listings found in %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:325
+#: ../oc-content/themes/zeta/user-items.php:154
+msgid "No listings found"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:329
+#, php-format
+msgid "%s results found in %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:342
+#, php-format
+msgid "Buy new or used items, we have %d listings available for you."
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:345
+msgid "There are no listings matching your search criteria."
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:446
+msgid "Show more"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:458
+msgid "All filters"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:499
+#, php-format
+msgid "Clear filters (%d)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:562
+msgid "There was problem loading your listings, please try to refresh this page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:563
+msgid "Refresh"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:579
+msgid "Sort:"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:603
+msgid "Grid view"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:605
+msgid "Grid"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:608
+#: ../oc-content/themes/zeta/admin/configure.php:491
+msgid "List view"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:610
+msgid "List"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:620
+msgid "We could not find any results for your search..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:623
+msgid "Following tips might help you to get better results"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:624
+msgid "Use more general keywords"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:625
+msgid "Check spelling of position"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:626
+msgid "Reduce filters, use less of them"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:627
+msgid "Reset filter"
+msgstr ""
+
+#: ../oc-content/themes/zeta/search.php:660
+msgid "Next page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/subdomain-navigation.php:17
+msgid "Join our community to buy and sell from each other everyday around the world."
+msgstr ""
+
+#: ../oc-content/themes/zeta/subdomain-navigation.php:18
+msgid "Please select preferred site:"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:192
+#, php-format
+msgid "%s items in %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:192
+msgid "all locations"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:208
+msgid "Receive email notification when new item, that match your search criteria, is published."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:220
+#, php-format
+msgid "%s listings match subscription conditions, %s notifications, created on %s, id: #%s. Your listings are excluded."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:221
+#: ../oc-content/themes/zeta/user-alerts.php:228
+msgid "Technical details"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:225
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:231
+msgid "View all matching items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:234
+msgid "No items match alert conditions. You will receive email notification once there is new listing published matching alert conditions."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-alerts.php:258
+msgid "No alerts has been created yet."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:30
+#, php-format
+msgid "Hi %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:32
+msgid "Manage your listings, saved searches or profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:44
+#: ../oc-content/themes/zeta/user-dashboard.php:134
+msgid "Business profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:45
+#: ../oc-content/themes/zeta/user-dashboard.php:54
+msgid "Your business profile visible to customers"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:65
+msgid "Your listings visible in search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:75
+#: ../oc-content/themes/zeta/user-items.php:68
+msgid "Pending validation"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:76
+msgid "Listings waiting for admin validation"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:87
+msgid "Expired listings are not visible in search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:98
+msgid "Receive notifications of new listings matching criteria"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:121
+msgid "Edit your profile details"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:123
+#, php-format
+msgid "Your profile is not complete! (%s issues)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:135
+msgid "Profile details, payment methods, opening hours, gallery"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:147
+msgid "Instant messages you have recieved & sent"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:158
+msgid "Favorite listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:159
+msgid "Listings you've marked as your favorite"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:169
+msgid "Promotions"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:170
+msgid "Highlight listings, buy credits or membership"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:180
+msgid "Feel free to send us a message"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-dashboard.php:189
+msgid "Sign-out from your account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-forgot_password.php:16
+msgid "Change password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-forgot_password.php:17
+msgid "Please enter a new secure password for your account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-forgot_password.php:26
+#: ../oc-content/themes/zeta/user-profile.php:234
+msgid "New password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-forgot_password.php:31
+msgid "Repeat password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-forgot_password.php:40
+#: ../oc-content/themes/zeta/user-recover.php:34
+msgid "Login to your account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:19
+msgid "Listings visible to customers on site."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:22
+msgid "Validation pending listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:23
+msgid "Listings pending approval. Unapproved listings are not visible on site."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:27
+msgid "Listings those has expired and are now not visible in site."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:30
+msgid "All listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:31
+msgid "Active, pending validation and expired items."
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:70
+msgid "Expired listing"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:75
+msgid "Sold!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:77
+msgid "Reserved!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:93
+msgid "Location not set"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:112
+msgid "Renew"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:117
+msgid "Deactivate"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:128
+msgid "Unmark sold"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:128
+msgid "Mark as sold"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:131
+msgid "Unmark reserved"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:131
+msgid "Mark as reserved"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-items.php:140
+msgid "Republish"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:16
+msgid "Sign-in to your account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:17
+msgid "Welcome back, please enter your login credentials"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:22
+#: ../oc-content/themes/zeta/user-login.php:24
+msgid "Login with Facebook"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:29
+#: ../oc-content/themes/zeta/user-login.php:31
+msgid "Sign in with Google"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:36
+#: ../oc-content/themes/zeta/user-register.php:22
+#: ../oc-content/themes/zeta/user-register.php:36
+msgid "Connect with Facebook"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:38
+#: ../oc-content/themes/zeta/user-register.php:24
+#: ../oc-content/themes/zeta/user-register.php:38
+msgid "Continue with Facebook"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:56
+#: ../oc-content/themes/zeta/user-register.php:68
+msgid "Password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:59
+#: ../oc-content/themes/zeta/user-profile.php:237
+#: ../oc-content/themes/zeta/user-profile.php:245
+#: ../oc-content/themes/zeta/user-register.php:71
+#: ../oc-content/themes/zeta/user-register.php:79
+msgid "Show/hide password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:66
+msgid "Remember me"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:69
+msgid "Forgot password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:82
+msgid "No account yet? Register a new account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-login.php:92
+#: ../oc-content/themes/zeta/user-register.php:101
+#: ../oc-content/themes/zeta/user-register.php:102
+msgid "YourPass123!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:49
+msgid "Profile picture (avatar)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:69
+msgid "Update avatar"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:81
+msgid "Mobile phone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:86
+msgid "Land Phone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:91
+msgid "Website"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:96
+msgid "User type"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:103
+msgid "About you"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:111
+msgid "Location information"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:164
+msgid "City Area"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:181
+msgid "Update"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:184
+msgid "Are you sure you want to delete your account? This action cannot be undone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:184
+msgid "Delete account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:191
+msgid "Change your email"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:200
+msgid "Current e-mail"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:205
+msgid "New e-mail"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:211
+#: ../oc-content/themes/zeta/user-profile.php:251
+msgid "You cannot do this on demo site"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:220
+msgid "Change your password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:229
+msgid "Current password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-profile.php:242
+msgid "Repeat new password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-public-profile.php:61
+#: ../oc-content/themes/zeta/user-public-profile.php:68
+#, php-format
+msgid "%s's profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-public-profile.php:83
+msgid "Share on X (Twitter)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-public-profile.php:115
+msgid "About seller"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-public-profile.php:178
+msgid "User has no active listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-recover.php:16
+msgid "Reset password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-recover.php:17
+msgid "New randomly generated password will be sent to your email"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-recover.php:31
+msgid "Send a new password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:16
+msgid "Register a new account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:17
+msgid "Create a new account and get access to benefits of registered users!"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:29
+msgid "Connect with Google"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:31
+msgid "Continue with Google"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:63
+msgid "Mobile Phone"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:76
+msgid "Re-type password"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:87
+msgid "Create account"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:90
+msgid "Already have account? Login"
+msgstr ""
+
+#: ../oc-content/themes/zeta/user-register.php:100
+msgid "+XXX XXX XXX"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:23
+#: ../oc-content/themes/zeta/admin/category.php:73
+#: ../oc-content/themes/zeta/admin/category.php:80
+#: ../oc-content/themes/zeta/admin/configure.php:92
+#: ../oc-content/themes/zeta/admin/logo.php:124
+#: ../oc-content/themes/zeta/admin/plugins.php:41
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:33
+msgid "If you use Banner Ads Plugin, you can use banner or advert directly in theme banner space by defining its ID in bellow form."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:34
+msgid "Usage examples: {{BANNER-ADS-PLUGIN-HOOK: my_custom_hook}}, {{BANNER-ADS-PLUGIN-BANNER: 123}}, {{BANNER-ADS-PLUGIN-ADVERT: 987}}"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:46
+msgid "Enable Theme Banners"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:49
+msgid "When enabled, bellow banners will be shown in front page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:53
+msgid "Optimize Banners for Adsense"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:56
+msgid "When enabled, default width and height of banners will be removed and will be set to 100%. Fluid/responsive adsense banners should then work better."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:61
+msgid "Banners Visible in Demo Mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:64
+msgid "Enter banner identifiers/locations delimited by comma. No white spaces. Entered banners will be always visible on demo."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/banner.php:71
+msgid "Will be shown"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:59
+#, php-format
+msgid "There was error when uploading icon for category #%s: %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:59
+msgid "Extension not allowed, only allowed extension is .png"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:63
+#, php-format
+msgid "It was not possible to upload icon file for category #%s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:98
+msgid "Font Awesome Category Icons"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:102
+msgid "Check to ON if you want to use Font-Awesome icons instead of Small images for categories."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:103
+msgid "Font-Awesome v5 icons"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:108
+msgid "Use Sample Image Icons"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:111
+#, php-format
+msgid "When enabled and theme use image icons, sample icon images from theme folder (%s) will be used."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:116
+msgid "Configure categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:120
+msgid "ID"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:122
+msgid "Icon"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:123
+#: ../oc-content/themes/zeta/admin/functions.php:112
+msgid "Upload icon"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:124
+msgid "FA icon"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:125
+msgid "Add FA icon"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:126
+msgid "Color"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/category.php:127
+#: ../oc-content/themes/zeta/admin/functions.php:149
+msgid "Add color"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:120
+msgid "Images Lazy Load"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:123
+msgid "Disabled"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:124
+msgid "Lazy load based on library"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:125
+msgid "Lazy load based on browser support"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:129
+msgid "Enable to deffer images loading. Images will be loaded when get into viewable area. This may rapidly improve seo rating of your site."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:130
+msgid "Lazy load should not be disabled for any reason"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:135
+msgid "Default Location Selection"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:138
+msgid "Enable users to select their default location and use it in search & publish."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:142
+msgid "Default Item Card Design"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:145
+#: ../oc-content/themes/zeta/admin/plugins.php:85
+#: ../oc-content/themes/zeta/admin/plugins.php:129
+#: ../oc-content/themes/zeta/admin/plugins.php:199
+msgid "Default"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:152
+#: ../oc-content/themes/zeta/admin/plugins.php:92
+#: ../oc-content/themes/zeta/admin/plugins.php:136
+msgid "Specify default image aspect ratio on listings cards (loop) in grid layout."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:156
+msgid "Custom color settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:159
+msgid "Use Custom Color"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:162
+msgid "Theme will use bellow defined colors."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:166
+msgid "Theme Color - Primary"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:172
+#: ../oc-content/themes/zeta/admin/configure.php:182
+#: ../oc-content/themes/zeta/admin/configure.php:192
+#: ../oc-content/themes/zeta/admin/configure.php:202
+msgid "Enter color in HEX format or select color with picker."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:172
+#: ../oc-content/themes/zeta/admin/configure.php:182
+#: ../oc-content/themes/zeta/admin/configure.php:192
+#: ../oc-content/themes/zeta/admin/configure.php:202
+#, php-format
+msgid "Default: %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:176
+msgid "Theme Color - Primary on Hover"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:186
+msgid "Theme Color - Secondary"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:196
+msgid "Theme Color - Secondary on Hover"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:206
+msgid "Enable Dark Mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:210
+msgid "Visitors will be able to select preferred theme - dark or light."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:215
+msgid "Default Mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:217
+msgid "Light mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:218
+msgid "Dark mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:221
+msgid "Select default website mode, when dark mode is enabled."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:224
+msgid "Custom font settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:227
+msgid "Use Custom Font"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:230
+msgid "Theme will use bellow defined font as default theme font (instead of System-UI font)."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:234
+msgid "Font Family Name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:237
+msgid "Enter font family name that will be used in CSS to set this font. Examples: Roboto, \"Open Sans\", Tapestry, Montserrat, ..."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:241
+msgid "Font URL"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:244
+msgid "Enter URL to your font. You can place multiple URLs delimited by comma when needed."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:249
+msgid "About your site"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:252
+msgid "Site Name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:253
+msgid "Website Name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:255
+msgid "Your site name, business name or company name"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:259
+#: ../oc-content/themes/zeta/admin/configure.php:260
+msgid "Site Phone Number"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:262
+#: ../oc-content/themes/zeta/admin/configure.php:269
+msgid "Leave blank to disable, will be shown in footer"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:266
+#: ../oc-content/themes/zeta/admin/configure.php:267
+msgid "Site Support Email"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:273
+msgid "Site Address"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:276
+msgid "Enter contact address that will be used in footer"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:281
+msgid "Promotion settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:285
+msgid "Enable Offer of the Day"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:288
+msgid "Enable offer of the day functionality. You can select promoted item in bellow box. If no item is selected, random premium item will be picked via daily cron."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:292
+msgid "Offer of the Day Item ID"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:295
+msgid "Enter item ID that will be promoted as \"Offer of the day\". Leave blank to use random premium item."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:300
+msgid "Home page settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:303
+msgid "Show Location Block on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:306
+msgid "Show block with listings close to user default location (if defined and enabled)."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:311
+msgid "Show Premiums Block on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:314
+msgid "Show premium listings block on home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:318
+msgid "Number of Premiums on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:321
+msgid "How many premium listings will be shown on home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:326
+msgid "Premium Items Card Design (home)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:328
+#: ../oc-content/themes/zeta/admin/configure.php:466
+#: ../oc-content/themes/zeta/admin/configure.php:521
+msgid "Standard"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:335
+#: ../oc-content/themes/zeta/admin/configure.php:473
+#: ../oc-content/themes/zeta/admin/configure.php:528
+#: ../oc-content/themes/zeta/admin/plugins.php:206
+msgid "Specify which card design will be used."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:340
+msgid "Categories with New label"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:344
+#: ../oc-content/themes/zeta/admin/configure.php:363
+#: ../oc-content/themes/zeta/admin/configure.php:574
+msgid "None"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:355
+msgid "Select one or more categories those will have label \"NEW\" on home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:359
+msgid "Categories with Hot label"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:374
+msgid "Select one or more categories those will have label \"HOT\" on home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:379
+msgid "Home Search Box"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:404
+#, php-format
+msgid "Tab #%d:"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:407
+msgid "Not used"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:415
+msgid "Filters delimted by comma"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:421
+msgid "<u>Supported filters:</u> pattern, seller, category, location, radius, condition, transaction, price_min, price_max"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:422
+msgid "Configure layout of your home page search. Order of filters matter! All lowercase. No white spaces. Do not repeat filters."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:423
+msgid "Keep all \"not used\" to use default configuration."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:429
+msgid "Latest items settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:432
+msgid "Show Latest Items in Random Order"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:435
+msgid "Enable to show latest items in ranodm order each time page is refreshed."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:439
+msgid "Latest Items Picture Only"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:442
+msgid "Enable to show in latest section on home page only listings those has at least 1 picture."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:446
+msgid "Latest Premium Items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:449
+msgid "Enable to show in latest section on home page only listings those are premium."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:453
+msgid "Category for Latest Items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:460
+msgid "Select categories that will be used to feed listings into latest items section on home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:464
+msgid "Latest items card design"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:478
+msgid "Search page settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:481
+msgid "Live Search using Ajax"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:484
+msgid "Enable live realtime search without reloading of search page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:488
+msgid "Default View on Search Page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:490
+msgid "Gallery view"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:494
+msgid "Select default design of listing cards on search page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:498
+msgid "Show Premiums Block on Search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:501
+msgid "Show Premium Listings block on Search Page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:505
+msgid "Number of Premiums on Search"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:508
+msgid "How many premium listings will be shown on Search page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:512
+msgid "Premium Placeholder Target URL"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:515
+msgid "Define URL where user is redirected when clicked on \"Your listing here\" placeholder on search page (premiums block). If no URL is defined, placeholder is not shown."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:519
+msgid "Premium Items Card Design (search)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:532
+msgid "Currency in Search Box"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:539
+msgid "Select currency symbol that will be used on search page for min & max price fields."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:544
+msgid "Publish listing settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:547
+msgid "Category selection on Publish page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:549
+#: ../oc-content/themes/zeta/admin/configure.php:562
+#: ../oc-content/themes/zeta/admin/configure.php:638
+msgid "Auto-complete box"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:550
+msgid "Cascading dropdowns"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:551
+msgid "One select box"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:554
+msgid "Select what type of category selection (box) will be used on publish/edit page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:559
+msgid "Location selection on Publish page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:561
+#: ../oc-content/themes/zeta/admin/configure.php:637
+msgid "Cascading dropdowns (Country > Region > City)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:565
+#: ../oc-content/themes/zeta/admin/configure.php:641
+msgid "Auto-complete box can be right choice in case your regions has thousands of cities and it is hard to scroll to proper city."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:570
+msgid "Required Fields on Publish"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:582
+msgid "If you select Location as required, it means that one of following fields must be filled: Country, Region or City"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:586
+msgid "Extra Fields exclude Categories"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:593
+msgid "Select categories where you do not want to show Transaction and Condition on listing publish/edit page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:598
+msgid "Other settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:601
+msgid "Image Gallery Aspect Ratio"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:603
+msgid "Calculated based on Image Normal Size"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:604
+msgid "Square (1:1)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:605
+msgid "Normal (4:3)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:606
+msgid "Wide (16:9)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:607
+msgid "Very wide (2:1)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:610
+msgid "Select image gallery aspect ratio shown on listing page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:614
+msgid "Footer Link"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:617
+msgid "Link to osclass will be shown in footer to support our project."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:621
+msgid "Number of Items on Public Profile"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:624
+msgid "How many listings will be shown on user public profile. Keep in mind that pagination is not available on public profile."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:628
+msgid "Number of Items in Alerts section"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:631
+msgid "How many listings will be shown under each alert in alerts section of user account. Keep in mind that pagination is not available in alerts section."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:635
+msgid "Location selection on Profile page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:645
+msgid "Generate Favicons"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:649
+msgid "When enabled, favicons are generated in head of website. In some cases you may want to disable this, i.e. if you have it generated by plugin or manually."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:650
+#, php-format
+msgid "You can upload your favicons into folder %s. Sample data can be found in /sample. Keep naming convention."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:655
+msgid "Use Sample Favicons"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:658
+#, php-format
+msgid "When enabled, sample favicons from theme folder (%s) will be used."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:662
+msgid "Shorten Item Description"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:665
+msgid "When enabled, on listing page only first 720 characters of description will be shown. If description is longer, it will be truncated and \"Read more\" button added."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:669
+msgid "Assets Versioning"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:672
+msgid "When enabled, version based on current timestamp will be added to each style & script link in order to remove caching. No effect on plugins/osclass scripts & styles."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:678
+msgid "Social Network Links"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:681
+msgid "Define Social Links"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:684
+msgid "When enabled, social links (in footer) will point to URLs defined here. If empty, link to that network will be hidden. Otherwise link is auto-generated (share link)."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:691
+#: ../oc-content/themes/zeta/admin/configure.php:698
+#: ../oc-content/themes/zeta/admin/configure.php:705
+#: ../oc-content/themes/zeta/admin/configure.php:712
+#: ../oc-content/themes/zeta/admin/configure.php:719
+#: ../oc-content/themes/zeta/admin/configure.php:726
+msgid "Define URL that points to your company URL on network. Keep blank to hide network link."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:716
+msgid "X (Twitter)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/configure.php:723
+msgid "Linkedin"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/functions.php:22
+msgid "Header Logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/functions.php:55
+msgid "Report Bug"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/functions.php:58
+msgid "Support Forums"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/functions.php:59
+msgid "Contact Us"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/functions.php:135
+msgid "Add icon"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:39
+#, php-format
+msgid "Image extension is not allowed. Allowed extensions are: %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:52
+msgid "The logo image has been uploaded correctly"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:54
+#: ../oc-content/themes/zeta/admin/logo.php:58
+msgid "An error has occurred, please try again"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:74
+#: ../oc-content/themes/zeta/admin/logo.php:88
+#: ../oc-content/themes/zeta/admin/logo.php:102
+#: ../oc-content/themes/zeta/admin/logo.php:116
+msgid "The logo image has been removed"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:134
+msgid "Logo preview"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:141
+msgid "Use Default Logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:144
+msgid "If you did not upload any logo yet, osclass default logo will be used."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:148
+msgid "Current standard logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:154
+msgid "No standard logo found, default logo will be used instead."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:160
+msgid "Current standard logo for dark mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:166
+msgid "No dark standard logo found, default logo will be used instead."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:172
+msgid "Current square logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:178
+msgid "No square logo found, default logo will be used instead."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:184
+msgid "Current square logo for dark mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:190
+msgid "No dark square logo found, default logo will be used instead."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:198
+msgid "Remove standard logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:202
+msgid "Remove square logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:206
+msgid "Remove standard dark logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:210
+msgid "Remove square dark logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:223
+msgid "Logo upload"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:231
+msgid "When new logo is uploaded, do not forget to clean your browser cache (CTRL + R or CTRL + F5)"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:232
+msgid "The preferred size of the logo is 240x64px."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:233
+msgid "The preferred size of the square logo is 64x64px."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:234
+#, php-format
+msgid "Following formats are allowed: %s"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:237
+msgid "Uploading another logo will overwrite the current logo."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:243
+msgid "Standard logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:244
+msgid "Standard logo - for dark mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:245
+msgid "Square logo"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:246
+msgid "Square logo - for dark mode"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:258
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:259
+msgid "OSClass can't upload the logo image from the administration panel."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:260
+msgid "Please make the aforementioned image folder writable."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:266
+msgid "To make a directory writable under UNIX execute this command from the shell:"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/logo.php:277
+msgid "Upload"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:52
+msgid "Plugin settings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:59
+msgid "Enable Scroll to Top"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:62
+msgid "When enabled, button that enables scroll to top will be added."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:66
+msgid "Related Listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:69
+msgid "Enable Related Listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:72
+msgid "When enabled, related listings will be shown at listing page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:76
+msgid "Number of Related Items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:79
+msgid "Enter how many related listings will be shown on item page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:83
+msgid "Related Items Card Design"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:96
+msgid "Recent Listings"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:99
+msgid "Enable Recent Listings on Home Page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:102
+msgid "When enabled, recent listings will be shown at home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:106
+msgid "Enable Recent Listings on Item Page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:109
+msgid "When enabled, recent listings will be shown at listing page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:113
+msgid "Enable Recent Listings on Search Page"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:116
+msgid "When enabled, recent listings will be shown at search page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:120
+msgid "Number of Recent Items"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:123
+msgid "Enter how many recent listings will be shown in recent items block."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:127
+msgid "Recent Items Card Design"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:140
+msgid "Blog plugin"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:143
+msgid "Show Blog Box on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:147
+msgid "Show blog articles box on home page. Osclass Blog plugin must be installed."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:148
+#: ../oc-content/themes/zeta/admin/plugins.php:168
+msgid "View plugin"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:153
+msgid "Number of Blog Articles on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:156
+msgid "How many blog articles will be shown on home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:160
+msgid "Business profile plugin"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:163
+msgid "Show Companies Box on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:167
+msgid "Show companies box on home page. Business profile plugin must be installed"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:173
+msgid "Number of Companies on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:176
+msgid "How many companies will be shown on home page."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:180
+msgid "Favorite items plugin"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:183
+msgid "Show Favorite Items on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:186
+msgid "Show users most favorited listings block on home page. Favorite items plugin must be installed."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:190
+msgid "Number of Favorite items on Home"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:193
+msgid "Most favorited listings count shown on home page. Favorite items plugin must be installed."
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:197
+msgid "Favorite Items Card Design"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:210
+msgid "Other plugins"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:213
+msgid "Replace Send Message Button"
+msgstr ""
+
+#: ../oc-content/themes/zeta/admin/plugins.php:216
+msgid "When enabled and Instant messenger plugin is installed, \"Send message\" button on listing page will be replaced with button to create message."
+msgstr ""
