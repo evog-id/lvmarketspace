@@ -1,13 +1,14 @@
 <?php
 /*
-Plugin Name: noCaptcha reCaptcha
-Plugin URI: http://shamimsplugins.com/
-Description: Show noCaptcha reCaptcha in Admin login, Login, Register, Item post, Comment, Contact, Contact listing, Send to a friend. Also can implement any other form easily.
-Version: 1.2.1
-Author: Shamim
-Author URI: http://shamimsplugins.com/
-Short Name: nocaptcha-recaptcha
-Plugin update URI: nocaptcha-recaptcha
+  Plugin Name: noCaptcha reCaptcha
+  Plugin URI: https://osclasspoint.com/osclass-plugins/protection-and-spam/google-recaptcha-osclass-plugin-nocaptcha-recaptcha-i139
+  Description: Show noCaptcha reCaptcha in Admin login, Login, Register, Item post, Comment, Contact, Contact listing, Send to a friend. Also can implement any other form easily.
+  Version: 1.4.1
+  Author: MB Themes
+  Author URI: https://osclasspoint.com
+  Short Name: nocaptcha-recaptcha
+  Plugin update URI: nocaptcha-recaptcha
+  Product Key: 300pFzxrhPxGRYxZaHax
 */
 
 require_once 'anr-captcha-class.php';

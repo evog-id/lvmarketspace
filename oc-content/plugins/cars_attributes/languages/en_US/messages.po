@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: OSClass 2.1\n"
+"Project-Id-Version: Car Attributes Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 13:40+0100\n"
+"POT-Creation-Date: 2020-11-26 07:52+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
-"Language-Team: OSClass <info@osclass.org>\n"
+"Language-Team: OsclassPoint.com\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: ../..\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/conf.php:88
@@ -67,23 +67,23 @@ msgid ""
 "be attached to some actual items"
 msgstr ""
 
-#: index.php:191 index.php:198
+#: index.php:195 index.php:202
 msgid "Configure plugin"
 msgstr ""
 
-#: index.php:192 index.php:199
+#: index.php:196 index.php:203
 msgid "Manage makes"
 msgstr ""
 
-#: index.php:193 index.php:200
+#: index.php:197 index.php:204
 msgid "Manage models"
 msgstr ""
 
-#: index.php:194 index.php:201
+#: index.php:198 index.php:205
 msgid "Manage vehicle types"
 msgstr ""
 
-#: index.php:197
+#: index.php:201
 msgid "Cars plugin"
 msgstr ""
 
@@ -91,107 +91,107 @@ msgstr ""
 msgid "Car details"
 msgstr ""
 
-#: item_detail.php:6 item_edit.php:42 search_form.php:48
+#: item_detail.php:5 item_edit.php:42 search_form.php:48
 msgid "Make"
 msgstr ""
 
-#: item_detail.php:12 item_edit.php:56 search_form.php:57
+#: item_detail.php:11 item_edit.php:56 search_form.php:57
 msgid "Model"
 msgstr ""
 
-#: item_detail.php:19 item_edit.php:72 item_edit.php:86 search_form.php:66
+#: item_detail.php:18 item_edit.php:72 item_edit.php:86 search_form.php:66
 msgid "Car type"
 msgstr ""
 
-#: item_detail.php:25 item_edit.php:105
+#: item_detail.php:24 item_edit.php:105
 msgid "Year"
 msgstr ""
 
-#: item_detail.php:31 item_edit.php:114
+#: item_detail.php:30 item_edit.php:114
 msgid "Doors"
 msgstr ""
 
-#: item_detail.php:37 item_edit.php:128
+#: item_detail.php:36 item_edit.php:128
 msgid "Seats"
 msgstr ""
 
-#: item_detail.php:43 item_edit.php:142
+#: item_detail.php:42 item_edit.php:142
 msgid "Mileage"
 msgstr ""
 
-#: item_detail.php:49 item_edit.php:151
+#: item_detail.php:48 item_edit.php:151
 msgid "Engine size (cc)"
 msgstr ""
 
-#: item_detail.php:55 item_edit.php:160
+#: item_detail.php:54 item_edit.php:160
 msgid "Num. Airbags"
 msgstr ""
 
-#: item_detail.php:61 item_edit.php:176 search_form.php:77
+#: item_detail.php:60 item_edit.php:176 search_form.php:77
 msgid "Manual"
 msgstr ""
 
-#: item_detail.php:61 item_edit.php:177
+#: item_detail.php:60 item_edit.php:177
 msgid "Auto"
 msgstr ""
 
-#: item_detail.php:62 item_edit.php:174 search_form.php:76
+#: item_detail.php:61 item_edit.php:174 search_form.php:76
 msgid "Transmission"
 msgstr ""
 
-#: item_detail.php:68 item_edit.php:188
+#: item_detail.php:67 item_edit.php:188
 msgid "Diesel"
 msgstr ""
 
-#: item_detail.php:69 item_edit.php:189
+#: item_detail.php:68 item_edit.php:189
 msgid "Gasoline"
 msgstr ""
 
-#: item_detail.php:70 item_edit.php:190
+#: item_detail.php:69 item_edit.php:190
 msgid "Electric-hibrid"
 msgstr ""
 
-#: item_detail.php:71 item_edit.php:191
+#: item_detail.php:70 item_edit.php:191
 msgid "Other"
 msgstr ""
 
-#: item_detail.php:73 item_edit.php:186
+#: item_detail.php:72 item_edit.php:186
 msgid "Fuel"
 msgstr ""
 
-#: item_detail.php:79 item_edit.php:202
+#: item_detail.php:78 item_edit.php:202
 msgid "Dealer"
 msgstr ""
 
-#: item_detail.php:79 item_edit.php:203
+#: item_detail.php:78 item_edit.php:203
 msgid "Owner"
 msgstr ""
 
-#: item_detail.php:80 item_edit.php:200
+#: item_detail.php:79 item_edit.php:200
 msgid "Seller"
 msgstr ""
 
-#: item_detail.php:85 item_edit.php:212
+#: item_detail.php:84 item_edit.php:212
 msgid "Warranty"
 msgstr ""
 
-#: item_detail.php:86 item_detail.php:90
+#: item_detail.php:85 item_detail.php:89
 msgid "Yes"
 msgstr ""
 
-#: item_detail.php:86 item_detail.php:90
+#: item_detail.php:85 item_detail.php:89
 msgid "No"
 msgstr ""
 
-#: item_detail.php:89 item_edit.php:220
+#: item_detail.php:88 item_edit.php:220
 msgid "New"
 msgstr ""
 
-#: item_detail.php:94 item_edit.php:231
+#: item_detail.php:93 item_edit.php:231
 msgid "Power"
 msgstr ""
 
-#: item_detail.php:100 item_edit.php:249
+#: item_detail.php:99 item_edit.php:249
 msgid "Gears"
 msgstr ""
 

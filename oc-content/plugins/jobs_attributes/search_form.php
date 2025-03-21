@@ -1,4 +1,4 @@
-<fieldset class="job-search">
+<fieldset class="job-attributes">
     <h3><?php _e("Job attributes", 'jobs_attributes'); ?></h3>
     <div class="row one_input">
         <h6><?php _e('Relation', 'jobs_attributes'); ?></h6>

@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Real estate attributes\n"
+"Project-Id-Version: Real Estate Attributes Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 13:43+0100\n"
+"POT-Creation-Date: 2020-11-13 11:54+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
-"Language-Team: OSClass <info@osclass.org>\n"
+"Language-Team: OsclassPoint.com\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,53 +13,53 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: ../..\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: conf.php:58 index.php:304 index.php:310
+#: conf.php:38 index.php:308 index.php:314
 msgid "Property types"
 msgstr ""
 
-#: conf.php:85
+#: conf.php:65
 msgid "Delete"
 msgstr ""
 
-#: conf.php:91
+#: conf.php:71
 msgid "Edit"
 msgstr ""
 
-#: conf.php:98
+#: conf.php:78
 msgid "Add new property types"
 msgstr ""
 
-#: conf.php:119
+#: conf.php:99
 msgid "Add new"
 msgstr ""
 
-#: conf.php:130
+#: conf.php:110
 msgid "Warning"
 msgstr ""
 
-#: conf.php:132
+#: conf.php:112
 msgid ""
 "Deleting property types may end in errors. Some of those property types "
 "could be attached to some actual items"
 msgstr ""
 
-#: helper.php:13 item_edit.php:11 search_form.php:108
+#: helper.php:13 item_edit.php:11 search_form.php:107
 msgid "For rent"
 msgstr ""
 
-#: helper.php:14 item_edit.php:12 search_form.php:109
+#: helper.php:14 item_edit.php:12 search_form.php:108
 msgid "For sale"
 msgstr ""
 
-#: helper.php:17 item_edit.php:9 search_form.php:104 view.php:75
+#: helper.php:17 item_edit.php:9 search_form.php:103 view.php:55
 msgid "Type"
 msgstr ""
 
-#: helper.php:23 item_edit.php:25 item_edit.php:42 search_form.php:117
-#: view.php:76
+#: helper.php:23 item_edit.php:25 item_edit.php:42 search_form.php:116
+#: view.php:56
 msgid "Property type"
 msgstr ""
 
@@ -123,7 +123,7 @@ msgstr ""
 msgid "Zone"
 msgstr ""
 
-#: helper.php:113 item_edit.php:187 search_form.php:198
+#: helper.php:113 item_edit.php:187 search_form.php:197
 msgid "Heating"
 msgstr ""
 
@@ -131,23 +131,23 @@ msgstr ""
 msgid "Air Condition"
 msgstr ""
 
-#: helper.php:125 item_edit.php:203 search_form.php:204
+#: helper.php:125 item_edit.php:203 search_form.php:203
 msgid "Elevator"
 msgstr ""
 
-#: helper.php:131 item_edit.php:211 search_form.php:207
+#: helper.php:131 item_edit.php:211 search_form.php:206
 msgid "Terrace"
 msgstr ""
 
-#: helper.php:137 item_edit.php:219 search_form.php:210
+#: helper.php:137 item_edit.php:219 search_form.php:209
 msgid "Parking"
 msgstr ""
 
-#: helper.php:143 item_edit.php:227 search_form.php:213
+#: helper.php:143 item_edit.php:227 search_form.php:212
 msgid "Furnished"
 msgstr ""
 
-#: helper.php:149 item_edit.php:235 search_form.php:216
+#: helper.php:149 item_edit.php:235 search_form.php:215
 msgid "New"
 msgstr ""
 
@@ -156,26 +156,26 @@ msgid "By Owner"
 msgstr ""
 
 #: helper.php:165
-msgid "Real Estate Details"
+msgid "Details"
 msgstr ""
 
-#: helper.php:183 item_edit.php:179 search_form.php:195 view.php:83
+#: helper.php:182 item_edit.php:179 search_form.php:194 view.php:63
 msgid "Other characteristics"
 msgstr ""
 
-#: index.php:301 index.php:308
+#: index.php:305 index.php:312
 msgid "Realestate plugin"
 msgstr ""
 
-#: index.php:303 index.php:309
+#: index.php:307 index.php:313
 msgid "Configure plugin"
 msgstr ""
 
-#: index.php:305 index.php:311
+#: index.php:309 index.php:315
 msgid "View options"
 msgstr ""
 
-#: item_edit.php:1 search_form.php:101
+#: item_edit.php:1 search_form.php:100
 msgid "Realestate attributes"
 msgstr ""
 
@@ -203,86 +203,86 @@ msgstr ""
 msgid "Num. of garages (place for a car = one garage)"
 msgstr ""
 
-#: item_edit.php:195 search_form.php:201
+#: item_edit.php:195 search_form.php:200
 msgid "Air condition"
 msgstr ""
 
-#: item_edit.php:243 search_form.php:219
+#: item_edit.php:243 search_form.php:218
 msgid "By owner"
 msgstr ""
 
-#: search_form.php:107
+#: search_form.php:106
 msgid "Undefined"
 msgstr ""
 
-#: search_form.php:120
+#: search_form.php:119
 msgid "Select a property type"
 msgstr ""
 
-#: search_form.php:131 view.php:77
+#: search_form.php:130 view.php:57
 msgid "Num. Floors Range"
 msgstr ""
 
-#: search_form.php:141 view.php:78
+#: search_form.php:140 view.php:58
 msgid "Rooms Range"
 msgstr ""
 
-#: search_form.php:152 view.php:79
+#: search_form.php:151 view.php:59
 msgid "Bathrooms Range"
 msgstr ""
 
-#: search_form.php:163 view.php:80
+#: search_form.php:162 view.php:60
 msgid "Garages Range"
 msgstr ""
 
-#: search_form.php:174 view.php:81
+#: search_form.php:173 view.php:61
 msgid "Construction year Range"
 msgstr ""
 
-#: search_form.php:185 view.php:82
+#: search_form.php:184 view.php:62
 msgid "Square Meters Range"
 msgstr ""
 
-#: view.php:27 view.php:34
+#: view.php:7 view.php:14
 msgid "Settings saved!"
 msgstr ""
 
-#: view.php:56
+#: view.php:36
 msgid "Display options"
 msgstr ""
 
-#: view.php:57
+#: view.php:37
 msgid "Display realestate attributes in listing page..."
 msgstr ""
 
-#: view.php:58
+#: view.php:38
 msgid "After item description"
 msgstr ""
 
-#: view.php:59
+#: view.php:39
 msgid "Manually"
 msgstr ""
 
-#: view.php:60 view.php:86
+#: view.php:40 view.php:66
 msgid "Update options"
 msgstr ""
 
-#: view.php:68
+#: view.php:48
 msgid "Filters"
 msgstr ""
 
-#: view.php:69
+#: view.php:49
 msgid "Show filters in search page"
 msgstr ""
 
-#: view.php:70
+#: view.php:50
 msgid "Show all filters"
 msgstr ""
 
-#: view.php:71
+#: view.php:51
 msgid "Hide all filters"
 msgstr ""
 
-#: view.php:72
+#: view.php:52
 msgid "Show only specified filters"
 msgstr ""

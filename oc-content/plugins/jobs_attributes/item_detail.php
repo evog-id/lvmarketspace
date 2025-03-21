@@ -70,7 +70,7 @@
     </div>
     <?php } ?>
 </div>
-<?php if(osc_get_preference('allow_cv_upload', 'plugin')=='1' && ((osc_get_preference('allow_cv_unreg', 'jobs_plugin')=='1' && !osc_is_web_user_logged_in()) || osc_is_web_user_logged_in())) { ?>
+<?php if(osc_get_preference('allow_cv_upload', 'plugin')=='1' && ((osc_get_preference('allow_cv_unreg', 'jobs_attributes')=='1' && !osc_is_web_user_logged_in()) || osc_is_web_user_logged_in())) { ?>
 <br/>
 <div id="cv_uploader">
     <noscript>

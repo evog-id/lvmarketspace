@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Profile Picture
-Plugin URI: http://www.osclass.org
+Plugin URI: http://osclasspoint.com
 Description: Allows users to upload a profile picture
-Version: 5.0.1
-Author: Jesse modified by MB-themes.com
-Author URI: http://www.osclass.org/
+Version: 5.1.0
+Author: Jesse modified by osclasspoint.com
+Author URI: http://osclasspoint.com/
 Short Name: Profile_Picture
 */
 
@@ -95,14 +95,14 @@ function profile_picture_upload(){
 
     if( osc_is_web_user_logged_in()){
 	if($result>0 && file_exists($upload_path.'profile'.$user_id.$result['pic_ext'])){
-	    echo '<div class="links"><a class="first btn mbBg2" href="#" id="div_show">' . __('Upload new picture', 'profile_picture') . '</a> <a class="second btn mbBg3" href="javascript:deletePhoto();">' . __('Delete picture', 'profile_picture') . '</a></div>';
+	    echo '<div class="links"><a class="first" href="#" id="div_show">' . __('Upload new picture', 'profile_picture') . '</a> - <a class="second" href="javascript:deletePhoto();">' . __('Delete picture', 'profile_picture') . '</a></div>';
 	    echo '<div id="HiddenDiv" class="HiddenDiv" style="display:none;">'; // hides form if user already has a profile picture and displays a link to form instead
 	}
 	$url = (!empty($_SERVER['HTTPS'])) ? "https://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] : "http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
 	echo '
 	    <form name="newpic" method="post" enctype="multipart/form-data"  action="'.$url.'">
 	    <input type="file" name="userfile" id="file"><br>
-	    <input name="Submit" type="submit" id="uniform-blue" class="btn mbBg2" value="'.$button_text.'">
+	    <input name="Submit" type="submit" id="uniform-blue" class="btn btn-primary" value="'.$button_text.'">
 	    </form>
 	    <form name="deleteForm" method="POST" action="'.$url.'"><input type="hidden" name="deletePhoto"></form>
 	'; //echo
@@ -110,8 +110,8 @@ function profile_picture_upload(){
     } //if logged-in
 
 
-    if(isset($_POST['Submit'])) { // Upload photo
-    
+    if(isset($_POST['Submit'])) // Upload photo
+    {
 	$filename = $_FILES['userfile']['name']; // Get the name of the file (including file extension).
 	$ext = substr($filename, strpos($filename,'.'), strlen($filename)-1); // Get the extension from the filename.
         $fail = false;
@@ -163,9 +163,6 @@ function profile_picture_upload(){
               osc_add_flash_error_message(__('There was an error during the file upload.  Please try again', 'profile_picture')); // It failed :(.
           }
         }
-        
-      header('Location:' . osc_user_profile_url());
-      exit;
      }
 
 
@@ -182,9 +179,9 @@ function profile_picture_upload(){
 	echo '<script type="text/javascript">window.location = document.URL;</script>';
     }
 
-    echo '<div class="text">' . __('Picture should represent you or your company', 'profile_picture') . '</div>';
-    echo '<div class="text">' . __('Upload picture with maximum width of 250px and maximum height of 200px', 'profile_picture') . '</div>';
-    echo '<div class="text">' . __('Bigger pictures will slow down loading of your listings', 'profile_picture') . '</div>';
+    echo '<div class="text">' . __('- Picture should represent you or your company', 'profile_picture') . '</div>';
+    echo '<div class="text">' . __('- Upload picture with maximum width of 250px and maximum height of 200px', 'profile_picture') . '</div>';
+    echo '<div class="text">' . __('- Bigger pictures will slow down loading of your listings', 'profile_picture') . '</div>';
     echo '</div>';
     echo '</div>';
     echo '</div>';
@@ -202,8 +199,7 @@ function profile_picture_show( $maxwidth = NULL, $what = NULL, $maxheight = NULL
 
     // Specify display width of picture (height will be automatically calculated proprotionally)
     if($maxwidth == '') { $maxwidth = '120'; }
-    $height = '120'; 
-
+    $height = 120;
 
     ////// ***** No modifications below here should be needed ***** /////////////////////
 
