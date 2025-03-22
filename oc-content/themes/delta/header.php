@@ -67,8 +67,7 @@
             <span><?php _e('Post an ad', 'delta'); ?></span>
           </span>
         </a>
-        <a href="<?php echo osc_route_url('osp-cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
-          
+             
         
         <?php if(!osc_is_web_user_logged_in()) { ?>
           <a class="register" href="<?php echo osc_register_account_url(); ?>"><?php _e('Register', 'delta'); ?></a>
