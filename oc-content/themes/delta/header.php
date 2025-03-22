@@ -77,6 +77,7 @@
 
           <div class="link-box">
             <a class="my-account" href="<?php echo osc_user_dashboard_url(); ?>"><?php _e('My account', 'delta'); ?></a>
+             <a href="<?php echo osc_route_url('osp-cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
             
             <div class="user-menu" style="display:none;">
               <div class="ins">
