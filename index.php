@@ -1,8 +1,3 @@
-
-
-
-
-
 <?php
 /*
  * Copyright 2014 Osclass
