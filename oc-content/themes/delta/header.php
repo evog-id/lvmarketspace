@@ -48,6 +48,8 @@
         
       <a href="<?php echo osc_contact_url(); ?>"><?php _e('Contact us', 'delta'); ?></a>
 
+      <a href="<?php echo osc_route_url('osp-cart'); ?>"><i class="fa fa-shopping-cart"></i></a>
+
       <?php osc_run_hook('header_links'); ?>
     </div>
     
