@@ -7,7 +7,8 @@
         "php": "~8.1.0",
         "ext-gd": "*",
         "ext-memcached": "*",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "league/flysystem-aws-s3-v3"
     },
        "license": [
            "MIT"
