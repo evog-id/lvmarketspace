@@ -46,9 +46,9 @@ define('WEB_PATH', 'https://market.asnocode.com/');
 
 
 // PHP memory limit (ideally should be more than 128MB)
-define('OSC_MEMORY_LIMIT', '256M');
+define('OSC_MEMORY_LIMIT', '512M');
 
-define('OSC_MAX_INPUT_VARS', 3000);
+define('OSC_MAX_INPUT_VARS', 5000);
 
 // Debug PHP mailer. OSC_DEBUG must be true. Error logs from PHPMailer goes to oc-content/debug.log automatically.
 // Accepted debug level values:  1 - client only, 2 - client and server (default), 3 - client, server and connection, 4 - low-level information
