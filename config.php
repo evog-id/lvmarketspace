@@ -46,7 +46,7 @@ define('WEB_PATH', 'https://market.asnocode.com/');
 
 
 // PHP memory limit (ideally should be more than 128MB)
-define('OSC_MEMORY_LIMIT', '512M');
+define('OSC_MEMORY_LIMIT', '256M');
 
 define('OSC_MAX_INPUT_VARS', 5000);
 
