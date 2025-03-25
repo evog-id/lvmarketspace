@@ -8,7 +8,8 @@ use Aws\Exception\AwsException;
 $spaceName = getenv('SPACES_BUCKET_NAME');
 $region = getenv('SPACES_REGION');
 $key = getenv('SPACES_ACCESS_KEY');
-$secret =getenv('SPACES_SECRET_KEY');
+$secret = getenv('SPACES_SECRET_KEY');
+$spEndpoint = getenv('SPACES_ENDPOINT');
 
 // Initialize S3 client
 $s3Client = new S3Client([
@@ -25,14 +26,14 @@ $s3Client = new S3Client([
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
 $directoryPath = 'oc-content/uploads/user-images';
 $fileName = basename($filePath);
-$destPath = $spaceName . '/' . $directoryPath;
+$keyName = $directoryPath . "/" .  $fileName;
 
 // Upload one file
 function uploadFile($s3Client, $spaceName, $filePath, $fileName) {
 try {
     $result = $s3Client->putObject([
         'Bucket' => $spaceName,
-        'Key'    => $fileName,
+        'Key'    => $keyName,
         'SourceFile' => $filePath,
         'ACL'    => 'public-read', // Optional: Set file permissions
     ]);
@@ -42,7 +43,7 @@ try {
     echo "Error uploading file: " . $e->getMessage() . "\n";
   }
 }
-uploadFile($s3Client, $spaceName, $filePath, $fileName);
+uploadFile($s3Client, $spaceName, $filePath, $keyName);
 
 // Get array of all files in directory
 function dirToArray($dir) {
@@ -68,7 +69,8 @@ foreach ($iterator as $file) {
     if ($file->isFile()) {
         $filePath = $file->getPathname();
         $fileName = basename($filePath);
-        uploadFile($s3Client, $spaceName, $filePath, $fileName);
+        $keyName = $dir . "/" .  $fileName;
+        uploadFile($s3Client, $spaceName, $filePath, $keyName);
    } else {
     echo "No files uploaded.";
     }
