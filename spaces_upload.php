@@ -22,7 +22,7 @@ $s3Client = new S3Client([
 ]);
 
 // File to upload
-$filePath = 'oc-content/uploads/user-images/2_0Egog_20250325.png';
+$filePath = 'oc-content/uploads/user-images/default-user-image.png';
 $keyName = basename($filePath);
 
 try {
