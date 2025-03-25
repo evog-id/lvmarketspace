@@ -77,4 +77,18 @@ foreach ($iterator as $file) {
   }
 }
 iterateFilesInDirectory($s3Client, $spaceName, $directoryPath);
+
+// Retrieve a file
+function getFile($s3Client, $spaceName, $keyName) {
+try {
+    $result = $s3->getObject([
+        'Bucket' => $spaceName,
+        'Key'    => $keyName,
+    ]);
+    echo "File retrieved successfully. Content: " . $result['Body'];
+} catch (Aws\Exception\S3Exception $e) {
+    echo "There was an error retrieving the file.\n";
+    echo $e->getMessage();
+  }
+}
 ?>
