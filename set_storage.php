@@ -1,6 +1,6 @@
 <?php
 
-require_once '../vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 use Utopia\Storage\Storage;
 use Utopia\Storage\Device\Local;
