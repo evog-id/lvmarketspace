@@ -8,13 +8,12 @@ use Utopia\Storage\Device\S3;
 use Utopia\Storage\Device\DOSpaces;
 
 // Configuration
-$SPACES_BUCKET_NAME = getenv('SPACES_BUCKET_NAME');
-$SPACES_REGION = getenv('SPACES_REGION');
-$SPACES_ACCESS_KEY = getenv('SPACES_ACCESS_KEY');
-$SPACES_SECRET_KEY = getenv('SPACES_SECRET_KEY');
-$SPACES_ENDPOINT = getenv('SPACES_ENDPOINT');
-$AWS_ACL_FLAG = 'ACL_PUBLIC'
-
+$spaceName = getenv('SPACES_BUCKET_NAME');
+$region = getenv('SPACES_REGION');
+$key = getenv('SPACES_ACCESS_KEY');
+$secret = getenv('SPACES_SECRET_KEY');
+$spEndpoint = getenv('SPACES_ENDPOINT');
+$acl = 'ACL_PUBLIC'
 
 // Instantiating local storage
 // Storage::setDevice('files', new Local('path'));
@@ -23,7 +22,7 @@ $AWS_ACL_FLAG = 'ACL_PUBLIC'
 // Storage::setDevice('files', new S3('path', AWS_ACCESS_KEY, AWS_SECRET_KEY,AWS_BUCKET_NAME, AWS_REGION, AWS_ACL_FLAG));
 
 // Or you can use DigitalOcean Spaces storage
-Storage::setDevice('files', new DOSpaces('path', $SPACES_ACCESS_KEY, $SPACES_SECRET_KEY, $SPACES_BUCKET_NAME, $SPACES_REGION, $AWS_ACL_FLAG));
+Storage::setDevice('files', new DOSpaces('oc-content/uploads', $key, $secret, $spaceName, $region, $acl));
 
 $device = Storage::getDevice('files');
 
