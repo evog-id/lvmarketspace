@@ -25,6 +25,7 @@ $s3Client = new S3Client([
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
 $directoryPath = 'oc-content/uploads/user-images';
 $fileName = basename($filePath);
+$destPath = $spaceName + $directoryPath;
 
 // Upload one file
 function uploadFile($s3Client, $spaceName, $filePath, $fileName) {
@@ -59,7 +60,7 @@ function dirToArray($dir) {
 //$files = dirToArray($dir);
 
 // Handle multiple file uploads
-function iterateFilesInDirectory($dir) {
+function iterateFilesInDirectory($s3Client, $spaceName, $dir) {
 $iterator = new RecursiveDirectoryIterator($dir);
 $iterator = new RecursiveIteratorIterator($iterator, RecursiveIteratorIterator::SELF_FIRST);
 
@@ -73,5 +74,5 @@ foreach ($iterator as $file) {
     }
   }
 }
-iterateFilesInDirectory($directoryPath);
+iterateFilesInDirectory($s3Client, $spaceName, $directoryPath);
 ?>
