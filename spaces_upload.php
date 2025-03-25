@@ -24,12 +24,12 @@ $s3Client = new S3Client([
 
 // File to upload
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
-$directoryPath = 'oc-content/uploads/user-images';
+$directoryPath = 'oc-content/uploads';
 $fileName = basename($filePath);
 $keyName = $directoryPath . "/" .  $fileName;
 
 // Upload one file
-function uploadFile($s3Client, $spaceName, $filePath, $fileName) {
+function uploadFile($s3Client, $spaceName, $filePath, $keyName) {
 try {
     $result = $s3Client->putObject([
         'Bucket' => $spaceName,
