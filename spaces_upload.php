@@ -23,13 +23,16 @@ $s3Client = new S3Client([
 
 // File to upload
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
-$keyName = basename($filePath);
+$files = scandir('oc-content/uploads/user-images/');
+//$keyName = basename($filePath);
+$fileName = basename($filePath);
 
+// Upload file
+function uploadFile($s3Client, $spaceName, $filePath, $fileName) {
 try {
-    // Upload file
     $result = $s3Client->putObject([
         'Bucket' => $spaceName,
-        'Key'    => $keyName,
+        'Key'    => $fileName,
         'SourceFile' => $filePath,
         'ACL'    => 'public-read', // Optional: Set file permissions
     ]);
@@ -37,5 +40,17 @@ try {
     echo "File uploaded successfully. URL: " . $result['ObjectURL'] . "\n";
 } catch (AwsException $e) {
     echo "Error uploading file: " . $e->getMessage() . "\n";
+  }
+}
+
+// Handle multiple file uploads
+if (!empty($_FILES['files'])) {
+    foreach ($_FILES['files']['tmp_name'] as $index => $tmpName) {
+        $filePath = $tmpName;
+        $fileName = $_FILES['files']['tmp_name'][$index];
+        uploadFile($s3Client, $spaceName, $filePath, $fileName);
+    }
+} else {
+    echo "No files uploaded.";
 }
 ?>
