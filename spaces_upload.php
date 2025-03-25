@@ -21,6 +21,12 @@ $s3Client = new S3Client([
     ],
 ]);
 
+//Array
+$_FILES[fieldname] => array(
+    [name] => array( /* these arrays are the size you expect */ )
+    [tmp_name] => array( /* these arrays are the size you expect */ )
+);
+
 // File to upload
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
 $files = scandir('oc-content/uploads/user-images/');
@@ -43,11 +49,13 @@ try {
   }
 }
 
+uploadFile($s3Client, $spaceName, $filePath, $fileName);
+
 // Handle multiple file uploads
 if (!empty($_FILES['files'])) {
     foreach ($_FILES['files']['tmp_name'] as $index => $tmpName) {
         $filePath = $tmpName;
-        $fileName = $_FILES['files']['tmp_name'][$index];
+        $fileName = $_FILES['files']['name'][$index];
         uploadFile($s3Client, $spaceName, $filePath, $fileName);
     }
 } else {
