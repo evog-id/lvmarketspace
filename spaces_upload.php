@@ -29,7 +29,7 @@ $s3Client = new S3Client([
 
 // File to upload
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
-$dir = 'oc-content/uploads/user-images'
+$dir = 'oc-content/uploads/user-images';
 //$files = scandir('oc-content/uploads/user-images');
 //$keyName = basename($filePath);
 $fileName = basename($filePath);
