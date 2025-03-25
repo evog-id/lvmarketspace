@@ -22,14 +22,15 @@ $s3Client = new S3Client([
 ]);
 
 //Array
-$_FILES[fieldname] => array(
-    [name] => array( /* these arrays are the size you expect */ ),
-    [tmp_name] => array( /* these arrays are the size you expect */ ),
-);
+//$FilesArray = array(
+//    [name] => array( /* these arrays are the size you expect */ ),
+//    [tmp_name] => array( /* these arrays are the size you expect */ ),
+//);
 
 // File to upload
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
-$files = scandir('oc-content/uploads/user-images/');
+$dir = 'oc-content/uploads/user-images'
+//$files = scandir('oc-content/uploads/user-images');
 //$keyName = basename($filePath);
 $fileName = basename($filePath);
 
@@ -51,11 +52,26 @@ try {
 
 uploadFile($s3Client, $spaceName, $filePath, $fileName);
 
+function dirToArray($dir) {
+    $contents = array();
+    foreach (scandir($dir) as $node) {
+        if ($node == '.' || $node == '..') continue;
+        if (is_dir($dir . '/' . $node)) {
+            $contents[$node] = dirToArray($dir . '/' . $node);
+        } else {
+            $contents[] = $node;
+        }
+    }
+    return $contents;
+}
+
+$files = dirToArray($dir);
+
 // Handle multiple file uploads
-if (!empty($_FILES['files'])) {
-    foreach ($_FILES['files']['tmp_name'] as $index => $tmpName) {
+if (!empty($files)) {
+    foreach ($files['tmp_name'] as $index => $tmpName) {
         $filePath = $tmpName;
-        $fileName = $_FILES['files']['name'][$index];
+        $fileName = $files['name'][$index];
         uploadFile($s3Client, $spaceName, $filePath, $fileName);
     }
 } else {
