@@ -69,9 +69,9 @@ $files = dirToArray($dir);
 
 // Handle multiple file uploads
 if (!empty($files)) {
-    foreach ($files['tmp_name'] as $index => $tmpName) {
+    foreach ($files as $index => $tmpName) {
         $filePath = $tmpName;
-        $fileName = $files['name'][$index];
+        $fileName = $files[$index];
         uploadFile($s3Client, $spaceName, $filePath, $fileName);
     }
 } else {
