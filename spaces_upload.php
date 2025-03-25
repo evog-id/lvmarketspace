@@ -24,8 +24,6 @@ $s3Client = new S3Client([
 // File to upload
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
 $directoryPath = 'oc-content/uploads/user-images';
-//$files = scandir('oc-content/uploads/user-images');
-//$keyName = basename($filePath);
 $fileName = basename($filePath);
 
 // Upload one file
@@ -43,9 +41,9 @@ try {
     echo "Error uploading file: " . $e->getMessage() . "\n";
   }
 }
-
 uploadFile($s3Client, $spaceName, $filePath, $fileName);
 
+// Get array of all files in directory
 function dirToArray($dir) {
     $contents = array();
     foreach (scandir($dir) as $node) {
@@ -58,7 +56,6 @@ function dirToArray($dir) {
     }
     return $contents;
 }
-
 //$files = dirToArray($dir);
 
 // Handle multiple file uploads
@@ -73,6 +70,7 @@ foreach ($iterator as $file) {
         uploadFile($s3Client, $spaceName, $filePath, $fileName);
    } else {
     echo "No files uploaded.";
+    }
   }
 }
 iterateFilesInDirectory($directoryPath);
