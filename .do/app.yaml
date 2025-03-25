@@ -1,4 +1,15 @@
 name: lvmarketspace
+envs:
+- key: spaceName
+  value: {{ env.SPACES_BUCKET_NAME }}
+- key: region 
+  value: {{ env.SPACES_REGION }}
+- key: key
+  value: {{ env.SPACES_ACCESS_KEY }}
+- key: secret
+  value: {{ env.SPACES_SECRET_KEY }}
+- key: spEndpoint
+  value: {{ env.SPACES_ENDPOINT }}
 services:
 - environment_slug: php
   github:
