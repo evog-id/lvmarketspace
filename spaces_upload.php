@@ -21,20 +21,14 @@ $s3Client = new S3Client([
     ],
 ]);
 
-//Array
-//$FilesArray = array(
-//    [name] => array( /* these arrays are the size you expect */ ),
-//    [tmp_name] => array( /* these arrays are the size you expect */ ),
-//);
-
 // File to upload
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
-$dir = 'oc-content/uploads/user-images';
+$directoryPath = 'oc-content/uploads/user-images';
 //$files = scandir('oc-content/uploads/user-images');
 //$keyName = basename($filePath);
 $fileName = basename($filePath);
 
-// Upload file
+// Upload one file
 function uploadFile($s3Client, $spaceName, $filePath, $fileName) {
 try {
     $result = $s3Client->putObject([
@@ -65,16 +59,23 @@ function dirToArray($dir) {
     return $contents;
 }
 
-$files = dirToArray($dir);
+//$files = dirToArray($dir);
 
 // Handle multiple file uploads
-if (!empty($files)) {
-    foreach ($files as $index => $tmpName) {
-        $filePath = $tmpName;
-        $fileName = $files[$index];
+function iterateFilesInDirectory($dir) {
+$iterator = new RecursiveDirectoryIterator($dir);
+$iterator = new RecursiveIteratorIterator($iterator, RecursiveIteratorIterator::SELF_FIRST);
+
+foreach ($iterator as $file) {
+    if ($file->isFile()) {
+        $filePath = $file->getPathname();
+        $fileName = basename($filePath);
         uploadFile($s3Client, $spaceName, $filePath, $fileName);
     }
-} else {
+
+    } else {
     echo "No files uploaded.";
+  }
 }
+iterateFilesInDirectory($directoryPath);
 ?>
