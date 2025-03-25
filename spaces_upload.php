@@ -23,8 +23,8 @@ $s3Client = new S3Client([
 
 //Array
 $_FILES[fieldname] => array(
-    [name] => array( /* these arrays are the size you expect */ )
-    [tmp_name] => array( /* these arrays are the size you expect */ )
+    [name] => array( /* these arrays are the size you expect */ ),
+    [tmp_name] => array( /* these arrays are the size you expect */ ),
 );
 
 // File to upload
