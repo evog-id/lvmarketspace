@@ -22,6 +22,9 @@ jobs:
         php-version: '8.1'
         tools: composer:v2
 
+    - name: Require package
+      run: composer require aws/aws-sdk-php
+      
     - name: Update composer.json and composer.lock
       run: composer update
       
