@@ -13,7 +13,7 @@ $region = getenv('SPACES_REGION');
 $key = getenv('SPACES_ACCESS_KEY');
 $secret = getenv('SPACES_SECRET_KEY');
 $spEndpoint = getenv('SPACES_ENDPOINT');
-$acl = 'ACL_PUBLIC_READ'
+$acl = 'ACL_PUBLIC_READ';
 
 // Instantiating local storage
 // Storage::setDevice('files', new Local('path'));
