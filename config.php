@@ -89,5 +89,6 @@ $_cache_config[] = array('default_host' => '134.209.136.50', 'default_port' => 1
 // Increase default login time for user
 // session_set_cookie_params(2592000);
 // ini_set('session.gc_maxlifetime', 2592000);
+session_save_path ( ABS_PATH . 'oc-content/uploads/' );
 
 ?>
