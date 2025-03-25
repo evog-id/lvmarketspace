@@ -71,9 +71,7 @@ foreach ($iterator as $file) {
         $filePath = $file->getPathname();
         $fileName = basename($filePath);
         uploadFile($s3Client, $spaceName, $filePath, $fileName);
-    }
-
-    } else {
+   } else {
     echo "No files uploaded.";
   }
 }
