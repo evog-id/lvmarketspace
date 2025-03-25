@@ -3,9 +3,9 @@
 require_once '../vendor/autoload.php';
 
 use Utopia\Storage\Storage;
-use Utopia\Storage\Device\Local
-use Utopia\Storage\Device\S3
-use Utopia\Storage\Device\DOSpaces
+use Utopia\Storage\Device\Local;
+use Utopia\Storage\Device\S3;
+use Utopia\Storage\Device\DOSpaces;
 
 // Instantiating local storage
 // Storage::setDevice('files', new Local('path'));
