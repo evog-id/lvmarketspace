@@ -25,7 +25,7 @@ $s3Client = new S3Client([
 $filePath = 'oc-content/uploads/user-images/default-user-image.png';
 $directoryPath = 'oc-content/uploads/user-images';
 $fileName = basename($filePath);
-$destPath = $spaceName + $directoryPath;
+$destPath = $spaceName . '/' . $directoryPath;
 
 // Upload one file
 function uploadFile($s3Client, $spaceName, $filePath, $fileName) {
