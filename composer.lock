@@ -24,7 +24,8 @@
                 "php": "~8.1.0",
                 "ext-gd": "*",
                 "ext-memcached": "*",
-                "ext-mbstring": "*"
+                "ext-mbstring": "*",
+                "aws/aws-sdk-php": "^3.342.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "5.*",
