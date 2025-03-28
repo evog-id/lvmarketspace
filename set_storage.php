@@ -26,7 +26,7 @@ Storage::setDevice('files', new DOSpaces('oc-content/uploads', $key, $secret, $s
 
 $device = Storage::getDevice('files');
 
-upload
+//upload
 $device->upload('oc-content/uploads/default-user-image.png','oc-content/uploads');
 
 ?>
