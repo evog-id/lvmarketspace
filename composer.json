@@ -9,7 +9,7 @@
         "ext-memcached": "*",
         "ext-mbstring": "*",
         "aws/aws-sdk-php": "^3.342",
-        "utopia-php/storage": "^0.10.0",
+        "utopia-php/storage": "^0.20.0",
         "orbitale/imagemagick-php": "^3.3"
     },
        "license": [
